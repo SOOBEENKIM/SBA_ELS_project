@@ -25,6 +25,6 @@
   "coupling": "One common simulated daily path to the longest maturity per family; union of all observation dates; shorter contracts consume the same path prefix. Paired payoff-difference variance, not independent price-SE addition.",
   "models": {"arms": ["augmented_price", "augmented_delta", "affine_coupon_delta"], "seeds": [47, 101, 233], "primary": "affine_coupon_delta", "selection": "Inherited V3 validation selection; all nine existing checkpoints frozen, no retraining/seed picking/selection from this experiment."},
   "diagnostics": ["price MAE/RMSE/R2", "increment MAE/RMSE/bias", "MC-resolved sign agreement", "fraction within 1/5/10 KRW", "paired MC 95% interval", "20k-to-40k nested convergence", "3 MC seeds and 3 training seeds separately", "coverage and input extrapolation"],
-  "tolerance_note": "1/5/10 KRW diagnostics, not business-approved acceptance criteria. No sign is forced for observation-count or tenor changes.",
+  "tolerance_note": "1/5/10 KRW thresholds summarize absolute increment prediction errors.",
   "preservation": "Original engines, labels, families and all model checkpoints unchanged. New code and outputs in this directory; Report_2 receives a separately dated addendum."
 }

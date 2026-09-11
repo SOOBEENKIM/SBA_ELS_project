@@ -1,5 +1,5 @@
 {
-  "protocol.json": "dd5bd8f2f5340bd966db31ebc7cd35287493872b611350e444fdf047d22ea420",
+  "protocol.json": "8d24b0a41eb30e19e3baedd020c4ef26dc6e61a71f7da2742740fc76654f8ee4",
   "design.py": "44cffdf045a597704261fa9110e1f9ea0eadf3e2b74743ab35d022bb1d7c9a0d",
   "schedule_mc.py": "6d8dc8c9eab1eaf7046e66901d1bfa1a5e2d2f5f70efb35638ab6295a0f05380",
   "run_mc.py": "0f9d8e5f74a1a8a52b9dc96504523a5a7710628167478e2fd7358d14965af60c",
@@ -10,7 +10,7 @@
     "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
     "analysis/mc_monthly_v3_20260910/common.py": "db6b174b657226228c63e5a4b0b5eb839a61d2a11ea1ea69b657d16a990bbd84",
     "analysis/mc_monthly_v3_20260910/models.py": "04e39ff86bf19b6ec8b9b752af5018f91d7d23d0ad5cc6f9a4085306bbdc8606",
-    "analysis/mc_monthly_v3_20260910/protocol.json": "1968397fe4e265cada8004841168f69647006cc71add06aa97d678edb50d3154",
+    "analysis/mc_monthly_v3_20260910/protocol.json": "3702035d32a2edd7c5b3a18a548c076696a8340b85fffc60baddf042e5cb3933",
     "analysis/mc_monthly_v3_20260910/results/model_selection.json": "4728e88b6feb0e6aec1c58a899b3daf7e724275fdea9d5d256f5e4f8b493fdc9",
     "analysis/mc_monthly_v3_20260910/results/families.json": "fdd4c992295a406f73d81c0d3d09307df928d7547ce690aca25f8acb7c9d591c",
     "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed101.pt": "936869af10bdd51d87d76c7e10955e488b911192349e434b152b820265440ddc",

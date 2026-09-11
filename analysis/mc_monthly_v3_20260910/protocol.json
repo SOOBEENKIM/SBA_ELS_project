@@ -112,7 +112,7 @@
     "training-seed dispersion",
     "20k-to-40k convergence and paired MC SE"
   ],
-  "tolerance_note": "1/5/10 KRW are transparent diagnostics, not business-approved acceptance thresholds",
+  "tolerance_note": "1/5/10 KRW thresholds summarize absolute increment prediction errors.",
   "legacy_preservation": "Original engine, historical labels, checkpoints and earlier experiment results preserved; new module and versioned experiment used throughout",
   "real_data_note": "Six previously excluded monthly contracts individually reconciled to public DART terms. Source evaluation dates retained; issuer-specific 2/3 business-day settlement under pinned KR public+bank calendar. Remaining raw monthly schedules are used to DEFINE synthetic contracts, not claimed fully verified original product prices.",
   "training_extension_policy": "No automatic extension or test-driven tuning. All three arms and three seeds use the same fixed maximum and validation selection.",

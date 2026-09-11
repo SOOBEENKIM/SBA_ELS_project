@@ -1,0 +1,17 @@
+{
+  "change": "Project documentation wording",
+  "protocol_notes": {
+    "analysis/mc_monthly_v3_20260910/protocol.json": {
+      "previous_sha256": "1968397fe4e265cada8004841168f69647006cc71add06aa97d678edb50d3154",
+      "current_sha256": "3702035d32a2edd7c5b3a18a548c076696a8340b85fffc60baddf042e5cb3933",
+      "experiment_parameters_identical": true
+    },
+    "analysis/mc_schedule_v4_20260911/protocol.json": {
+      "previous_sha256": "dd5bd8f2f5340bd966db31ebc7cd35287493872b611350e444fdf047d22ea420",
+      "current_sha256": "8d24b0a41eb30e19e3baedd020c4ef26dc6e61a71f7da2742740fc76654f8ee4",
+      "experiment_parameters_identical": true
+    }
+  },
+  "report_calculation_ast_unchanged": true,
+  "mc_or_training_rerun": false
+}
