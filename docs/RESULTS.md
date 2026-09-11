@@ -1,86 +1,3 @@
-# SBA ELS Project
-
-3기초자산 ELS의 **MC 이론가를 직접 계산하고, 계약조건 변화에 따른 가격 증분을 Stage 1 DeepONet이 얼마나 재현하는지 평가**한 연구 저장소입니다.
-
-원문 계약·시장 데이터 → 계약 현금흐름 정의 → 합성 기준·변경 계약 → MC 가격·증분 → DeepONet 학습·검증 → 관측 횟수·만기 추가 평가까지 포함합니다. 2026-09-11까지 실행한 최종 유효 버전을 `main`의 기준으로 보관합니다. 이후 실험은 별도 브랜치에서 진행합니다.
-
-현재 결과는 일부 조건에서 평균 증분 오차가 개선되었으나, 모든 상품·일정 변화에서 안정적인 증분 예측을 달성하지 못했습니다. 상세 수치는 **이 README의 마지막 결과 표**에 있습니다.
-
-## 구성
-
-| 경로 | 내용 |
-|---|---|
-| [data/README.md](data/README.md) | 실제 포함 데이터, 출처·복원 방법·용도 |
-| `data/cache/raw/*.csv.gz` | 원문 계약·평가/쿠폰 일정·기초자산 CSV 3종의 무손실 압축본 |
-| `data/cache/px_*.parquet`, `krw_curve.parquet` | 실행에 사용한 시장 데이터 스냅샷 |
-| [module/mc_contract_v3.py](module/mc_contract_v3.py) | 월 쿠폰·조기상환·낙인·리자드를 처리하는 최종 pricer |
-| [module/mc_contract_v2.py](module/mc_contract_v2.py) | 위 pricer가 사용하는 일반형 현금흐름·시장 경로 구현 |
-| [analysis/mc_monthly_v3_20260910](analysis/mc_monthly_v3_20260910) | 일반형·월지급형 합성 자료, 3개 학습 방식, 9개 가중치, 시험 결과 |
-| [analysis/mc_schedule_v4_20260911](analysis/mc_schedule_v4_20260911) | 관측 횟수·만기 변경 규칙과 고정 모델 추가 평가 |
-| [analysis/mc_v3_audit_20260910](analysis/mc_v3_audit_20260910) | 독립 지급원장·NumPy MC·입력/추론 재검증 |
-| [docs/EXPERIMENT.md](docs/EXPERIMENT.md) | 처음부터 최종 구현·학습·평가까지의 실험 과정 |
-| [Report_2.md](Report_2.md) | 최종 실험 과정과 결과를 합친 보고서 |
-| [docs/RESULTS.md](docs/RESULTS.md) | 유효한 결과만 모은 보고서 |
-| [provenance/README.md](provenance/README.md) | 원본 해시, 패키징 변경, 업로드 전 재현 기록 |
-
-디렉터리 이름의 `v2`는 최종 월지급형 엔진이 상속하는 일반형 구현을 뜻합니다. 오류가 있던 과거 `mc_engine.py`, 과거 MC 학습 라벨, PI/Stage 2 실험은 이 실행 경로에 포함하지 않았습니다. 과거 분석 이름이 남은 두 입력 폴더에는 **참고 계약 86개와 공시 6개의 시장 상태만** 있습니다.
-
-## 재현 방법
-
-Python 3.11 환경을 기준으로 합니다. 실제 입력 데이터·최종 MC 라벨·학습 가중치가 저장소에 포함되어 있어 외부 ELS 폴더를 연결할 필요가 없습니다. 압축 파일도 실제 데이터이며 다운로드 안내만 넣은 것이 아닙니다.
-
-```bash
-git clone https://github.com/SOOBEENKIM/SBA_ELS_project.git
-cd SBA_ELS_project
-python3 scripts/restore_artifacts.py
-python3.11 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
-저장된 가중치로 계약 구현·입력·가격/증분 예측을 다시 검증합니다. 새로운 출력은 지정한 폴더에만 작성됩니다.
-
-```bash
-python scripts/run.py verify --run-dir runs/verify_001
-```
-
-**원문 입력부터 MC를 실제로 다시 계산**하고 저장된 DeepONet으로 재평가합니다. 계약·MC 시드·경로 수는 기존 최종 실험과 같습니다.
-
-```bash
-python scripts/run.py mc --run-dir runs/mc_001
-```
-
-합성 자료의 MC 재생성과 **9개 모델 재학습**까지 수행하려면 다음을 실행합니다.
-
-```bash
-python scripts/run.py full --run-dir runs/full_001
-```
-
-`full`도 정해진 프로토콜을 다시 실행하는 명령입니다. 이미 결과를 살펴본 시험 자료가 다시 새로운 미공개 시험 자료가 되는 것은 아닙니다. 새 가설·구조 변경의 최종 평가는 새로운 계약 시험군으로 해야 합니다. 하드웨어·PyTorch 연산 차이에 따라 재학습의 비트 단위 동일성은 보장하지 않으며, 저장된 가중치와 원본 실행 이력도 함께 보관합니다.
-
-각 실행 폴더의 `execution.log`, `execution_complete.json`, `verification/`, `docs/RESULTS.md`에서 완료 상태와 결과를 확인할 수 있습니다. 기존 실행 폴더는 덮어쓰지 않습니다. `mc`는 계약군·MC 가격/증분/표준오차를 저장된 정답과 비교합니다.
-
-Docker로도 실행할 수 있습니다.
-
-```bash
-python3 scripts/restore_artifacts.py
-docker build -t sba-els:20260911 .
-docker run --rm --network none --user "$(id -u):$(id -g)" \
-  -v "$PWD:/project" -w /project sba-els:20260911 \
-  python scripts/run.py verify --run-dir runs/docker_verify_001
-```
-
-실험은 CPU에서 실행했으며 GPU를 요구하지 않습니다. 원래 설치되어 있던 PyTorch 휠 버전은 `2.9.1+cu126`이고 그 환경을 고정했습니다. 실제 검증 환경과 업로드 전 수행 범위는 [재현 기록](provenance/README.md)에 적었습니다.
-
-## 개발 원칙
-
-- 현재 완료본은 `main`에 보존합니다. 예: `git switch -c codex/next-sensitivity-experiment`로 다음 실험을 시작합니다.
-- 계약 정의·시장 입력·MC 설정을 변경하면 새로운 실행 폴더를 사용합니다. 과거 라벨과 새 계산을 섞지 않습니다.
-- 가격 R²와 증분 MAE·부호·MC 오차·변경 폭/시드/상품별 일관성을 함께 평가합니다. 원하는 부호나 팀원의 숫자를 정답으로 강제하지 않습니다.
-- 시장모형 내부의 반사실 분석과 관측 공정가에 대한 인과효과 추정은 구분합니다. 이 저장소의 최종 학습 타깃은 MC 이론가이며 Stage 2 잔차 보정은 사용하지 않습니다.
-
-<!-- RESULTS -->
-
 ## 최종 실험 결과 (2026-09-11까지)
 
 아래 결과는 수정된 계약 현금흐름을 사용한 실제 실행 결과다. 과거 잘못된 MC 구현의 수치는 제외했다. **모든 원화 금액은 액면 10,000원 기준**이며, 실제 관측 공정가의 인과효과가 아니라 **정의된 MC 모형 안에서 계약조건을 변경한 반사실 가격 차이**다. 쿠폰·배리어·행사가 실험은 계약별 시장·일정·나머지 조건을 고정하고, 관측 횟수·만기 실험은 명시된 규칙에 따라 종속 일정과 쿠폰 이자기간도 조정했다.
@@ -124,7 +41,7 @@ docker run --rm --network none --user "$(id -u):$(id -g)" \
 
 ### 관측 횟수·만기 변경에 대한 추가 평가
 
-관측 +1회의 위치별 정의와 만기 변경에 따른 지급·이자기간 규칙은 [실험 과정](docs/EXPERIMENT.md)에 설명했다. 관측 +1회는 기존 12회 계약을 제외하여 일반형 81개·월지급형 128개에서, 만기 변경은 각각 128개에서 평가했다. 공시 6개는 별도 진단 결과 파일에 포함되어 있다.
+관측 +1회의 위치별 정의와 만기 변경에 따른 지급·이자기간 규칙은 [실험 과정](EXPERIMENT.md)에 설명했다. 관측 +1회는 기존 12회 계약을 제외하여 일반형 81개·월지급형 128개에서, 만기 변경은 각각 128개에서 평가했다. 공시 6개는 별도 진단 결과 파일에 포함되어 있다.
 
 | 변경 조건 | 일반형 평균 ΔMC(원) | 일반형 증분 MAE(원) | 월지급형 평균 ΔMC(원) | 월지급형 증분 MAE(원) |
 |---|---|---|---|---|
@@ -140,7 +57,7 @@ docker run --rm --network none --user "$(id -u):$(id -g)" \
 | 만기 +6개월 | -136.14 | 141.28 | -134.31 | 110.65 |
 | 만기 +12개월 | -260.90 | 261.98 | -246.37 | 178.06 |
 
-![관측 횟수·만기 변경의 MC 증분과 선택 모델 예측](docs/assets/schedule_counterfactuals.png)
+![관측 횟수·만기 변경의 MC 증분과 선택 모델 예측](assets/schedule_counterfactuals.png)
 
 ### 결론과 남은 실패
 

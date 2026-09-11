@@ -1,0 +1,848 @@
+[
+  {
+    "family": "test-regular-00004",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00004",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00004",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00006",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00006",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00006",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00008",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00008",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00008",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00010",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00010",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00010",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00011",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00011",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00011",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00015",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00015",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00015",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00016",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00016",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00016",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00019",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00019",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00019",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00020",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00020",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00020",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00021",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00021",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00021",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00027",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00027",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00027",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00029",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00029",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00029",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00032",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00032",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00032",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00034",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00034",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00034",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00037",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00037",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00037",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00041",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00041",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00041",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00045",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00045",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00045",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00046",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00046",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00046",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00048",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00048",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00048",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00049",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00049",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00049",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00050",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00050",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00050",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00051",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00051",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00051",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00052",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00052",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00052",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00055",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00055",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00055",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00059",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00059",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00059",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00060",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00060",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00060",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00062",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00062",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00062",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00063",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00063",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00063",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00064",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00064",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00064",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00066",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00066",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00066",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00067",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00067",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00067",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00077",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00077",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00077",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00085",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00085",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00085",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00091",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00091",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00091",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00092",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00092",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00092",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00094",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00094",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00094",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00099",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00099",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00099",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00102",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00102",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00102",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00108",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00108",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00108",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00109",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00109",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00109",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00114",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00114",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00114",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00116",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00116",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00116",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00119",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00119",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00119",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00120",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00120",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00120",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00121",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00121",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00121",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00123",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00123",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00123",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00127",
+    "axis": "nobs_early",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00127",
+    "axis": "nobs_middle",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  },
+  {
+    "family": "test-regular-00127",
+    "axis": "nobs_late",
+    "offset": 1,
+    "reason": "13 redemption dates exceed existing engine/model 12-slot capacity"
+  }
+]

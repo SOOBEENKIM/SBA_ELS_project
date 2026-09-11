@@ -1,0 +1,8710 @@
+[
+  {
+    "family": "canonical_STEP_KI",
+    "split": "stress",
+    "origin": "canonical",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "canonical_STEP_KI",
+      "structure": "STEP KI",
+      "obs_days": [
+        182,
+        365,
+        548,
+        730,
+        912,
+        1095
+      ],
+      "pay_days": [
+        184,
+        367,
+        550,
+        732,
+        914,
+        1097
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.06,
+      "coupon_accruals": [
+        0.4986301369863014,
+        1.0,
+        1.5013698630136987,
+        2.0,
+        2.4986301369863013,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2,
+        0.25,
+        0.3
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          1.0,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "family": "canonical_STEP_no-KI",
+    "split": "stress",
+    "origin": "canonical",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "canonical_STEP_no-KI",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        182,
+        365,
+        548,
+        730,
+        912,
+        1095
+      ],
+      "pay_days": [
+        184,
+        367,
+        550,
+        732,
+        914,
+        1097
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.06,
+      "coupon_accruals": [
+        0.4986301369863014,
+        1.0,
+        1.5013698630136987,
+        2.0,
+        2.4986301369863013,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2,
+        0.25,
+        0.3
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          1.0,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "family": "canonical_LIZARD_KI",
+    "split": "stress",
+    "origin": "canonical",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "canonical_LIZARD_KI",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        182,
+        365,
+        548,
+        730,
+        912,
+        1095
+      ],
+      "pay_days": [
+        184,
+        367,
+        550,
+        732,
+        914,
+        1097
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.06,
+      "coupon_accruals": [
+        0.4986301369863014,
+        1.0,
+        1.5013698630136987,
+        2.0,
+        2.4986301369863013,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        0.7,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.03,
+        0.045041095890410957,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2,
+        0.25,
+        0.3
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          1.0,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "family": "canonical_LIZARD_no-KI",
+    "split": "stress",
+    "origin": "canonical",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "canonical_LIZARD_no-KI",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        182,
+        365,
+        548,
+        730,
+        912,
+        1095
+      ],
+      "pay_days": [
+        184,
+        367,
+        550,
+        732,
+        914,
+        1097
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.06,
+      "coupon_accruals": [
+        0.4986301369863014,
+        1.0,
+        1.5013698630136987,
+        2.0,
+        2.4986301369863013,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        0.7,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.03,
+        0.045041095890410957,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2,
+        0.25,
+        0.3
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          1.0,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.0,
+        0.0,
+        0.0
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "family": "derived_KR6503361A33",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6503361A33",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        91,
+        181,
+        360,
+        546,
+        727,
+        910,
+        1092
+      ],
+      "pay_days": [
+        93,
+        183,
+        362,
+        548,
+        729,
+        912,
+        1094
+      ],
+      "strikes": [
+        0.95,
+        0.93,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.0348,
+      "coupon_accruals": [
+        0.25,
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        0.9,
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0087,
+        0.0174,
+        0.0348,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.255171165859455,
+        0.19100695415747423,
+        0.30259178790887054
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5004521413941334,
+          0.7360036293142357
+        ],
+        [
+          0.5004521413941334,
+          1.0,
+          0.4304689358103006
+        ],
+        [
+          0.7360036293142358,
+          0.4304689358103006,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.6703890791672418,
+        0.17773150539090776,
+        5.304994235461851
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6503361A33",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6SH00000Z0",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6SH00000Z0",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        360,
+        541,
+        725,
+        906,
+        1092
+      ],
+      "pay_days": [
+        178,
+        362,
+        543,
+        727,
+        908,
+        1094
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.8,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.02,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.35871486036429734,
+        0.2639961296265167,
+        0.3185102001250459
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5922428523450527,
+          0.5587117555577975
+        ],
+        [
+          0.5922428523450527,
+          1.0,
+          0.7804765197211666
+        ],
+        [
+          0.5587117555577976,
+          0.7804765197211666,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.3324860823887164,
+        -0.9300181157367583,
+        2.065749218136073
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6SH00000Z0",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65433058A8",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65433058A8",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        179,
+        360,
+        543,
+        721,
+        908,
+        1091
+      ],
+      "pay_days": [
+        181,
+        362,
+        545,
+        723,
+        910,
+        1096
+      ],
+      "strikes": [
+        0.95,
+        0.92,
+        0.87,
+        0.85,
+        0.8,
+        0.8
+      ],
+      "coupon": 0.055,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.87,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.055,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13019646679976382,
+        0.22073312227983855,
+        0.1374210647575525
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3312079752235314,
+          0.32779227304024616
+        ],
+        [
+          0.3312079752235314,
+          1.0,
+          0.5684487965631011
+        ],
+        [
+          0.32779227304024616,
+          0.5684487965631011,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.038344692316638,
+        -0.6016463874382436,
+        2.624186581978453
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65433058A8",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0005ZC1",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6KS0005ZC1",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        725,
+        907,
+        1090
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        727,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.084,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.7,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.084,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1523418402231146,
+        0.34561212819403425,
+        0.13148573884160084
+      ],
+      "corr": [
+        [
+          1.0,
+          0.22169900855786198,
+          0.3557702054033632
+        ],
+        [
+          0.22169900855786198,
+          1.0,
+          0.1309396930672786
+        ],
+        [
+          0.3557702054033632,
+          0.1309396930672786,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.771177735663033,
+        0.28822213896256904,
+        0.04472951072257084
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0005ZC1",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MZ0000AP8",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6MZ0000AP8",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        360,
+        541,
+        723,
+        906,
+        1092
+      ],
+      "pay_days": [
+        178,
+        362,
+        543,
+        725,
+        908,
+        1094
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.03,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.015,
+        0.03,
+        0.045,
+        0.06,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.22635590776261863,
+        0.21425575085206816,
+        0.1879934998038247
+      ],
+      "corr": [
+        [
+          1.0,
+          0.36262695370900844,
+          0.5909300511215579
+        ],
+        [
+          0.36262695370900844,
+          1.0,
+          0.13158410457912129
+        ],
+        [
+          0.5909300511215579,
+          0.1315841045791213,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4959650985301596,
+        -1.104285836463859,
+        2.696085151173473
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MZ0000AP8",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS00022S4",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6KS00022S4",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        178,
+        357,
+        543,
+        725,
+        907,
+        1090
+      ],
+      "pay_days": [
+        180,
+        359,
+        545,
+        727,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.92,
+        0.9,
+        0.87,
+        0.82,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.09699999999999999,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5,
+        2.0000000000000004,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.87,
+        0.82,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0485,
+        0.097,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.52,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.3228109527023166,
+        0.30435525949172615,
+        0.12575126744669152
+      ],
+      "corr": [
+        [
+          1.0,
+          0.33498699035635476,
+          0.13497216110261842
+        ],
+        [
+          0.33498699035635476,
+          1.0,
+          0.11826301093573506
+        ],
+        [
+          0.13497216110261842,
+          0.11826301093573506,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.2352302347601376,
+        -1.151794927908482,
+        2.890328073576126
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS00022S4",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733CT940",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65733CT940",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        179,
+        361,
+        544,
+        726,
+        909,
+        1091
+      ],
+      "pay_days": [
+        181,
+        363,
+        546,
+        728,
+        911,
+        1096
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.8
+      ],
+      "coupon": 0.049,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        0.75,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0245,
+        0.049,
+        0.0735,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13570020697362997,
+        0.19283593361499046,
+        0.16715707624936454
+      ],
+      "corr": [
+        [
+          1.0,
+          0.46488200881618963,
+          0.5252449358344637
+        ],
+        [
+          0.46488200881618963,
+          1.0,
+          0.3404701881285493
+        ],
+        [
+          0.5252449358344637,
+          0.3404701881285493,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.493293343755883,
+        0.19849455969196161,
+        2.46384178338751
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733CT940",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6523389A21",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6523389A21",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        358,
+        544,
+        726,
+        908,
+        1091
+      ],
+      "pay_days": [
+        178,
+        360,
+        546,
+        728,
+        910,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.038,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.019,
+        0.038,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13022377684668895,
+        0.16395916411693742,
+        0.12241811569003527
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3426173208124128,
+          0.6936003295777129
+        ],
+        [
+          0.3426173208124128,
+          1.0,
+          0.2453084558367139
+        ],
+        [
+          0.6936003295777129,
+          0.2453084558367139,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.9249840873785176,
+        0.21992119769815444,
+        3.91869895936763
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6523389A21",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733AH824",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65733AH824",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        175,
+        359,
+        540,
+        726,
+        908,
+        1087
+      ],
+      "pay_days": [
+        177,
+        361,
+        542,
+        728,
+        910,
+        1092
+      ],
+      "strikes": [
+        0.92,
+        0.92,
+        0.87,
+        0.87,
+        0.82,
+        0.82
+      ],
+      "coupon": 0.07,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        0.82,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.07,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.55,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.10985046560677869,
+        0.1840419418998617,
+        0.13283202069539451
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3414730115369142,
+          0.42473472061696355
+        ],
+        [
+          0.3414730115369142,
+          1.0,
+          0.45712873508085544
+        ],
+        [
+          0.42473472061696355,
+          0.45712873508085544,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.6773442980606115,
+        -1.2696178557293767,
+        1.9042866331762744
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733AH824",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65793B7A13",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65793B7A13",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        179,
+        362,
+        544,
+        726,
+        908,
+        1090
+      ],
+      "pay_days": [
+        181,
+        364,
+        546,
+        728,
+        910,
+        1093
+      ],
+      "strikes": [
+        0.92,
+        0.9,
+        0.87,
+        0.82,
+        0.8,
+        0.77
+      ],
+      "coupon": 0.07,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.87,
+        0.82,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.035,
+        0.07,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.52,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.3151085337632029,
+        0.22153373395044623,
+        0.12389497642462761
+      ],
+      "corr": [
+        [
+          1.0,
+          0.6717794199137502,
+          0.06254944229565855
+        ],
+        [
+          0.6717794199137502,
+          1.0,
+          0.11823356762223944
+        ],
+        [
+          0.06254944229565855,
+          0.11823356762223945,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.9962463436294826,
+        0.16821006671367955,
+        4.272043438322809
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65793B7A13",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0007RL5",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6KS0007RL5",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        358,
+        541,
+        727,
+        909,
+        1092
+      ],
+      "pay_days": [
+        178,
+        360,
+        543,
+        729,
+        911,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.098,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        0.7,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.098,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.45,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.12244762819888362,
+        0.2648308016929364,
+        0.11059414452406481
+      ],
+      "corr": [
+        [
+          1.0,
+          0.20787235556116487,
+          0.4791148678581809
+        ],
+        [
+          0.20787235556116485,
+          1.0,
+          -0.005048427092347092
+        ],
+        [
+          0.4791148678581809,
+          -0.005048427092347092,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.0967845745988587,
+        -0.6805522675956638,
+        4.154995381126608
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0007RL5",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6ZW0001C01",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6ZW0001C01",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        360,
+        542,
+        728,
+        909,
+        1092
+      ],
+      "pay_days": [
+        178,
+        362,
+        544,
+        730,
+        911,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.7
+      ],
+      "coupon": 0.0823,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.04115,
+        0.0823,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.33521355337425984,
+        0.19658292291830612,
+        0.22914097175999043
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5193032262313496,
+          0.048245534737628985
+        ],
+        [
+          0.5193032262313497,
+          1.0,
+          0.06943916481714311
+        ],
+        [
+          0.04824553473762899,
+          0.06943916481714311,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.0656681223808038,
+        0.30884627953293997,
+        2.2759655615427974
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6ZW0001C01",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6573319912",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6573319912",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        172,
+        354,
+        540,
+        721,
+        904,
+        1087
+      ],
+      "pay_days": [
+        174,
+        356,
+        542,
+        723,
+        906,
+        1092
+      ],
+      "strikes": [
+        0.92,
+        0.92,
+        0.87,
+        0.87,
+        0.82,
+        0.82
+      ],
+      "coupon": 0.062,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.82,
+        0.77,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.031,
+        0.062,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.52,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13765704342070376,
+        0.20302962892433724,
+        0.1433685151900738
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3798301841770573,
+          0.4200285446899291
+        ],
+        [
+          0.3798301841770573,
+          1.0,
+          0.6409699595179063
+        ],
+        [
+          0.4200285446899291,
+          0.6409699595179061,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.5993594864677187,
+        0.08733527855215512,
+        2.54857874801806
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6573319912",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0001RE3",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6KS0001RE3",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        362,
+        540,
+        726,
+        907,
+        1091
+      ],
+      "pay_days": [
+        178,
+        364,
+        542,
+        728,
+        909,
+        1096
+      ],
+      "strikes": [
+        0.92,
+        0.9,
+        0.87,
+        0.82,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.09,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        0.87,
+        0.82,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.045,
+        0.09,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.52,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.3547110633385044,
+        0.3165005978471705,
+        0.12220733901553539
+      ],
+      "corr": [
+        [
+          1.0,
+          0.36998691728507815,
+          -0.07204285026469245
+        ],
+        [
+          0.3699869172850782,
+          1.0,
+          -0.08803221841469468
+        ],
+        [
+          -0.07204285026469245,
+          -0.08803221841469468,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.496360078034616,
+        -0.8958635255137526,
+        6.684206426334216
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0001RE3",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6573363977",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6573363977",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        175,
+        358,
+        541,
+        723,
+        906,
+        1088
+      ],
+      "pay_days": [
+        177,
+        360,
+        543,
+        725,
+        908,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.02,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.55,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13898216660764035,
+        0.18416144776830815,
+        0.1691899519335984
+      ],
+      "corr": [
+        [
+          1.0,
+          0.4343297450642168,
+          0.5759650992899217
+        ],
+        [
+          0.4343297450642168,
+          1.0,
+          0.33633652706003636
+        ],
+        [
+          0.5759650992899217,
+          0.3363365270600364,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.2422663195295647,
+        0.36085708109009784,
+        1.4115994715090254
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6573363977",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733AF7A3",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65733AF7A3",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        725,
+        902,
+        1090
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        727,
+        904,
+        1095
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8
+      ],
+      "coupon": 0.057,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.057,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.10491630014160475,
+        0.14214090310853572,
+        0.11011704418692993
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2648381269268351,
+          0.29094423090477733
+        ],
+        [
+          0.2648381269268351,
+          1.0,
+          0.2768748313986489
+        ],
+        [
+          0.2909442309047773,
+          0.2768748313986489,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.416491114798008,
+        -1.2482690642126801,
+        1.5182194292755433
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733AF7A3",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0007105",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6KS0007105",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        720,
+        907,
+        1091
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        722,
+        909,
+        1096
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.07400000000000001,
+      "coupon_accruals": [
+        0.4999999999999999,
+        0.9999999999999998,
+        1.4999999999999998,
+        1.9999999999999996,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.074,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.18059122989057186,
+        0.23910710968393506,
+        0.20668532310009582
+      ],
+      "corr": [
+        [
+          1.0,
+          0.6250941888139702,
+          0.20360017077793557
+        ],
+        [
+          0.6250941888139702,
+          1.0,
+          -0.07347907161854976
+        ],
+        [
+          0.20360017077793557,
+          -0.07347907161854976,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.8521612691667575,
+        -0.3435309044785251,
+        0.3251914346822037
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0007105",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733E4863",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65733E4863",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        176,
+        359,
+        541,
+        727,
+        908,
+        1091
+      ],
+      "pay_days": [
+        178,
+        361,
+        543,
+        729,
+        910,
+        1094
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8
+      ],
+      "coupon": 0.047,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0235,
+        0.047,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.12326338398912419,
+        0.2173014132045553,
+        0.1406356217654406
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2773806791746712,
+          0.41858207636469935
+        ],
+        [
+          0.2773806791746712,
+          1.0,
+          0.06446615290139686
+        ],
+        [
+          0.4185820763646994,
+          0.06446615290139686,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.5122664732666427,
+        -1.104793727190006,
+        2.0819242828807174
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733E4863",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MD00057V9",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6MD00057V9",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        183,
+        367,
+        548,
+        732,
+        913,
+        1096
+      ],
+      "pay_days": [
+        185,
+        369,
+        550,
+        734,
+        915,
+        1100
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.055099999999999996,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        0.75,
+        0.65,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.02755,
+        0.0551,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.15177168115771816,
+        0.1593924469668191,
+        0.12832203794189845
+      ],
+      "corr": [
+        [
+          1.0,
+          0.22962080813256452,
+          0.5296545503912866
+        ],
+        [
+          0.22962080813256455,
+          1.0,
+          0.080491068261701
+        ],
+        [
+          0.5296545503912866,
+          0.080491068261701,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.3487359874248153,
+        0.008744260556433514,
+        6.206920332250371
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MD00057V9",
+    "legacy_tenor": 3.0116358658453115,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6573369941",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6573369941",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        175,
+        359,
+        544,
+        722,
+        909,
+        1090
+      ],
+      "pay_days": [
+        177,
+        361,
+        546,
+        724,
+        911,
+        1093
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.9,
+        0.85,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.057,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0285,
+        0.057,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.55,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13802089980373816,
+        0.19316349693223944,
+        0.16770185288930742
+      ],
+      "corr": [
+        [
+          1.0,
+          0.47048354576856555,
+          0.5336423925410068
+        ],
+        [
+          0.47048354576856555,
+          1.0,
+          0.34798909153966084
+        ],
+        [
+          0.5336423925410068,
+          0.34798909153966084,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.493293343755883,
+        0.19849455969196161,
+        2.46384178338751
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6573369941",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733DL937",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65733DL937",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        179,
+        361,
+        545,
+        726,
+        910,
+        1091
+      ],
+      "pay_days": [
+        181,
+        363,
+        547,
+        728,
+        912,
+        1096
+      ],
+      "strikes": [
+        0.92,
+        0.92,
+        0.87,
+        0.87,
+        0.82,
+        0.77
+      ],
+      "coupon": 0.06,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.87,
+        0.82,
+        0.77,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.03,
+        0.06,
+        0.09,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.52,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13788586760919944,
+        0.19368244202483884,
+        0.1673809906784768
+      ],
+      "corr": [
+        [
+          1.0,
+          0.4377077343184172,
+          0.514956266055566
+        ],
+        [
+          0.4377077343184172,
+          1.0,
+          0.35004571265125706
+        ],
+        [
+          0.514956266055566,
+          0.35004571265125706,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4565828960310387,
+        0.22936478988588616,
+        3.110725376625819
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733DL937",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0001T05",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR6KS0001T05",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        725,
+        907,
+        1091
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        727,
+        909,
+        1096
+      ],
+      "strikes": [
+        0.92,
+        0.9,
+        0.87,
+        0.82,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.077,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.87,
+        0.82,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0385,
+        0.077,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.52,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.23473791370209074,
+        0.31026350256790786,
+        0.117707327622747
+      ],
+      "corr": [
+        [
+          1.0,
+          0.29354354701666263,
+          -0.07205007875194376
+        ],
+        [
+          0.2935435470166627,
+          1.0,
+          -0.07075428791496406
+        ],
+        [
+          -0.07205007875194376,
+          -0.07075428791496405,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.496360078034616,
+        -0.8958635255137526,
+        6.684206426334216
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0001T05",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733C9997",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD KI",
+    "contract": {
+      "name": "derived_KR65733C9997",
+      "structure": "LIZARD KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        720,
+        907,
+        1090
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        722,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.85,
+        0.8
+      ],
+      "coupon": 0.05,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.05,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.12667226776720816,
+        0.13559714955458874,
+        0.12656649163333364
+      ],
+      "corr": [
+        [
+          1.0,
+          0.26091558498816675,
+          0.676089570089015
+        ],
+        [
+          0.2609155849881668,
+          1.0,
+          0.19491130649202132
+        ],
+        [
+          0.676089570089015,
+          0.19491130649202132,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.2919247526397597,
+        0.21721244715870686,
+        0.6431743284729199
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733C9997",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6703386A14",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6703386A14",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        181,
+        364,
+        546,
+        728,
+        910,
+        1095
+      ],
+      "pay_days": [
+        183,
+        366,
+        548,
+        730,
+        912,
+        1097
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.0381,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.9,
+        0.8,
+        0.75,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.02855,
+        0.0571,
+        0.08565,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13220792413759092,
+        0.13457616530865674,
+        0.12072246396102822
+      ],
+      "corr": [
+        [
+          1.0,
+          0.24871087200262773,
+          0.7189583315255692
+        ],
+        [
+          0.24871087200262773,
+          1.0,
+          0.13124400089620664
+        ],
+        [
+          0.7189583315255692,
+          0.13124400089620664,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.9962463436294826,
+        0.16821006671367955,
+        4.272043438322809
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6703386A14",
+    "legacy_tenor": 3.0034223134839153,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HN0000YL3",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6HN0000YL3",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        181,
+        360,
+        546,
+        724,
+        910,
+        1091
+      ],
+      "pay_days": [
+        183,
+        362,
+        548,
+        726,
+        912,
+        1094
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.032,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.048,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.17638235057789128,
+        0.1979160308186723,
+        0.16349633683554662
+      ],
+      "corr": [
+        [
+          1.0,
+          0.29734274767068486,
+          0.491567835443325
+        ],
+        [
+          0.29734274767068486,
+          1.0,
+          0.20010105890803165
+        ],
+        [
+          0.49156783544332494,
+          0.20010105890803168,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.0380309784046418,
+        -1.6607594297977535,
+        2.300888816602578
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HN0000YL3",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KB00084R5",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6KB00084R5",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        177,
+        359,
+        541,
+        724,
+        907,
+        1089
+      ],
+      "pay_days": [
+        179,
+        361,
+        543,
+        726,
+        909,
+        1093
+      ],
+      "strikes": [
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7,
+        0.6
+      ],
+      "coupon": 0.142,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.75,
+        0.7,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.071,
+        0.142,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1555520371133812,
+        0.4185283044895528,
+        0.12659865372640866
+      ],
+      "corr": [
+        [
+          1.0,
+          0.254716372771765,
+          0.5309453291128714
+        ],
+        [
+          0.254716372771765,
+          1.0,
+          -0.03722736837486803
+        ],
+        [
+          0.5309453291128714,
+          -0.03722736837486803,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.0220797464528397,
+        -0.6635646848015249,
+        5.482345708455973
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KB00084R5",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65293B39B0",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR65293B39B0",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        179,
+        361,
+        543,
+        726,
+        907,
+        1090
+      ],
+      "pay_days": [
+        181,
+        363,
+        545,
+        728,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.92,
+        0.92,
+        0.9,
+        0.9,
+        0.85,
+        0.65
+      ],
+      "coupon": 0.05,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.05,
+        0.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.15161082685131425,
+        0.2156812120649631,
+        0.12581150773932245
+      ],
+      "corr": [
+        [
+          1.0,
+          0.4376711464395334,
+          0.2524833366016066
+        ],
+        [
+          0.4376711464395334,
+          1.0,
+          0.0780066128097871
+        ],
+        [
+          0.2524833366016066,
+          0.0780066128097871,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.9613423597992315,
+        0.19202046537160955,
+        5.115856196004997
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65293B39B0",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6503320717",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6503320717",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        181,
+        365,
+        546,
+        730,
+        911,
+        1090
+      ],
+      "pay_days": [
+        183,
+        367,
+        548,
+        732,
+        913,
+        1094
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.6
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.65,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.04,
+        0.08,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.19899868547894325,
+        0.15967060237148806,
+        0.23825347095966898
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5074533761698479,
+          0.4387154807973647
+        ],
+        [
+          0.5074533761698479,
+          1.0,
+          0.5381250717938273
+        ],
+        [
+          0.43871548079736467,
+          0.5381250717938273,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4187407108756307,
+        -0.31512575762954587,
+        4.978359800776882
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6503320717",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6613361882",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6613361882",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        177,
+        359,
+        542,
+        724,
+        910,
+        1089
+      ],
+      "pay_days": [
+        179,
+        361,
+        544,
+        726,
+        912,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.039,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0195,
+        0.039,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13009327306350493,
+        0.1403105841576049,
+        0.14345396378656763
+      ],
+      "corr": [
+        [
+          1.0,
+          0.354275395353365,
+          0.3834848165431653
+        ],
+        [
+          0.354275395353365,
+          1.0,
+          0.1815369521234241
+        ],
+        [
+          0.38348481654316535,
+          0.1815369521234241,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.2627069145183136,
+        -0.8403769230223638,
+        2.1623591679753322
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6613361882",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65833CM935",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR65833CM935",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        182,
+        363,
+        546,
+        731,
+        910,
+        1096
+      ],
+      "pay_days": [
+        184,
+        365,
+        548,
+        733,
+        912,
+        1098
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.041100000000000005,
+      "coupon_accruals": [
+        0.4999999999999999,
+        0.9999999999999998,
+        1.5,
+        1.9999999999999996,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        0.8,
+        0.7,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0308,
+        0.0616,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13653589124810533,
+        0.1948472011922075,
+        0.1922925218961556
+      ],
+      "corr": [
+        [
+          1.0,
+          0.43748035884142433,
+          0.22884397953869098
+        ],
+        [
+          0.4374803588414243,
+          1.0,
+          0.5362518265969651
+        ],
+        [
+          0.22884397953869098,
+          0.5362518265969651,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4565828960310387,
+        0.22936478988588616,
+        3.110725376625819
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65833CM935",
+    "legacy_tenor": 3.0061601642710474,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6SH0001M49",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6SH0001M49",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        725,
+        907,
+        1093
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        727,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.0311,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        0.75,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.01555,
+        0.0311,
+        0.04665,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.16751051914617712,
+        0.1812066505061512,
+        0.14450763605759012
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3618743229582001,
+          0.5083557164624126
+        ],
+        [
+          0.3618743229582001,
+          1.0,
+          0.24699789383901888
+        ],
+        [
+          0.5083557164624126,
+          0.2469978938390189,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.1922193596426025,
+        -1.7584762355004344,
+        1.1728862946216958
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6SH0001M49",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6SH0000916",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6SH0000916",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        174,
+        356,
+        538,
+        720,
+        902,
+        1087
+      ],
+      "pay_days": [
+        176,
+        358,
+        540,
+        722,
+        904,
+        1092
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.02,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.3625608068441189,
+        0.2592145579590569,
+        0.400403211354244
+      ],
+      "corr": [
+        [
+          1.0,
+          0.6096774870182241,
+          0.6968707848757034
+        ],
+        [
+          0.6096774870182241,
+          1.0,
+          0.361205000054017
+        ],
+        [
+          0.6968707848757033,
+          0.36120500005401696,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4540861140487629,
+        -1.0057089422878804,
+        1.370560649978137
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6SH0000916",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6523323998",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6523323998",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        180,
+        364,
+        545,
+        728,
+        909,
+        1091
+      ],
+      "pay_days": [
+        182,
+        366,
+        547,
+        730,
+        911,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.6
+      ],
+      "coupon": 0.034,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.017,
+        0.034,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1365934987948211,
+        0.13733931533498767,
+        0.15324462257208898
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3155406338523393,
+          0.6214229277678163
+        ],
+        [
+          0.3155406338523393,
+          1.0,
+          0.220183456854976
+        ],
+        [
+          0.6214229277678162,
+          0.22018345685497603,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.2919247526397597,
+        0.21721244715870686,
+        0.6431743284729199
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6523323998",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733CM796",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR65733CM796",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        177,
+        363,
+        544,
+        728,
+        910,
+        1092
+      ],
+      "pay_days": [
+        179,
+        365,
+        546,
+        730,
+        912,
+        1094
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.036000000000000004,
+      "coupon_accruals": [
+        0.4999999999999999,
+        0.9999999999999998,
+        1.4999999999999998,
+        1.9999999999999996,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.036,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.10983252661207717,
+        0.1051902533966323,
+        0.12188008768905864
+      ],
+      "corr": [
+        [
+          1.0,
+          0.19292292746902928,
+          0.3163981948924357
+        ],
+        [
+          0.19292292746902928,
+          1.0,
+          0.2285522617639826
+        ],
+        [
+          0.31639819489243576,
+          0.22855226176398258,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.208925037795511,
+        -1.025781205024351,
+        1.5534657894453494
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733CM796",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6SH0005CV6",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6SH0005CV6",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        187,
+        370,
+        551,
+        734,
+        915,
+        1098
+      ],
+      "pay_days": [
+        189,
+        372,
+        553,
+        736,
+        917,
+        1103
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.063,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.063,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1509357569103692,
+        0.15300941684985198,
+        0.1301009140232859
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2483982468103736,
+          0.5304345262230586
+        ],
+        [
+          0.24839824681037362,
+          1.0,
+          0.07297268962202141
+        ],
+        [
+          0.5304345262230586,
+          0.07297268962202141,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.3487359874248153,
+        0.008744260556433514,
+        6.206920332250371
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6SH0005CV6",
+    "legacy_tenor": 3.0198494182067077,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6703319865",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6703319865",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        180,
+        361,
+        544,
+        726,
+        909,
+        1091
+      ],
+      "pay_days": [
+        182,
+        363,
+        546,
+        728,
+        911,
+        1096
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.6
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.02,
+        0.04,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.11714592625545964,
+        0.21340275819778617,
+        0.13947234350467433
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2640769161397252,
+          0.41406945514315996
+        ],
+        [
+          0.2640769161397253,
+          1.0,
+          0.049953045981586265
+        ],
+        [
+          0.4140694551431599,
+          0.04995304598158627,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.5122664732666427,
+        -1.104793727190006,
+        2.0819242828807174
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6703319865",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6503359897",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6503359897",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        119,
+        147,
+        178,
+        206,
+        239,
+        269,
+        298,
+        331,
+        361
+      ],
+      "pay_days": [
+        121,
+        149,
+        180,
+        208,
+        241,
+        271,
+        300,
+        333,
+        365
+      ],
+      "strikes": [
+        0.95,
+        0.95,
+        0.95,
+        0.9,
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.68
+      ],
+      "coupon": 0.04019999999999999,
+      "coupon_accruals": [
+        0.3333333333333334,
+        0.41666666666666674,
+        0.5000000000000001,
+        0.5833333333333334,
+        0.6666666666666669,
+        0.7500000000000001,
+        0.8333333333333335,
+        0.9166666666666669,
+        1.0000000000000002
+      ],
+      "lz_barr": [
+        0.9,
+        null,
+        null,
+        null,
+        0.78,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0134,
+        0.0,
+        0.0,
+        0.0,
+        0.0268,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13119425836793608,
+        0.213912950935215,
+        0.143309043549275
+      ],
+      "corr": [
+        [
+          1.0,
+          0.32970014765047495,
+          0.40336317031354196
+        ],
+        [
+          0.3297001476504749,
+          1.0,
+          0.09440928141311479
+        ],
+        [
+          0.4033631703135419,
+          0.09440928141311479,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.2042538399748586,
+        -0.7210505784750526,
+        1.4728106850364535
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6503359897",
+    "legacy_tenor": 0.999315537303217,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HN00027X3",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6HN00027X3",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        183,
+        365,
+        548,
+        731,
+        914,
+        1096
+      ],
+      "pay_days": [
+        185,
+        367,
+        550,
+        733,
+        916,
+        1101
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.067,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0335,
+        0.067,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.22620811491870704,
+        0.20410851558335646,
+        0.1620127853659895
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2216791980769023,
+          0.5078400177568907
+        ],
+        [
+          0.22167919807690234,
+          1.0,
+          0.2509756823159232
+        ],
+        [
+          0.5078400177568908,
+          0.2509756823159232,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.6595022507370696,
+        -1.5376458983582244,
+        5.317556684862026
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HN00027X3",
+    "legacy_tenor": 3.0143737166324436,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733259A9",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR65733259A9",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        177,
+        359,
+        545,
+        728,
+        910,
+        1093
+      ],
+      "pay_days": [
+        179,
+        361,
+        547,
+        730,
+        912,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.035,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.83,
+        0.8,
+        0.75,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0175,
+        0.035,
+        0.0525,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.134258512721471,
+        0.13525530425426713,
+        0.12987442251897424
+      ],
+      "corr": [
+        [
+          1.0,
+          0.24652382375769494,
+          0.739786226426168
+        ],
+        [
+          0.24652382375769494,
+          1.0,
+          0.18088673317932152
+        ],
+        [
+          0.7397862264261681,
+          0.18088673317932152,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.2207218400880697,
+        0.07126189906507852,
+        2.3267179836156595
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733259A9",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MZ0000WY4",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6MZ0000WY4",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        182,
+        364,
+        549,
+        728,
+        914,
+        1096
+      ],
+      "pay_days": [
+        184,
+        366,
+        551,
+        730,
+        916,
+        1098
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.0301,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        0.77,
+        0.72,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.01505,
+        0.0301,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1384408348023117,
+        0.18452892245484956,
+        0.1285219772377318
+      ],
+      "corr": [
+        [
+          1.0,
+          0.34391083033649816,
+          0.5657740310875135
+        ],
+        [
+          0.34391083033649816,
+          1.0,
+          0.254474981894449
+        ],
+        [
+          0.5657740310875135,
+          0.254474981894449,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.9577207797781413,
+        -1.5096249200937226,
+        1.6456212836066657
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MZ0000WY4",
+    "legacy_tenor": 3.0061601642710474,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR67033AM8A5",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR67033AM8A5",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        728,
+        910,
+        1093
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        730,
+        912,
+        1096
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.054000000000000006,
+      "coupon_accruals": [
+        0.49999999999999994,
+        0.9999999999999999,
+        1.4999999999999998,
+        1.9999999999999998,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.081,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.22082803908751353,
+        0.17254074156783164,
+        0.1505827459139565
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5760053954999126,
+          0.16085367016415436
+        ],
+        [
+          0.5760053954999125,
+          1.0,
+          0.20536740939126472
+        ],
+        [
+          0.16085367016415436,
+          0.20536740939126472,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.038344692316638,
+        -0.6016463874382436,
+        2.624186581978453
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR67033AM8A5",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MZ0000LD1",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6MZ0000LD1",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        180,
+        362,
+        545,
+        727,
+        909,
+        1091
+      ],
+      "pay_days": [
+        182,
+        364,
+        547,
+        729,
+        911,
+        1093
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.025,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.85,
+        0.78,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0125,
+        0.025,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1770563881720951,
+        0.20552640502813974,
+        0.16415146437618927
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2381758636449554,
+          0.48812239317295303
+        ],
+        [
+          0.2381758636449554,
+          1.0,
+          0.12604975322511638
+        ],
+        [
+          0.48812239317295303,
+          0.12604975322511638,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.657895966207535,
+        -1.3127454829994178,
+        3.9031845525658513
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MZ0000LD1",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6653364A17",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6653364A17",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        180,
+        364,
+        545,
+        726,
+        910,
+        1096
+      ],
+      "pay_days": [
+        182,
+        366,
+        547,
+        728,
+        912,
+        1099
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.042,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        0.75,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0315,
+        0.042,
+        0.0945,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13220792413759092,
+        0.16192614672493363,
+        0.13457616530865674
+      ],
+      "corr": [
+        [
+          1.0,
+          0.29109057958693096,
+          0.2132734576099219
+        ],
+        [
+          0.291090579586931,
+          1.0,
+          0.530410128019244
+        ],
+        [
+          0.21327345760992192,
+          0.5304101280192441,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.9962463436294826,
+        0.16821006671367955,
+        4.272043438322809
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6653364A17",
+    "legacy_tenor": 3.0088980150581794,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MZ0001FB5",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6MZ0001FB5",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        181,
+        364,
+        546,
+        728,
+        910,
+        1096
+      ],
+      "pay_days": [
+        183,
+        366,
+        548,
+        730,
+        912,
+        1098
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.0501,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        0.7,
+        0.65,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.03255,
+        0.0651,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.17117540832947603,
+        0.18681219010695088,
+        0.14022349305221285
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2576246292511677,
+          0.4751554847547787
+        ],
+        [
+          0.2576246292511677,
+          1.0,
+          0.18867809170833347
+        ],
+        [
+          0.4751554847547787,
+          0.18867809170833347,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.179137722899541,
+        -1.1063597988169036,
+        4.5551442225013075
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MZ0001FB5",
+    "legacy_tenor": 3.0061601642710474,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HN0003LM2",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR6HN0003LM2",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        188,
+        370,
+        552,
+        734,
+        917,
+        1099
+      ],
+      "pay_days": [
+        190,
+        372,
+        554,
+        736,
+        919,
+        1102
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.07,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        0.85,
+        0.8,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.035,
+        0.07,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.18210030241526842,
+        0.3370946521358249,
+        0.2120381997937865
+      ],
+      "corr": [
+        [
+          1.0,
+          0.0818283097517064,
+          0.6026252175316023
+        ],
+        [
+          0.0818283097517064,
+          1.0,
+          -0.01567591710359751
+        ],
+        [
+          0.6026252175316023,
+          -0.01567591710359751,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.1152927104652264,
+        0.33382150109985625,
+        1.0347478170244149
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HN0003LM2",
+    "legacy_tenor": 3.0171115674195756,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65833A0799",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "LIZARD no-KI",
+    "contract": {
+      "name": "derived_KR65833A0799",
+      "structure": "LIZARD no-KI",
+      "obs_days": [
+        174,
+        360,
+        539,
+        725,
+        907,
+        1089
+      ],
+      "pay_days": [
+        176,
+        362,
+        541,
+        727,
+        909,
+        1091
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.6
+      ],
+      "coupon": 0.033,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        0.75,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0495,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.10962149229404033,
+        0.10491297811759294,
+        0.07074827775847271
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2128711870154963,
+          0.5939867515589893
+        ],
+        [
+          0.2128711870154963,
+          1.0,
+          0.1541246317347159
+        ],
+        [
+          0.5939867515589893,
+          0.1541246317347159,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.208925037795511,
+        -1.025781205024351,
+        1.5534657894453494
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65833A0799",
+    "legacy_tenor": 2.9869952087611225,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65233517B3",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR65233517B3",
+      "structure": "STEP KI",
+      "obs_days": [
+        173,
+        360,
+        538,
+        725,
+        903,
+        1089
+      ],
+      "pay_days": [
+        175,
+        362,
+        540,
+        727,
+        905,
+        1091
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.042,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.10376163819909733,
+        0.11039972061119188,
+        0.06930652144346126
+      ],
+      "corr": [
+        [
+          1.0,
+          0.20861017417704575,
+          0.5894082612796054
+        ],
+        [
+          0.20861017417704572,
+          1.0,
+          0.21086133688448497
+        ],
+        [
+          0.5894082612796055,
+          0.21086133688448497,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.3224390912228348,
+        -1.1606730383325923,
+        2.6353143762745757
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65233517B3",
+    "legacy_tenor": 2.9869952087611225,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6613373945",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6613373945",
+      "structure": "STEP KI",
+      "obs_days": [
+        174,
+        359,
+        539,
+        723,
+        909,
+        1091
+      ],
+      "pay_days": [
+        176,
+        361,
+        541,
+        725,
+        911,
+        1093
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.043,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13789125078210654,
+        0.19360981669131716,
+        0.1954339609488558
+      ],
+      "corr": [
+        [
+          1.0,
+          0.45340826180859406,
+          0.2533604038429715
+        ],
+        [
+          0.453408261808594,
+          1.0,
+          0.5516825423549024
+        ],
+        [
+          0.2533604038429715,
+          0.5516825423549024,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.493293343755883,
+        0.19849455969196161,
+        2.46384178338751
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6613373945",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6573362599",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6573362599",
+      "structure": "STEP KI",
+      "obs_days": [
+        113,
+        235,
+        358,
+        479,
+        598,
+        723,
+        843,
+        966,
+        1088
+      ],
+      "pay_days": [
+        115,
+        237,
+        360,
+        481,
+        600,
+        725,
+        845,
+        968,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "coupon": 0.054000000000000006,
+      "coupon_accruals": [
+        0.33333333333333326,
+        0.6666666666666665,
+        0.9999999999999999,
+        1.333333333333333,
+        1.6666666666666665,
+        1.9999999999999998,
+        2.333333333333333,
+        2.666666666666666,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.55,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.23766089677174532,
+        0.12191793418399471,
+        0.15252529384919944
+      ],
+      "corr": [
+        [
+          1.0,
+          0.19391167960245417,
+          0.510086525774476
+        ],
+        [
+          0.1939116796024542,
+          1.0,
+          0.31050430551547165
+        ],
+        [
+          0.510086525774476,
+          0.31050430551547165,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.0461447783362607,
+        -0.6283484374740591,
+        1.7772573743014426
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6573362599",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0002M27",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6KS0002M27",
+      "structure": "STEP KI",
+      "obs_days": [
+        179,
+        361,
+        543,
+        726,
+        909,
+        1091
+      ],
+      "pay_days": [
+        181,
+        363,
+        545,
+        728,
+        911,
+        1096
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.08,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.45,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2503261570286405,
+        0.3427701773711177,
+        0.21955962953077984
+      ],
+      "corr": [
+        [
+          1.0,
+          0.33697402311430297,
+          0.49697211271623076
+        ],
+        [
+          0.33697402311430297,
+          1.0,
+          0.17283219776907885
+        ],
+        [
+          0.4969721127162307,
+          0.17283219776907885,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.4689976352508554,
+        -1.8501236718043883,
+        3.0172235318826495
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0002M27",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65233BT760",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR65233BT760",
+      "structure": "STEP KI",
+      "obs_days": [
+        178,
+        360,
+        545,
+        727,
+        910,
+        1092
+      ],
+      "pay_days": [
+        180,
+        362,
+        547,
+        729,
+        912,
+        1095
+      ],
+      "strikes": [
+        0.95,
+        0.95,
+        0.9,
+        0.9,
+        0.85,
+        0.85
+      ],
+      "coupon": 0.07,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.15135648077858257,
+        0.16412936429441632,
+        0.07500833371511713
+      ],
+      "corr": [
+        [
+          1.0,
+          0.4037618357970343,
+          0.06922422454604346
+        ],
+        [
+          0.40376183579703434,
+          1.0,
+          0.07879528695210834
+        ],
+        [
+          0.06922422454604345,
+          0.07879528695210833,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.996556297339669,
+        -0.8289796144195446,
+        1.9701046785236696
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65233BT760",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0005GC1",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6KS0005GC1",
+      "structure": "STEP KI",
+      "obs_days": [
+        180,
+        362,
+        544,
+        726,
+        907,
+        1090
+      ],
+      "pay_days": [
+        182,
+        364,
+        546,
+        728,
+        909,
+        1093
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.7
+      ],
+      "coupon": 0.071,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.4,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.23635274270002782,
+        0.2771221591367274,
+        0.21282587548685988
+      ],
+      "corr": [
+        [
+          1.0,
+          0.18467484692980846,
+          0.34142794681438093
+        ],
+        [
+          0.18467484692980848,
+          1.0,
+          0.6964506892009632
+        ],
+        [
+          0.341427946814381,
+          0.6964506892009632,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.889705531360525,
+        0.6566029552070497,
+        0.07358036408576388
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0005GC1",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MZ00002C9",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6MZ00002C9",
+      "structure": "STEP KI",
+      "obs_days": [
+        177,
+        359,
+        540,
+        725,
+        907,
+        1092
+      ],
+      "pay_days": [
+        179,
+        361,
+        542,
+        727,
+        909,
+        1094
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.036000000000000004,
+      "coupon_accruals": [
+        0.4999999999999999,
+        0.9999999999999998,
+        1.4999999999999998,
+        1.9999999999999996,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2619841953517496,
+        0.3203316459864427,
+        0.40032833767193726
+      ],
+      "corr": [
+        [
+          1.0,
+          0.7720601930467188,
+          0.3599362862733151
+        ],
+        [
+          0.7720601930467187,
+          1.0,
+          0.3234198245767521
+        ],
+        [
+          0.3599362862733151,
+          0.32341982457675217,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4540861140487629,
+        -1.0057089422878804,
+        1.370560649978137
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MZ00002C9",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733CR571",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR65733CR571",
+      "structure": "STEP KI",
+      "obs_days": [
+        176,
+        358,
+        542,
+        723,
+        907,
+        1088
+      ],
+      "pay_days": [
+        178,
+        360,
+        544,
+        725,
+        909,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.8
+      ],
+      "coupon": 0.055999999999999994,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.21546322946067664,
+        0.2755383853036601,
+        0.11316210120735455
+      ],
+      "corr": [
+        [
+          1.0,
+          0.24343148894041794,
+          0.08617982285700589
+        ],
+        [
+          0.24343148894041794,
+          1.0,
+          0.31862803594144684
+        ],
+        [
+          0.08617982285700589,
+          0.3186280359414469,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.1768133897626702,
+        -0.7850969530251435,
+        2.6310122967386396
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733CR571",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KS0002ZM7",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6KS0002ZM7",
+      "structure": "STEP KI",
+      "obs_days": [
+        176,
+        360,
+        542,
+        728,
+        907,
+        1093
+      ],
+      "pay_days": [
+        178,
+        362,
+        544,
+        730,
+        909,
+        1096
+      ],
+      "strikes": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "coupon": 0.064,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.45,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2546828631939011,
+        0.3520798306685481,
+        0.24022671675041501
+      ],
+      "corr": [
+        [
+          1.0,
+          0.27469978209978235,
+          0.5174879119269241
+        ],
+        [
+          0.2746997820997823,
+          1.0,
+          0.12648008426468105
+        ],
+        [
+          0.5174879119269241,
+          0.12648008426468105,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.5221489044282217,
+        -0.23988364310779997,
+        9.497922218799475
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KS0002ZM7",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733CT569",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR65733CT569",
+      "structure": "STEP KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        725,
+        906,
+        1090
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        727,
+        908,
+        1095
+      ],
+      "strikes": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.6,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.21249667776124503,
+        0.24742199814532156,
+        0.12627914287618433
+      ],
+      "corr": [
+        [
+          1.0,
+          0.21021721092358103,
+          0.5472823804792397
+        ],
+        [
+          0.21021721092358103,
+          1.0,
+          0.13301029638231598
+        ],
+        [
+          0.5472823804792398,
+          0.13301029638231598,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.329093986729129,
+        -0.8262572599503764,
+        1.7685008390875652
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733CT569",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KB0004EN2",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6KB0004EN2",
+      "structure": "STEP KI",
+      "obs_days": [
+        176,
+        360,
+        542,
+        728,
+        909,
+        1092
+      ],
+      "pay_days": [
+        178,
+        362,
+        544,
+        730,
+        911,
+        1094
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.10300000000000001,
+      "coupon_accruals": [
+        0.49999999999999994,
+        0.9999999999999999,
+        1.4999999999999998,
+        1.9999999999999998,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 2.9999999999999996,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.20762700528682076,
+        0.19580532966162645,
+        0.18964571434001376
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2711613104307038,
+          0.29341686701264597
+        ],
+        [
+          0.2711613104307038,
+          1.0,
+          0.7405718545149826
+        ],
+        [
+          0.29341686701264597,
+          0.7405718545149826,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.4097507227181244,
+        2.4083000610663303,
+        18.65174242853233
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KB0004EN2",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_20210820000433_10001",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_20210820000433_10001",
+      "structure": "STEP KI",
+      "obs_days": [
+        182,
+        365,
+        547,
+        730,
+        913,
+        1093
+      ],
+      "pay_days": [
+        184,
+        367,
+        549,
+        732,
+        915,
+        1095
+      ],
+      "strikes": [
+        0.92,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.04,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.45,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13699115570807743,
+        0.22935591629040497,
+        0.12490437565732011
+      ],
+      "corr": [
+        [
+          1.0,
+          0.22850931026556318,
+          0.5052003809223398
+        ],
+        [
+          0.2285093102655632,
+          1.0,
+          0.11254514039743865
+        ],
+        [
+          0.5052003809223398,
+          0.11254514039743865,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.6332922744854386,
+        -1.1820218298492888,
+        3.021381580175303
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "20210820000433_10001",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6523308585",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6523308585",
+      "structure": "STEP KI",
+      "obs_days": [
+        176,
+        358,
+        542,
+        723,
+        907,
+        1088
+      ],
+      "pay_days": [
+        178,
+        360,
+        544,
+        725,
+        909,
+        1092
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.75
+      ],
+      "coupon": 0.055999999999999994,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.6,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.214219530043894,
+        0.11380449885375382,
+        0.12197031011169762
+      ],
+      "corr": [
+        [
+          1.0,
+          0.10870987117804437,
+          0.55144916919927
+        ],
+        [
+          0.10870987117804437,
+          1.0,
+          0.11675596482228702
+        ],
+        [
+          0.55144916919927,
+          0.11675596482228702,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.049979761262565,
+        -0.6379613265705057,
+        2.380510667612347
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6523308585",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6523319871",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6523319871",
+      "structure": "STEP KI",
+      "obs_days": [
+        179,
+        358,
+        544,
+        726,
+        908,
+        1090
+      ],
+      "pay_days": [
+        181,
+        360,
+        546,
+        728,
+        910,
+        1092
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.043,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0000000000000004,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1267985666494438,
+        0.21844571909183752,
+        0.1425236725515589
+      ],
+      "corr": [
+        [
+          1.0,
+          0.26913369249991903,
+          0.4042355432964729
+        ],
+        [
+          0.2691336924999191,
+          1.0,
+          0.08047213249185527
+        ],
+        [
+          0.4042355432964728,
+          0.08047213249185527,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.357325006135465,
+        -0.9500903784732293,
+        2.248654357603282
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6523319871",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65533D2563",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR65533D2563",
+      "structure": "STEP KI",
+      "obs_days": [
+        175,
+        359,
+        542,
+        724,
+        906,
+        1089
+      ],
+      "pay_days": [
+        177,
+        361,
+        544,
+        726,
+        908,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.065,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.45,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.21207541768234023,
+        0.2499533749190909,
+        0.12468060510464486
+      ],
+      "corr": [
+        [
+          1.0,
+          0.20924829068841616,
+          0.546127474624907
+        ],
+        [
+          0.20924829068841616,
+          1.0,
+          0.13478700226842993
+        ],
+        [
+          0.546127474624907,
+          0.13478700226842993,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.329093986729129,
+        -0.8262572599503764,
+        1.7685008390875652
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65533D2563",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6DS00008A0",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP KI",
+    "contract": {
+      "name": "derived_KR6DS00008A0",
+      "structure": "STEP KI",
+      "obs_days": [
+        180,
+        362,
+        544,
+        726,
+        908,
+        1091
+      ],
+      "pay_days": [
+        182,
+        364,
+        546,
+        728,
+        910,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.7
+      ],
+      "coupon": 0.032,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": 0.5,
+      "survival_coupon_accrual": 3.0,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.167363122482965,
+        0.19712682599443498,
+        0.19063454758598325
+      ],
+      "corr": [
+        [
+          1.0,
+          0.256441004911775,
+          0.22208466297997848
+        ],
+        [
+          0.256441004911775,
+          1.0,
+          0.5519025168180167
+        ],
+        [
+          0.22208466297997848,
+          0.5519025168180166,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.1922193596426025,
+        -1.7584762355004344,
+        1.1728862946216958
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6DS00008A0",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6593367651",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6593367651",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        182,
+        361,
+        546,
+        728,
+        911,
+        1088
+      ],
+      "pay_days": [
+        184,
+        363,
+        548,
+        730,
+        913,
+        1092
+      ],
+      "strikes": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.6
+      ],
+      "coupon": 0.034,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.23935679893731432,
+        0.2222307808628842,
+        0.14149603719991458
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5167279091436743,
+          0.3900083958885297
+        ],
+        [
+          0.5167279091436743,
+          1.0,
+          0.6567914870804997
+        ],
+        [
+          0.3900083958885297,
+          0.6567914870804997,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.545355554607794,
+        -0.1025757774253732,
+        1.7302904050649512
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6593367651",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HN0003MR9",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6HN0003MR9",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        179,
+        361,
+        546,
+        728,
+        911,
+        1093
+      ],
+      "pay_days": [
+        181,
+        363,
+        548,
+        730,
+        913,
+        1095
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.0681,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.18057701227279793,
+        0.18319828761424045,
+        0.20971393570188776
+      ],
+      "corr": [
+        [
+          1.0,
+          0.188632135535876,
+          0.6144008457340805
+        ],
+        [
+          0.188632135535876,
+          1.0,
+          -0.0028943596538036284
+        ],
+        [
+          0.6144008457340806,
+          -0.0028943596538036284,
+          1.0
+        ]
+      ],
+      "beta": [
+        3.1152927104652264,
+        0.33382150109985625,
+        1.0347478170244149
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HN0003MR9",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6653332A65",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6653332A65",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        181,
+        363,
+        546,
+        728,
+        913,
+        1095
+      ],
+      "pay_days": [
+        183,
+        365,
+        548,
+        730,
+        915,
+        1098
+      ],
+      "strikes": [
+        0.88,
+        0.88,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.057,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.34960168293559346,
+        0.30945816370462564,
+        0.38714743293952397
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5660645288617542,
+          0.7320085565179908
+        ],
+        [
+          0.5660645288617542,
+          1.0,
+          0.3580710055093938
+        ],
+        [
+          0.7320085565179908,
+          0.3580710055093938,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.5099354610280435,
+        -0.1928299152148536,
+        6.132852147713689
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6653332A65",
+    "legacy_tenor": 3.0061601642710474,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65933AG582",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR65933AG582",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        183,
+        365,
+        548,
+        730,
+        912,
+        1094
+      ],
+      "pay_days": [
+        185,
+        367,
+        550,
+        732,
+        914,
+        1099
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.6
+      ],
+      "coupon": 0.055999999999999994,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.23733625939819528,
+        0.2842044512058277,
+        0.14050484756165227
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3519751467624987,
+          0.5692945560638605
+        ],
+        [
+          0.3519751467624987,
+          1.0,
+          0.32569514036942304
+        ],
+        [
+          0.5692945560638605,
+          0.32569514036942304,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.049979761262565,
+        -0.6379613265705057,
+        2.380510667612347
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65933AG582",
+    "legacy_tenor": 3.0088980150581794,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6523316A37",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6523316A37",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        181,
+        359,
+        545,
+        726,
+        909,
+        1090
+      ],
+      "pay_days": [
+        183,
+        361,
+        547,
+        728,
+        911,
+        1094
+      ],
+      "strikes": [
+        0.95,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.6
+      ],
+      "coupon": 0.042,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.16990675116061388,
+        0.15860087080648666,
+        0.15524436116523196
+      ],
+      "corr": [
+        [
+          1.0,
+          0.6832305574412547,
+          0.26063404937923645
+        ],
+        [
+          0.6832305574412547,
+          1.0,
+          0.25457707059899354
+        ],
+        [
+          0.2606340493792364,
+          0.25457707059899354,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.6703890791672418,
+        0.17773150539090776,
+        5.304994235461851
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6523316A37",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6SH0002276",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6SH0002276",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        179,
+        362,
+        544,
+        726,
+        908,
+        1090
+      ],
+      "pay_days": [
+        181,
+        364,
+        546,
+        728,
+        910,
+        1092
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.042,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.4999999999999996,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.13237278371871314,
+        0.23670175659951842,
+        0.12453898572448464
+      ],
+      "corr": [
+        [
+          1.0,
+          0.20582321585239827,
+          0.4879691180274428
+        ],
+        [
+          0.20582321585239827,
+          1.0,
+          0.0933698304543694
+        ],
+        [
+          0.4879691180274428,
+          0.0933698304543694,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.7650975153725053,
+        -1.1039472426464285,
+        3.105525730035307
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6SH0002276",
+    "legacy_tenor": 2.9897330595482545,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6573313667",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6573313667",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        180,
+        362,
+        544,
+        726,
+        909,
+        1091
+      ],
+      "pay_days": [
+        182,
+        364,
+        546,
+        728,
+        911,
+        1095
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.067,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.23843191861259316,
+        0.14012432864706545,
+        0.15519860393346915
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3091741422290107,
+          0.5502938032633098
+        ],
+        [
+          0.30917414222901063,
+          1.0,
+          0.257915977563027
+        ],
+        [
+          0.5502938032633098,
+          0.2579159775630269,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.1434671847195976,
+        0.057480829810522494,
+        3.1300168913652655
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6573313667",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65533079A3",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR65533079A3",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        182,
+        364,
+        547,
+        730,
+        912,
+        1095
+      ],
+      "pay_days": [
+        184,
+        366,
+        549,
+        732,
+        914,
+        1100
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.0301,
+      "coupon_accruals": [
+        0.7491694352159469,
+        1.4983388704318938,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1268676704064333,
+        0.14526186633912294,
+        0.12679218562326597
+      ],
+      "corr": [
+        [
+          1.0,
+          0.1645428711996058,
+          0.6698208941882752
+        ],
+        [
+          0.1645428711996058,
+          1.0,
+          0.22843768211535845
+        ],
+        [
+          0.6698208941882752,
+          0.22843768211535848,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.2207218400880697,
+        0.07126189906507852,
+        2.3267179836156595
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65533079A3",
+    "legacy_tenor": 3.0116358658453115,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HN0002GE1",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6HN0002GE1",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        181,
+        362,
+        546,
+        728,
+        908,
+        1092
+      ],
+      "pay_days": [
+        183,
+        364,
+        548,
+        730,
+        910,
+        1094
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.07,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.4999999999999996,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2518872907702157,
+        0.18539986598075403,
+        0.223548536728888
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3385766167021246,
+          0.47587749021534465
+        ],
+        [
+          0.3385766167021246,
+          1.0,
+          0.24628876035338282
+        ],
+        [
+          0.4758774902153446,
+          0.24628876035338282,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.067680378108798,
+        -0.32727651269742686,
+        8.62649161911756
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HN0002GE1",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6NH0001QL7",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6NH0001QL7",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        178,
+        364,
+        543,
+        730,
+        910,
+        1093
+      ],
+      "pay_days": [
+        180,
+        366,
+        545,
+        732,
+        912,
+        1095
+      ],
+      "strikes": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.7,
+        0.65
+      ],
+      "coupon": 0.0371,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1675043898921458,
+        0.23455756266846703,
+        0.13663492773115438
+      ],
+      "corr": [
+        [
+          1.0,
+          0.31109038163985586,
+          0.4686167325231778
+        ],
+        [
+          0.31109038163985586,
+          1.0,
+          0.1418717612634578
+        ],
+        [
+          0.46861673252317787,
+          0.14187176126345782,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.179137722899541,
+        -1.1063597988169036,
+        4.5551442225013075
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6NH0001QL7",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HH0001B78",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6HH0001B78",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        177,
+        359,
+        541,
+        724,
+        905,
+        1089
+      ],
+      "pay_days": [
+        179,
+        361,
+        543,
+        726,
+        907,
+        1093
+      ],
+      "strikes": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.0581,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5000000000000002,
+        2.0,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1328613116369946,
+        0.1705853616887376,
+        0.11303734524067503
+      ],
+      "corr": [
+        [
+          1.0,
+          0.28030348983414544,
+          0.4859971114410061
+        ],
+        [
+          0.2803034898341455,
+          1.0,
+          0.15149055585405682
+        ],
+        [
+          0.48599711144100616,
+          0.15149055585405682,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.176431160381989,
+        1.1496649621772606,
+        6.761562012581411
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HH0001B78",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6553323785",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6553323785",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        181,
+        360,
+        541,
+        727,
+        911,
+        1093
+      ],
+      "pay_days": [
+        183,
+        362,
+        543,
+        729,
+        913,
+        1096
+      ],
+      "strikes": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.65
+      ],
+      "coupon": 0.032,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.11110464400538597,
+        0.09868676068608508,
+        0.06834982567192796
+      ],
+      "corr": [
+        [
+          1.0,
+          0.15644001235494512,
+          0.6373685718059838
+        ],
+        [
+          0.15644001235494512,
+          1.0,
+          0.0367364722945932
+        ],
+        [
+          0.6373685718059839,
+          0.0367364722945932,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.094428903946094,
+        -0.947198727095344,
+        2.251770807598118
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6553323785",
+    "legacy_tenor": 3.0006844626967832,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6MD0003GE0",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6MD0003GE0",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        725,
+        907,
+        1093
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        727,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.7,
+        0.55
+      ],
+      "coupon": 0.055099999999999996,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2532433168162049,
+        0.3504523203149216,
+        0.2392403641388797
+      ],
+      "corr": [
+        [
+          1.0,
+          0.2755623908684987,
+          0.515417415756382
+        ],
+        [
+          0.27556239086849865,
+          1.0,
+          0.11984362827847982
+        ],
+        [
+          0.5154174157563821,
+          0.11984362827847982,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.5221489044282217,
+        -0.23988364310779997,
+        9.497922218799475
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6MD0003GE0",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6DS0000K04",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6DS0000K04",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        182,
+        364,
+        545,
+        731,
+        915,
+        1096
+      ],
+      "pay_days": [
+        184,
+        366,
+        547,
+        733,
+        917,
+        1098
+      ],
+      "strikes": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.75,
+        0.55
+      ],
+      "coupon": 0.055099999999999996,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5000000000000004,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2600999643029567,
+        0.18769933126332072,
+        0.23364500494185822
+      ],
+      "corr": [
+        [
+          1.0,
+          0.32179273948022297,
+          0.49139531406471393
+        ],
+        [
+          0.32179273948022297,
+          1.0,
+          0.24452162908055047
+        ],
+        [
+          0.49139531406471393,
+          0.24452162908055047,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.6023179758199924,
+        0.3826678876807734,
+        11.19156041483924
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6DS0000K04",
+    "legacy_tenor": 3.0061601642710474,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6BK0000S48",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6BK0000S48",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        181,
+        365,
+        546,
+        730,
+        911,
+        1093
+      ],
+      "pay_days": [
+        183,
+        367,
+        548,
+        732,
+        913,
+        1095
+      ],
+      "strikes": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.05,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.4999999999999998,
+        2.0,
+        2.5,
+        2.9999999999999996
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1306852902264995,
+        0.1569314918342724,
+        0.11534536639002578
+      ],
+      "corr": [
+        [
+          1.0,
+          0.3305157282831945,
+          0.47682208877253995
+        ],
+        [
+          0.3305157282831944,
+          1.0,
+          0.24069036325816168
+        ],
+        [
+          0.47682208877253995,
+          0.24069036325816168,
+          1.0
+        ]
+      ],
+      "beta": [
+        2.176431160381989,
+        1.1496649621772606,
+        6.761562012581411
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6BK0000S48",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR67933019A1",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR67933019A1",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        181,
+        363,
+        546,
+        729,
+        911,
+        1093
+      ],
+      "pay_days": [
+        183,
+        365,
+        548,
+        731,
+        913,
+        1095
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.0361,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.1268676704064333,
+        0.14526186633912294,
+        0.12679218562326597
+      ],
+      "corr": [
+        [
+          1.0,
+          0.1645428711996058,
+          0.6698208941882752
+        ],
+        [
+          0.1645428711996058,
+          1.0,
+          0.22843768211535845
+        ],
+        [
+          0.6698208941882752,
+          0.22843768211535848,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.2207218400880697,
+        0.07126189906507852,
+        2.3267179836156595
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR67933019A1",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6HN0000G76",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6HN0000G76",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        175,
+        362,
+        540,
+        727,
+        908,
+        1091
+      ],
+      "pay_days": [
+        177,
+        364,
+        542,
+        729,
+        910,
+        1093
+      ],
+      "strikes": [
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.75,
+        0.65
+      ],
+      "coupon": 0.028999999999999998,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5,
+        2.0000000000000004,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.24381045694001982,
+        0.19670352261893498,
+        0.19911013352197302
+      ],
+      "corr": [
+        [
+          1.0,
+          0.5367706395580766,
+          0.6173780172056587
+        ],
+        [
+          0.5367706395580766,
+          1.0,
+          0.2824586471285332
+        ],
+        [
+          0.6173780172056587,
+          0.2824586471285332,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.4959650985301596,
+        -1.104285836463859,
+        2.696085151173473
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6HN0000G76",
+    "legacy_tenor": 2.9924709103353866,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR65733AC627",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR65733AC627",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        175,
+        362,
+        540,
+        723,
+        905,
+        1091
+      ],
+      "pay_days": [
+        177,
+        364,
+        542,
+        725,
+        907,
+        1094
+      ],
+      "strikes": [
+        0.85,
+        0.85,
+        0.85,
+        0.8,
+        0.8,
+        0.6
+      ],
+      "coupon": 0.06,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.26887230289584807,
+        0.24668117124484387,
+        0.15408032078332812
+      ],
+      "corr": [
+        [
+          1.0,
+          0.49626757752379075,
+          0.3771688581358424
+        ],
+        [
+          0.4962675775237907,
+          1.0,
+          0.6349694444677626
+        ],
+        [
+          0.3771688581358424,
+          0.6349694444677625,
+          1.0
+        ]
+      ],
+      "beta": [
+        1.352019133624917,
+        0.0589266554994623,
+        3.1315751163626566
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR65733AC627",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6KW0001C08",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6KW0001C08",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        178,
+        361,
+        543,
+        728,
+        907,
+        1093
+      ],
+      "pay_days": [
+        180,
+        363,
+        545,
+        730,
+        909,
+        1095
+      ],
+      "strikes": [
+        0.75,
+        0.75,
+        0.75,
+        0.75,
+        0.7,
+        0.65
+      ],
+      "coupon": 0.09609999999999999,
+      "coupon_accruals": [
+        0.5000000000000001,
+        1.0000000000000002,
+        1.5000000000000002,
+        2.0000000000000004,
+        2.5,
+        3.0000000000000004
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.24707924332579062,
+        0.3985889622623367,
+        0.25813743962224434
+      ],
+      "corr": [
+        [
+          1.0,
+          0.239095161442327,
+          0.563676315105357
+        ],
+        [
+          0.239095161442327,
+          1.0,
+          0.06500740282846264
+        ],
+        [
+          0.563676315105357,
+          0.06500740282846264,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.5597786827803828,
+        2.0624243191808187,
+        20.508440471452914
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6KW0001C08",
+    "legacy_tenor": 2.9979466119096507,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  },
+  {
+    "family": "derived_KR6583315678",
+    "split": "stress",
+    "origin": "real_terms_synthetic",
+    "structure": "STEP no-KI",
+    "contract": {
+      "name": "derived_KR6583315678",
+      "structure": "STEP no-KI",
+      "obs_days": [
+        184,
+        364,
+        549,
+        728,
+        914,
+        1092
+      ],
+      "pay_days": [
+        186,
+        366,
+        551,
+        730,
+        916,
+        1094
+      ],
+      "strikes": [
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.65
+      ],
+      "coupon": 0.038,
+      "coupon_accruals": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "lz_barr": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "lz_pmts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ki_barrier": null,
+      "survival_coupon_accrual": null,
+      "monitoring": "daily_calendar_grid"
+    },
+    "market": {
+      "sigs": [
+        0.2599443789969173,
+        0.28961766208039547,
+        0.1363848008731972
+      ],
+      "corr": [
+        [
+          1.0,
+          0.4642577625464929,
+          0.4273539665531354
+        ],
+        [
+          0.4642577625464929,
+          1.0,
+          0.6361854150963425
+        ],
+        [
+          0.42735396655313534,
+          0.6361854150963425,
+          1.0
+        ]
+      ],
+      "beta": [
+        0.9363608408939187,
+        0.2248580159103456,
+        2.9013304122026717
+      ],
+      "dividend_yields": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "original_item": "KR6583315678",
+    "legacy_tenor": 2.9952087611225187,
+    "payment_convention": "Defined synthetic early pay = actual evaluation + 2 calendar days; actual maturity day retained",
+    "coupon_convention": "PMT_1/base_coupon fixed accrual; PMT_2/base_coupon fixed survival accrual",
+    "contract_fidelity": "Not a fully reconstructed original real contract"
+  }
+]

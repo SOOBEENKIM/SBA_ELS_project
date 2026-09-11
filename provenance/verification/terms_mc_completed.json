@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "families": 2652,
+  "scenario_rows": 85440,
+  "jobs": 3348,
+  "seconds": 510.9063079357147,
+  "paths_per_seed": 40000,
+  "unique_family_fingerprints": true,
+  "split_counts": {
+    "train": 2048,
+    "validation": 256,
+    "test": 256,
+    "stress": 92
+  },
+  "engine_hash": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+  "protocol_hash": "1968397fe4e265cada8004841168f69647006cc71add06aa97d678edb50d3154"
+}

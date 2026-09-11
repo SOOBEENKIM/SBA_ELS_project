@@ -1,0 +1,9 @@
+{
+  "status": "reproduced",
+  "family": "published_KR6MD0003TN4",
+  "axis": "first_strike",
+  "offset": 0.05,
+  "max_batch_replay_difference_krw": 1.4210854715202004e-14,
+  "models_unchanged": true,
+  "training_performed": false
+}

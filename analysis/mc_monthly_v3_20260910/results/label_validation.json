@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "families": 2652,
+  "scenarios": 85440,
+  "unique_independent_MC_seeds": 3348,
+  "price_minus_base_equals_delta_max_error_krw": 1.2811085525754606e-11,
+  "coupon_linearity_slope_spread": 4.153662302996963e-09,
+  "coupon_and_monthly_barrier_leave_redemption_events_unchanged": true,
+  "coupon_positive_KI_and_monthly_barrier_nonpositive": true,
+  "template_groups_disjoint": true,
+  "paths_per_seed": 40000,
+  "test_and_stress_independent_replicates": 3
+}

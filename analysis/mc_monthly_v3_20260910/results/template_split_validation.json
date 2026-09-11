@@ -1,0 +1,26 @@
+{
+  "disjoint": true,
+  "held_stress_groups": 6,
+  "counts": {
+    "train": {
+      "STEP no-KI": 2711,
+      "STEP KI": 1246,
+      "LIZARD no-KI": 56
+    },
+    "validation": {
+      "STEP KI": 288,
+      "STEP no-KI": 160,
+      "LIZARD no-KI": 4
+    },
+    "test": {
+      "STEP KI": 62,
+      "STEP no-KI": 1205,
+      "LIZARD no-KI": 1
+    }
+  },
+  "groups": {
+    "train": 591,
+    "validation": 77,
+    "test": 69
+  }
+}

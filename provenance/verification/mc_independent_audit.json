@@ -1,0 +1,67 @@
+{
+  "training_performed": false,
+  "frozen_outputs_modified": false,
+  "integrity": {
+    "status": "pass",
+    "files": 101,
+    "original_and_new_pricers_preserved": true
+  },
+  "input_and_normalization": {
+    "status": "pass",
+    "scenario_rows": 85440,
+    "one_contract_field_only": true,
+    "all_cached_inputs_exact": true,
+    "first_strike_changes_feature_0_only": true,
+    "baseline_pairing_correct": true,
+    "labels_max_error_krw": 1.8189894035458565e-12,
+    "nine_checkpoint_normalizers_use_training_only": true
+  },
+  "inference_and_aggregation": {
+    "status": "pass",
+    "prediction_rows": 131328,
+    "max_replay_error_krw": 1.8189894035458565e-12,
+    "metric_groups": 60,
+    "inverse_scaling_and_paired_difference_verified": true
+  },
+  "independent_cashflow_ledger": {
+    "status": "pass",
+    "contracts": 6,
+    "market_paths": 240000,
+    "path_variant_payoffs": 8240000,
+    "max_error_krw": 8.881784197001252e-12
+  },
+  "independent_mc": {
+    "status": "calculated",
+    "scope": "Two STEP no-KI contracts; independent float64 GBM at event dates",
+    "rows": [
+      {
+        "family": "published_KR6MD0003TN4",
+        "paths": 120000,
+        "base_price_krw": 9900.210007024547,
+        "delta_krw": -9.509430046728736,
+        "delta_se_krw": 0.847410967460281,
+        "halfwidth_95_krw": 1.6609254962221507,
+        "original_delta_krw": -9.546602519374414,
+        "original_halfwidth_95_krw": 1.652462952462756,
+        "independent_difference_z": 0.031097018312705407,
+        "principal_delta_krw": -93.22731868975382,
+        "monthly_coupon_delta_krw": 83.71788864302508
+      },
+      {
+        "family": "published_KR6523325910",
+        "paths": 120000,
+        "base_price_krw": 10226.36275130092,
+        "delta_krw": 37.92280271709636,
+        "delta_se_krw": 0.9488990182375913,
+        "halfwidth_95_krw": 1.8598420757456788,
+        "original_delta_krw": 38.69066737746736,
+        "original_halfwidth_95_krw": 1.8675862370720524,
+        "independent_difference_z": -0.5710123647243296,
+        "principal_delta_krw": -62.715268451827,
+        "monthly_coupon_delta_krw": 100.63807116892333
+      }
+    ]
+  },
+  "status": "completed",
+  "seconds": 70.18736672401428
+}

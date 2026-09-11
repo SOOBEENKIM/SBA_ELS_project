@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "selected_arm": "affine_coupon_delta",
+  "test_used_for_selection": false,
+  "prediction_rows": 131328,
+  "test_families": 256,
+  "published_monthly_families": 6,
+  "coupon_affine_positive": true,
+  "scope": "Bank-settled monthly and regular contractual cash flows under explicit GBM market assumptions",
+  "export_scope": "Three current arms only; historical comparator rows removed without changing retained values."
+}

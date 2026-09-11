@@ -1,0 +1,12 @@
+{
+  "mc_monthly_v3_20260910": {
+    "scenarios": 85440,
+    "families_identical": true,
+    "max_mc_difference_krw": 5.4569682106375694e-12
+  },
+  "mc_schedule_v4_20260911": {
+    "scenarios": 3003,
+    "families_identical": true,
+    "max_mc_difference_krw": 0.0
+  }
+}

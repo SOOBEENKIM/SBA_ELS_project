@@ -1,0 +1,120 @@
+{
+  "version": "monthly_cashflows_v3_20260910",
+  "purpose": "Correct cash-flow contract representation, regenerate single-condition counterfactual MC, reevaluate frozen Stage-1, and compare controlled training improvements",
+  "notional": 10000,
+  "scope": "STEP/FROM_ISU LIZARD with explicit regular or monthly coupons; inception-only constant GBM; all payment dates explicit",
+  "market_assumptions": "Constant GBM vols/correlation, q=0, KRW Nelson-Siegel drift/discount; daily calendar-grid monitoring inherited from V2. Bank payment calendar implemented; exchange-session price evolution and disruptions remain outside model.",
+  "sampling_seed": 2026091021,
+  "family_counts": {
+    "train": 2048,
+    "validation": 256,
+    "test": 256
+  },
+  "split": "Half nonmonthly random synthetic, half synthetic contracts using raw monthly schedules. Monthly template groups (excluding coupon level and calendar jitter) are hash-partitioned across train/validation/test; six sourced stress templates withheld from all pools. All one-field variants remain with their baseline.",
+  "axes": {
+    "coupon_regular": [
+      -0.01,
+      -0.005,
+      -0.0025,
+      -0.001,
+      0.001,
+      0.0025,
+      0.005,
+      0.01
+    ],
+    "ki_barrier": [
+      -0.05,
+      -0.025,
+      -0.01,
+      -0.005,
+      0.005,
+      0.01,
+      0.025,
+      0.05
+    ],
+    "first_strike": [
+      -0.05,
+      -0.025,
+      -0.01,
+      -0.005,
+      0.005,
+      0.01,
+      0.025,
+      0.05
+    ],
+    "last_strike": [
+      -0.05,
+      -0.025,
+      -0.01,
+      -0.005,
+      0.005,
+      0.01,
+      0.025,
+      0.05
+    ],
+    "monthly_barrier": [
+      -0.05,
+      -0.025,
+      -0.01,
+      -0.005,
+      0.005,
+      0.01,
+      0.025,
+      0.05
+    ]
+  },
+  "coupon_intervention": "Change annual coupon only; fixed regular, survival and monthly accrual factors. Lizard redemption premium stays fixed. Monthly coupon barrier has a separate named intervention from KI barrier.",
+  "mc": {
+    "paths_per_seed": 40000,
+    "checkpoints": [
+      10000,
+      20000,
+      40000
+    ],
+    "train_validation_replicates": 1,
+    "test_stress_replicates": 3,
+    "path_chunk": 2500,
+    "workers": 12,
+    "threads_per_worker": 1
+  },
+  "learning": {
+    "arms": [
+      "augmented_price",
+      "augmented_delta",
+      "affine_coupon_delta"
+    ],
+    "seeds": [
+      47,
+      101,
+      233
+    ],
+    "latent_dim": 128,
+    "batch_families": 128,
+    "max_steps": 12000,
+    "learning_rate": 0.0007,
+    "weight_decay": 1e-05,
+    "check_every": 100,
+    "patience_checks": 15,
+    "increment_weight": 4.0,
+    "selection_metric": "validation price RMSE + 4 * increment RMSE, in KRW, common to all arms",
+    "normalization": "Training rows only. 461 contract features include 60 monthly observation/payment/barrier/payment/accrual/mask slots and same-day entitlement. Coupon-affine arm masks every coupon-dependent payment feature.",
+    "affine_arm": "A DeepONet with coupon-independent intercept and nonnegative coupon slope; justified only for the explicitly affine coupon intervention; separate arm from data/loss ablations",
+    "lr_step_size": 4000,
+    "workers": 3
+  },
+  "frozen_model": "V2 selected 3-seed affine DeepONet, unchanged. Monthly contracts passed through its historical cumulative coupon approximation with zero monthly slots, explicitly labeled projection; cannot distinguish monthly barriers. No claim of OOS vs full historical original model.",
+  "evaluation": [
+    "baseline and scenario price MAE/RMSE/R2",
+    "increment MAE/RMSE/bias by axis and bump",
+    "MC-resolved sign agreement",
+    "fraction within 1/5/10 KRW",
+    "contract-family bootstrap for paired improvement",
+    "training-seed dispersion",
+    "20k-to-40k convergence and paired MC SE"
+  ],
+  "tolerance_note": "1/5/10 KRW are transparent diagnostics, not business-approved acceptance thresholds",
+  "legacy_preservation": "Original engine, historical labels, checkpoints and earlier experiment results preserved; new module and versioned experiment used throughout",
+  "real_data_note": "Six previously excluded monthly contracts individually reconciled to public DART terms. Source evaluation dates retained; issuer-specific 2/3 business-day settlement under pinned KR public+bank calendar. Remaining raw monthly schedules are used to DEFINE synthetic contracts, not claimed fully verified original product prices.",
+  "training_extension_policy": "No automatic extension or test-driven tuning. All three arms and three seeds use the same fixed maximum and validation selection.",
+  "monthly_rounding_note": "Unit-notional theoretical present values before investor-specific aggregate-payment KRW truncation/taxes; rounding is not added per 10,000-won unit."
+}

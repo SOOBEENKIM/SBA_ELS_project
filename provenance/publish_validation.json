@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "validated_on": "2026-09-11",
+  "repository": "https://github.com/SOOBEENKIM/SBA_ELS_project",
+  "branch": "main",
+  "frozen_pricers_encoder_model_definition_and_nine_checkpoints_byte_identical": true,
+  "raw_three_csv_byte_identical": true,
+  "clean_restore": {
+    "archives": 29,
+    "restored_files": 1087,
+    "sha256_verified": true
+  },
+  "raw_membership_and_six_market_states": {
+    "status": "pass",
+    "raw_candidates": 60358,
+    "universe_products": 58790,
+    "membership_identical": true,
+    "published_market_states": 6,
+    "market_max_abs_error": 0.0,
+    "uses_old_payoff_approximations": false,
+    "seconds": 57.82481384277344
+  },
+  "full_mc_reproduction": {
+    "mc_monthly_v3_20260910": {
+      "scenarios": 85440,
+      "families_identical": true,
+      "max_mc_difference_krw": 5.4569682106375694e-12
+    },
+    "mc_schedule_v4_20260911": {
+      "scenarios": 3003,
+      "families_identical": true,
+      "max_mc_difference_krw": 0.0
+    }
+  },
+  "clean_prediction_replay": {
+    "status": "pass",
+    "prediction_rows": 131328,
+    "max_replay_error_krw": 1.8189894035458565e-12,
+    "metric_groups": 60,
+    "inverse_scaling_and_paired_difference_verified": true
+  },
+  "independent_ledger": {
+    "status": "pass",
+    "contracts": 6,
+    "market_paths": 240000,
+    "path_variant_payoffs": 8240000,
+    "max_error_krw": 8.881784197001252e-12
+  },
+  "schedule_replay": {
+    "status": "complete",
+    "prediction_rows": 36036,
+    "scenario_rows": 3003,
+    "models": 9,
+    "ensembles": 3,
+    "no_training": true,
+    "primary_model": "affine_coupon_delta",
+    "prior_baseline_prediction_max_difference_krw": 1.8189894035458565e-12,
+    "existing_artifacts_unchanged": true,
+    "baseline_independent_mc_max_abs_z": 3.9558395655430116,
+    "baseline_mc_abs_z_gt_196": 14
+  },
+  "clean_check_steps": 9,
+  "mc_reproduction_steps": 16,
+  "retraining_performed_for_publication": false,
+  "new_dockerfile_rebuilt": false,
+  "official_python_base_image_tag_verified": true,
+  "runtime_image": "sha256:72cf4a76ff63e6109e8e3710d7c7835ffd96564483eaf6d55f7581524adb1054",
+  "markdown_links_valid": true,
+  "images": [
+    [
+      "Report_2.md",
+      "docs/assets/schedule_counterfactuals.png"
+    ],
+    [
+      "docs/RESULTS.md",
+      "assets/schedule_counterfactuals.png"
+    ],
+    [
+      "README.md",
+      "docs/assets/schedule_counterfactuals.png"
+    ]
+  ],
+  "no_external_symlink_inputs": true,
+  "max_payload_file_bytes": 16262215
+}

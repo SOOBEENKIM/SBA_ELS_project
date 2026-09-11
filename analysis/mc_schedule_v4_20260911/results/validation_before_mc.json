@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "families": 262,
+  "scenarios": 3003,
+  "independent_path_contract_ledgers": 36036,
+  "max_ledger_error_krw": 8.881784197001252e-12,
+  "exact_v3_identity_families": [
+    "test-regular-00000",
+    "test-monthly-00000",
+    "published_KR6KS0002XR1"
+  ],
+  "full_daily_reference_paths": 5000,
+  "future_ki_after_short_maturity_excluded": true,
+  "zero_tenor_change_identity": true,
+  "model_capacity_excluded_families": 47,
+  "protocol_sha256": "dd5bd8f2f5340bd966db31ebc7cd35287493872b611350e444fdf047d22ea420"
+}

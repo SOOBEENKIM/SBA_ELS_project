@@ -1,0 +1,80 @@
+[
+  {
+    "item": "KR6SH0006Y24",
+    "monthly_rows": 36,
+    "all_evaluation_dates_in_published_source": true,
+    "published_monthly_payment": 0.005775,
+    "annual_coupon": 0.0693,
+    "coupon_barrier": 0.65,
+    "lag_business_days": 3,
+    "raw_maturity_day": 1099,
+    "calendar_maturity_day": 1099,
+    "maturity_date_matches": true,
+    "source": "http://dart.fss.or.kr/report/viewer.do?rcpNo=20240923000180&dcmNo=10120545&eleId=69&offset=782409&length=144636&dtd=dart4.xsd"
+  },
+  {
+    "item": "KR6KS0003LQ6",
+    "monthly_rows": 36,
+    "all_evaluation_dates_in_published_source": true,
+    "published_monthly_payment": 0.00675,
+    "annual_coupon": 0.081,
+    "coupon_barrier": 0.6,
+    "lag_business_days": 3,
+    "raw_maturity_day": 1096,
+    "calendar_maturity_day": 1096,
+    "maturity_date_matches": true,
+    "source": "http://dart.fss.or.kr/report/viewer.do?rcpNo=20230411002088&dcmNo=9206341&eleId=95&offset=1141847&length=146621&dtd=dart3.xsd"
+  },
+  {
+    "item": "KR6SH0004FV2",
+    "monthly_rows": 36,
+    "all_evaluation_dates_in_published_source": true,
+    "published_monthly_payment": 0.005,
+    "annual_coupon": 0.06,
+    "coupon_barrier": 0.65,
+    "lag_business_days": 2,
+    "raw_maturity_day": 1095,
+    "calendar_maturity_day": 1095,
+    "maturity_date_matches": true,
+    "source": "http://dart.fss.or.kr/report/viewer.do?rcpNo=20230221001865&dcmNo=8994848&eleId=30&offset=308793&length=141533&dtd=dart3.xsd"
+  },
+  {
+    "item": "KR6523325910",
+    "monthly_rows": 36,
+    "all_evaluation_dates_in_published_source": true,
+    "published_monthly_payment": 0.00535,
+    "annual_coupon": 0.0642,
+    "coupon_barrier": 0.6,
+    "lag_business_days": 3,
+    "raw_maturity_day": 1096,
+    "calendar_maturity_day": 1096,
+    "maturity_date_matches": true,
+    "source": "http://dart.fss.or.kr/report/viewer.do?rcpNo=20190104000301&dcmNo=6438938&eleId=30&offset=307913&length=131763&dtd=dart3.xsd"
+  },
+  {
+    "item": "KR6MD0003TN4",
+    "monthly_rows": 36,
+    "all_evaluation_dates_in_published_source": true,
+    "published_monthly_payment": 0.007175,
+    "annual_coupon": 0.0861,
+    "coupon_barrier": 0.6,
+    "lag_business_days": 2,
+    "raw_maturity_day": 1096,
+    "calendar_maturity_day": 1096,
+    "maturity_date_matches": true,
+    "source": "http://dart.fss.or.kr/report/viewer.do?rcpNo=20221122000117&dcmNo=8880219&eleId=4&offset=21828&length=131587&dtd=dart3.xsd"
+  },
+  {
+    "item": "KR6KS0002XR1",
+    "monthly_rows": 36,
+    "all_evaluation_dates_in_published_source": true,
+    "published_monthly_payment": 0.00615,
+    "annual_coupon": 0.0738,
+    "coupon_barrier": 0.55,
+    "lag_business_days": 2,
+    "raw_maturity_day": 1096,
+    "calendar_maturity_day": 1096,
+    "maturity_date_matches": true,
+    "source": "http://dart.fss.or.kr/report/viewer.do?rcpNo=20220822000176&dcmNo=8780135&eleId=4&offset=21084&length=143276&dtd=dart3.xsd"
+  }
+]

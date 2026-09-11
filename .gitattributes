@@ -1,0 +1,10 @@
+# Preserve frozen checksums, including the original DART document line endings.
+* -text
+analysis/mc_monthly_v3_20260910/evidence/* -whitespace
+analysis/mc_monthly_v3_20260910/evidence/*.html -diff
+*.gz binary
+*.zip binary
+*.pt binary
+*.npz binary
+*.parquet binary
+*.png binary

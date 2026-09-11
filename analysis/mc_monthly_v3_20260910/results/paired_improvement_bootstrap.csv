@@ -1,0 +1,5 @@
+cohort,selected,comparator,selected_minus_comparator,ci_low,ci_high,n_families
+regular_test,affine_coupon_delta,augmented_price,-7.415235599405936,-8.516073342461072,-6.3349622971189286,128
+regular_test,affine_coupon_delta,augmented_delta,-1.4466348588894484,-1.899912960151876,-0.945411785605245,128
+monthly_test,affine_coupon_delta,augmented_price,-5.136861010636087,-5.864862670554321,-4.39527246752933,128
+monthly_test,affine_coupon_delta,augmented_delta,0.3935644458018394,-0.30259536326914455,1.0809665824068388,128

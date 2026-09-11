@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "mode": "mc",
+  "steps": [
+    {
+      "script": "scripts/rebuild_source_inputs.py",
+      "seconds": 47.76319622993469
+    },
+    {
+      "script": "analysis/mc_monthly_v3_20260910/prepare.py",
+      "seconds": 40.17412066459656
+    },
+    {
+      "script": "analysis/mc_monthly_v3_20260910/verify_pricer.py",
+      "seconds": 2.039804458618164
+    },
+    {
+      "script": "analysis/mc_monthly_v3_20260910/verify_published.py",
+      "seconds": 1.7554152011871338
+    },
+    {
+      "script": "analysis/mc_monthly_v3_20260910/generate_data.py",
+      "seconds": 515.043306350708
+    },
+    {
+      "script": "analysis/mc_monthly_v3_20260910/verify_labels.py",
+      "seconds": 138.77663373947144
+    },
+    {
+      "script": "analysis/mc_monthly_v3_20260910/evaluate.py",
+      "seconds": 6.825023889541626
+    },
+    {
+      "script": "analysis/mc_schedule_v4_20260911/design.py",
+      "seconds": 5.585734605789185
+    },
+    {
+      "script": "analysis/mc_schedule_v4_20260911/verify.py",
+      "seconds": 10.067982196807861
+    },
+    {
+      "script": "analysis/mc_schedule_v4_20260911/run_mc.py",
+      "seconds": 113.93506336212158
+    },
+    {
+      "script": "analysis/mc_schedule_v4_20260911/evaluate_models.py",
+      "seconds": 6.240235805511475
+    },
+    {
+      "script": "analysis/mc_schedule_v4_20260911/diagnostics.py",
+      "seconds": 2.1117608547210693
+    },
+    {
+      "script": "scripts/compare_reference.py",
+      "seconds": 1.2827236652374268
+    },
+    {
+      "script": "analysis/mc_v3_audit_20260910/audit.py",
+      "seconds": 72.25938630104065
+    },
+    {
+      "script": "analysis/mc_v3_audit_20260910/reproduce.py",
+      "seconds": 2.546215057373047
+    },
+    {
+      "script": "scripts/summarize_results.py",
+      "seconds": 0.7725188732147217
+    }
+  ],
+  "run_dir": "/project/runs/mc_reproduction_20260911",
+  "frozen_source_unchanged": true
+}

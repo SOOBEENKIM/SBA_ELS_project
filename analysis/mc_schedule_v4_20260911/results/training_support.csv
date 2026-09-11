@@ -1,0 +1,37 @@
+cohort,axis,offset,train_horizon_min_days,train_horizon_max_days,train_nobs_values,train_max_monthly_count,n_families,horizon_outside_train,nobs_outside_train,monthly_count_above_train
+regular_test_128,base,0,1095,1095,"[6, 7, 12]",0,128,0,0,0
+regular_test_128,nobs_early,1,1095,1095,"[6, 7, 12]",0,81,0,41,0
+regular_test_128,nobs_late,1,1095,1095,"[6, 7, 12]",0,81,0,41,0
+regular_test_128,nobs_middle,1,1095,1095,"[6, 7, 12]",0,81,0,41,0
+regular_test_128,tenor_months,-12,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,-6,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,-3,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,-1,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,1,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,3,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,6,1095,1095,"[6, 7, 12]",0,128,128,0,0
+regular_test_128,tenor_months,12,1095,1095,"[6, 7, 12]",0,128,128,0,0
+monthly_test_128,base,0,546,1100,"[3, 4, 6, 9, 12]",36,128,1,0,0
+monthly_test_128,nobs_early,1,546,1100,"[3, 4, 6, 9, 12]",36,128,1,128,0
+monthly_test_128,nobs_late,1,546,1100,"[3, 4, 6, 9, 12]",36,128,1,128,0
+monthly_test_128,nobs_middle,1,546,1100,"[3, 4, 6, 9, 12]",36,128,1,128,0
+monthly_test_128,tenor_months,-12,546,1100,"[3, 4, 6, 9, 12]",36,128,0,0,0
+monthly_test_128,tenor_months,-6,546,1100,"[3, 4, 6, 9, 12]",36,128,0,0,0
+monthly_test_128,tenor_months,-3,546,1100,"[3, 4, 6, 9, 12]",36,128,0,0,0
+monthly_test_128,tenor_months,-1,546,1100,"[3, 4, 6, 9, 12]",36,128,0,0,0
+monthly_test_128,tenor_months,1,546,1100,"[3, 4, 6, 9, 12]",36,128,128,0,121
+monthly_test_128,tenor_months,3,546,1100,"[3, 4, 6, 9, 12]",36,128,128,0,128
+monthly_test_128,tenor_months,6,546,1100,"[3, 4, 6, 9, 12]",36,128,128,0,128
+monthly_test_128,tenor_months,12,546,1100,"[3, 4, 6, 9, 12]",36,128,128,0,128
+public_monthly_6,base,0,546,1100,"[3, 4, 6, 9, 12]",36,6,0,0,0
+public_monthly_6,nobs_early,1,546,1100,"[3, 4, 6, 9, 12]",36,6,0,6,0
+public_monthly_6,nobs_late,1,546,1100,"[3, 4, 6, 9, 12]",36,6,0,6,0
+public_monthly_6,nobs_middle,1,546,1100,"[3, 4, 6, 9, 12]",36,6,0,6,0
+public_monthly_6,tenor_months,-12,546,1100,"[3, 4, 6, 9, 12]",36,6,0,0,0
+public_monthly_6,tenor_months,-6,546,1100,"[3, 4, 6, 9, 12]",36,6,0,0,0
+public_monthly_6,tenor_months,-3,546,1100,"[3, 4, 6, 9, 12]",36,6,0,0,0
+public_monthly_6,tenor_months,-1,546,1100,"[3, 4, 6, 9, 12]",36,6,0,0,0
+public_monthly_6,tenor_months,1,546,1100,"[3, 4, 6, 9, 12]",36,6,6,0,6
+public_monthly_6,tenor_months,3,546,1100,"[3, 4, 6, 9, 12]",36,6,6,0,6
+public_monthly_6,tenor_months,6,546,1100,"[3, 4, 6, 9, 12]",36,6,6,0,6
+public_monthly_6,tenor_months,12,546,1100,"[3, 4, 6, 9, 12]",36,6,6,0,6

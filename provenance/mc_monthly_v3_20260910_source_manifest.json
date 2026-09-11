@@ -1,0 +1,9 @@
+{
+  "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+  "module/mc_contract_v2.py": "fc0b5e21ab0547fc2a0fda1a2be087e0fc160d841d1aa85dd2742600a3dd01fd",
+  "module/mc_engine.py": "c01f65d8665407c2231b92fd5f64dca448681f4f06605044c07fbb4fcc793304",
+  "module/build_source.py": "df5046012c884c4156d99948dc0599373b5e92f5c4120272e8424e1c99c1acd8",
+  "module/schedule.py": "5cc2c8da772392053635b6558d1ea1dd6dc48e6c3624c5e29f26d5f0ca0fb1f5",
+  "data/cache/raw/LAKE_V2_DART_AUTO_CALL.csv": "f1f3cc16f078b67a3681773d6267ad12b970a2ecf5a0bf78a86e02ef1215f9c5",
+  "data/cache/raw/LAKE_V2_DART_SCHD_INFO.csv": "030c2732553131b8d52676cf615c4edf28db62608f5254c3c82d6ba04bb30b56"
+}

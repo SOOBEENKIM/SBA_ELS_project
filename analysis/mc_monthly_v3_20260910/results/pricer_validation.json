@@ -1,0 +1,375 @@
+{
+  "status": "pass",
+  "obligation_cases": [
+    {
+      "case": "coupon_without_redemption",
+      "expected": 1.0396071981439576,
+      "actual": 1.0396071981439579,
+      "flows": [
+        [
+          7,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "coupon_and_redemption_same_day",
+      "expected": 1.019832890417715,
+      "actual": 1.0198328904177152,
+      "flows": [
+        [
+          3,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "no_coupons_after_redemption",
+      "expected": 1.019832890417715,
+      "actual": 1.0198328904177152,
+      "flows": [
+        [
+          3,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "missed_coupon_does_not_terminate_or_accrue_memory",
+      "expected": 1.029608293974322,
+      "actual": 1.029608293974322,
+      "flows": [
+        [
+          7,
+          1.0,
+          "principal"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "paid_coupon_retained_on_terminal_loss",
+      "expected": 0.469824690827059,
+      "actual": 0.4698246908270591,
+      "flows": [
+        [
+          7,
+          0.45,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "KI_survival_has_no_second_cumulative_coupon",
+      "expected": 1.0396071981439576,
+      "actual": 1.0396071981439579,
+      "flows": [
+        [
+          7,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "noKI_terminal_loss_and_coupon_below_redemption_strike",
+      "expected": 0.789703070167326,
+      "actual": 0.7897030701673259,
+      "flows": [
+        [
+          7,
+          0.75,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "lizard_and_same_day_coupon",
+      "expected": 1.019832890417715,
+      "actual": 1.0198328904177152,
+      "flows": [
+        [
+          3,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "regular_priority_over_lizard",
+      "expected": 1.019832890417715,
+      "actual": 1.0198328904177152,
+      "flows": [
+        [
+          3,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "monthly_barrier_equality_pays",
+      "expected": 1.0396071981439576,
+      "actual": 1.0396071981439579,
+      "flows": [
+        [
+          7,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "coupon_breach_does_not_block_later_coupon",
+      "expected": 1.029608293974322,
+      "actual": 1.029608293974322,
+      "flows": [
+        [
+          7,
+          1.0,
+          "principal"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "zero_barrier_unconditional_coupon",
+      "expected": 0.48981811659536756,
+      "actual": 0.4898181165953676,
+      "flows": [
+        [
+          7,
+          0.45,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          3,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          7,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "vested_coupon_paid_after_redemption",
+      "expected": 1.0198296034669838,
+      "actual": 1.0198296034669838,
+      "flows": [
+        [
+          3,
+          1.0,
+          "principal"
+        ],
+        [
+          5,
+          0.009999999999999998,
+          "coupon"
+        ],
+        [
+          6,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    },
+    {
+      "case": "explicit_no_same_day_coupon",
+      "expected": 1.009834534118229,
+      "actual": 1.009834534118229,
+      "flows": [
+        [
+          3,
+          1.0,
+          "principal"
+        ],
+        [
+          2,
+          0.009999999999999998,
+          "coupon"
+        ]
+      ]
+    }
+  ],
+  "independent_random_path_cases": 4000,
+  "v2_nonmonthly_exact_regression": true,
+  "missing_monthly_terms_rejected": true,
+  "coupon_linearity_and_monotonicity": true,
+  "monthly_barrier_monotonicity": true,
+  "one_field_interventions": true,
+  "zero_vol_simulator_verified": true
+}

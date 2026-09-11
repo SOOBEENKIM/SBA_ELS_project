@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "families": 262,
+  "scenarios": 3003,
+  "jobs": 786,
+  "paths_per_seed": 40000,
+  "replicates": 3,
+  "seconds": 112.09541845321655,
+  "existing_artifacts_unchanged": true,
+  "no_training": true
+}

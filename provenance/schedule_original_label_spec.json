@@ -1,0 +1,32 @@
+{
+  "protocol.json": "dd5bd8f2f5340bd966db31ebc7cd35287493872b611350e444fdf047d22ea420",
+  "design.py": "44cffdf045a597704261fa9110e1f9ea0eadf3e2b74743ab35d022bb1d7c9a0d",
+  "schedule_mc.py": "6d8dc8c9eab1eaf7046e66901d1bfa1a5e2d2f5f70efb35638ab6295a0f05380",
+  "run_mc.py": "0f9d8e5f74a1a8a52b9dc96504523a5a7710628167478e2fd7358d14965af60c",
+  "verify.py": "70eb5ef2ab7138e883bcdbe776ae7df6310e208705dff9f7df7893b336cce72b",
+  "results/families.json": "e80c3e5c0f2fb90159613b35e35e53706e08f9ebb9a65bae55208a770ecf063c",
+  "preserved_inputs": {
+    "module/mc_contract_v2.py": "fc0b5e21ab0547fc2a0fda1a2be087e0fc160d841d1aa85dd2742600a3dd01fd",
+    "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+    "analysis/mc_monthly_v3_20260910/common.py": "db6b174b657226228c63e5a4b0b5eb839a61d2a11ea1ea69b657d16a990bbd84",
+    "analysis/mc_monthly_v3_20260910/models.py": "04e39ff86bf19b6ec8b9b752af5018f91d7d23d0ad5cc6f9a4085306bbdc8606",
+    "analysis/mc_monthly_v3_20260910/protocol.json": "1968397fe4e265cada8004841168f69647006cc71add06aa97d678edb50d3154",
+    "analysis/mc_monthly_v3_20260910/results/model_selection.json": "4728e88b6feb0e6aec1c58a899b3daf7e724275fdea9d5d256f5e4f8b493fdc9",
+    "analysis/mc_monthly_v3_20260910/results/families.json": "fdd4c992295a406f73d81c0d3d09307df928d7547ce690aca25f8acb7c9d591c",
+    "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed101.pt": "936869af10bdd51d87d76c7e10955e488b911192349e434b152b820265440ddc",
+    "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed233.pt": "4b47d8fb363ec95b4ddedfe9f05d8aab171003a68356c07a13a57dbf79b513d0",
+    "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed47.pt": "425c55bf81da30e7c82025aa84f6c95895815d35903e21fa482a63988792fab1",
+    "analysis/mc_monthly_v3_20260910/models/augmented_delta_seed101.pt": "35bae6df6b641ae5886c35a8a26d43d577b34291e6fe11d047cdb4458aa0af70",
+    "analysis/mc_monthly_v3_20260910/models/augmented_delta_seed233.pt": "038be269e542e52c9faf7659166e310179f29b086e18c7ba5e9ef019b15fd1d8",
+    "analysis/mc_monthly_v3_20260910/models/augmented_delta_seed47.pt": "3b2a131289c1f8ad0210085579377eb3c1c87dc45b80057c80eebd6711b9874a",
+    "analysis/mc_monthly_v3_20260910/models/augmented_price_seed101.pt": "db09e5b34336f89d9c255975bc52082ed64aff24a9f6023a12cc59c76239c183",
+    "analysis/mc_monthly_v3_20260910/models/augmented_price_seed233.pt": "2fab20c8d162f1a4bd4e64cdcab5b17bc53703132549bfc0e43ac4bde1a16484",
+    "analysis/mc_monthly_v3_20260910/models/augmented_price_seed47.pt": "67a7e039d54dad2fc9c29555fc0c85d56a41d3c19cd92c43bf8ee7202e1ac37c",
+    "analysis/mc_monthly_v3_20260910/results/train.npz": "c59dc0b0fb791bb5ee2116dd8eef7e99bb82e6ef8db29a82f7c7d8a0c644c621",
+    "analysis/mc_monthly_v3_20260910/results/validation.npz": "f0d953f120f002dd151f2973a22ad2f474a949b6071abf69b8aa64396bfacc0b",
+    "analysis/mc_monthly_v3_20260910/results/test.npz": "afb314068015bb322afc9dcc7f12a7e1712d72eddddfceb571adc19c01ca72a4",
+    "analysis/mc_monthly_v3_20260910/results/stress.npz": "4872fe1a65da9f707830e6b1172a6734da34c4d89c51e21af23c0ca271b06c59",
+    "analysis/mc_monthly_v3_20260910/results/mc_labels.csv": "2c4e621628620224b0cb0b3d243128c770308d11fd7b816bb6b55531598ad5fd",
+    "analysis/mc_monthly_v3_20260910/results/predictions.csv": "f16f41b6c12187f77a356584cb382773c05f785a489acb010f596c4f2fde00c2"
+  }
+}

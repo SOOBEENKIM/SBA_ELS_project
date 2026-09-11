@@ -1,0 +1,23 @@
+{
+  "arm": "augmented_price",
+  "seed": 101,
+  "steps_run": 5100,
+  "best_step": 3600,
+  "seconds": 27.695056676864624,
+  "validation": {
+    "price_rmse": 110.25106145379408,
+    "price_mae": 78.96121450758577,
+    "delta_rmse": 24.141464642096036,
+    "delta_mae": 13.84259785584402,
+    "selection_score": 206.81692002217824
+  },
+  "spec": {
+    "protocol": "1968397fe4e265cada8004841168f69647006cc71add06aa97d678edb50d3154",
+    "train": "c59dc0b0fb791bb5ee2116dd8eef7e99bb82e6ef8db29a82f7c7d8a0c644c621",
+    "validation": "f0d953f120f002dd151f2973a22ad2f474a949b6071abf69b8aa64396bfacc0b",
+    "model_code": "04e39ff86bf19b6ec8b9b752af5018f91d7d23d0ad5cc6f9a4085306bbdc8606",
+    "training_code": "5546bf33dce4d67c94fa30f854963c732e79f0e65a8b7b2e42799762c1556871"
+  },
+  "checkpoint": "augmented_price_seed101.pt",
+  "reload_max_error_krw": 0.0
+}

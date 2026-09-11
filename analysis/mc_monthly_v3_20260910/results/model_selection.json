@@ -1,0 +1,24 @@
+{
+  "status": "all_models_frozen_before_test",
+  "selected_arm": "affine_coupon_delta",
+  "criterion": "validation price RMSE + 4 * increment RMSE, in KRW, common to all arms",
+  "validation_mean_scores": {
+    "affine_coupon_delta": 144.85471894540655,
+    "augmented_delta": 150.31757557067277,
+    "augmented_price": 206.8333276960992
+  },
+  "checkpoint_hashes": {
+    "affine_coupon_delta_seed101.pt": "936869af10bdd51d87d76c7e10955e488b911192349e434b152b820265440ddc",
+    "affine_coupon_delta_seed233.pt": "4b47d8fb363ec95b4ddedfe9f05d8aab171003a68356c07a13a57dbf79b513d0",
+    "affine_coupon_delta_seed47.pt": "425c55bf81da30e7c82025aa84f6c95895815d35903e21fa482a63988792fab1",
+    "augmented_delta_seed101.pt": "35bae6df6b641ae5886c35a8a26d43d577b34291e6fe11d047cdb4458aa0af70",
+    "augmented_delta_seed233.pt": "038be269e542e52c9faf7659166e310179f29b086e18c7ba5e9ef019b15fd1d8",
+    "augmented_delta_seed47.pt": "3b2a131289c1f8ad0210085579377eb3c1c87dc45b80057c80eebd6711b9874a",
+    "augmented_price_seed101.pt": "db09e5b34336f89d9c255975bc52082ed64aff24a9f6023a12cc59c76239c183",
+    "augmented_price_seed233.pt": "2fab20c8d162f1a4bd4e64cdcab5b17bc53703132549bfc0e43ac4bde1a16484",
+    "augmented_price_seed47.pt": "67a7e039d54dad2fc9c29555fc0c85d56a41d3c19cd92c43bf8ee7202e1ac37c"
+  },
+  "test_data_opened_by_training": false,
+  "training_runs": 9,
+  "selected_prediction": "Equal-weight ensemble of all three prespecified training seeds"
+}

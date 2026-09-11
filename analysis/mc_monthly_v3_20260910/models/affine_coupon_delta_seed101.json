@@ -1,0 +1,23 @@
+{
+  "arm": "affine_coupon_delta",
+  "seed": 101,
+  "steps_run": 12000,
+  "best_step": 11600,
+  "seconds": 88.91391229629517,
+  "validation": {
+    "price_rmse": 92.42022729948391,
+    "price_mae": 57.18597761077476,
+    "delta_rmse": 13.26250851481981,
+    "delta_mae": 6.8636243946031685,
+    "selection_score": 145.47026135876314
+  },
+  "spec": {
+    "protocol": "1968397fe4e265cada8004841168f69647006cc71add06aa97d678edb50d3154",
+    "train": "c59dc0b0fb791bb5ee2116dd8eef7e99bb82e6ef8db29a82f7c7d8a0c644c621",
+    "validation": "f0d953f120f002dd151f2973a22ad2f474a949b6071abf69b8aa64396bfacc0b",
+    "model_code": "04e39ff86bf19b6ec8b9b752af5018f91d7d23d0ad5cc6f9a4085306bbdc8606",
+    "training_code": "5546bf33dce4d67c94fa30f854963c732e79f0e65a8b7b2e42799762c1556871"
+  },
+  "checkpoint": "affine_coupon_delta_seed101.pt",
+  "reload_max_error_krw": 0.0
+}

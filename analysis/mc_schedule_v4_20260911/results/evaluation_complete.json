@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "prediction_rows": 36036,
+  "scenario_rows": 3003,
+  "models": 9,
+  "ensembles": 3,
+  "no_training": true,
+  "primary_model": "affine_coupon_delta",
+  "prior_baseline_prediction_max_difference_krw": 1.8189894035458565e-12,
+  "existing_artifacts_unchanged": true,
+  "baseline_independent_mc_max_abs_z": 3.9558395655430116,
+  "baseline_mc_abs_z_gt_196": 14
+}

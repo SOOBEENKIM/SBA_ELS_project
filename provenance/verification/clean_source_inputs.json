@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "raw_candidates": 60358,
+  "universe_products": 58790,
+  "membership_identical": true,
+  "published_market_states": 6,
+  "market_max_abs_error": 0.0,
+  "uses_old_payoff_approximations": false,
+  "seconds": 57.82481384277344
+}

@@ -1,0 +1,15 @@
+{
+  "monthly_products": 7791,
+  "coupon_schedule_rows": 279811,
+  "raw_schedule_supported": 6316,
+  "requires_additional_reconstruction": 1475,
+  "supported_structure_counts": {
+    "STEP no-KI": 4594,
+    "STEP KI": 1601,
+    "LIZARD no-KI": 121
+  },
+  "published_contracts_reconstructed": 6,
+  "settlement_calendar_version": "0.104",
+  "calendar_tests": 3,
+  "universe_pricing_claim": "Raw schema audit only for full universe; six products have individually checked published payment rules"
+}

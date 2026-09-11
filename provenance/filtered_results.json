@@ -1,0 +1,32 @@
+[
+  {
+    "file": "analysis/mc_monthly_v3_20260910/results/metrics_by_structure.csv",
+    "original_rows": 252,
+    "export_rows": 216
+  },
+  {
+    "file": "analysis/mc_monthly_v3_20260910/results/baseline_metrics.csv",
+    "original_rows": 70,
+    "export_rows": 60
+  },
+  {
+    "file": "analysis/mc_monthly_v3_20260910/results/metrics_by_offset.csv",
+    "original_rows": 2464,
+    "export_rows": 2112
+  },
+  {
+    "file": "analysis/mc_monthly_v3_20260910/results/paired_improvement_bootstrap.csv",
+    "original_rows": 8,
+    "export_rows": 4
+  },
+  {
+    "file": "analysis/mc_monthly_v3_20260910/results/model_metrics.csv",
+    "original_rows": 448,
+    "export_rows": 384
+  },
+  {
+    "file": "analysis/mc_monthly_v3_20260910/results/predictions.csv",
+    "original_rows": 151708,
+    "export_rows": 131328
+  }
+]

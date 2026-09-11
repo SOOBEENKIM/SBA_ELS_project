@@ -1,0 +1,30 @@
+{
+  "version": "schedule_counterfactual_v4_20260911",
+  "purpose": "Evaluate frozen V3 DeepONet on newly specified observation-count and tenor interventions. No training or model selection.",
+  "families": "All 256 V3 test families plus all six publicly reconciled monthly stress contracts; prior tests already inspected, so this is an extension of the diagnostic benchmark, not a newly untouched final test.",
+  "notional": 10000,
+  "nobs": {
+    "offset": 1,
+    "positions": ["early", "middle", "late"],
+    "intervals": "early: inception to first redemption observation; middle: gap ending at index nobs//2 (0-based); late: penultimate to final observation",
+    "date": "Midpoint of the chosen interval, nearest integer calendar day; monthly contracts use following Korean bank day. Existing dates unchanged.",
+    "strike": "First strike for early insertion; otherwise linear interpolation of adjacent strikes at the inserted date.",
+    "cashflows": "Regular coupon accrual interpolated between adjacent accrual factors (inception factor zero). No new Lizard clause. All existing redemption and monthly coupon terms unchanged; monthly contract adds no new coupon date.",
+    "capacity": "Only baseline nobs<=11 is representable by existing ContractV3 and frozen model; baseline nobs=12 recorded as unsupported, never truncated."
+  },
+  "tenor_month_offsets": [-12, -6, -3, -1, 1, 3, 6, 12],
+  "tenor": {
+    "regular": "New final observation day = old day + round(months*365/12). Scale every observation day and coupon accrual factor by new/old horizon, retaining annual coupon, strikes, barriers, count and each original calendar payment lag. Lizard premium scales by the same factor to preserve its baseline annualized rate.",
+    "monthly": "New final observation = old final calendar date shifted by integer months, then following Korean bank day. Scale redemption observation offsets, adjust new observations to bank days, retain count/strikes/barriers and issuer business-day payment lag. Regular and survival accruals remain zero; Lizard premium scaled by horizon ratio.",
+    "monthly_shortening": "Keep original coupon observations/payments through new final observation. If maturity lies before a scheduled next coupon and after the prior coupon, add a final prorated stub using elapsed-days/original-period-days times that next coupon accrual and its barrier. No inferred coupon if no future original entitlement exists.",
+    "monthly_extension": "Keep all original coupons unchanged. Starting at the old final observation, append calendar-month anniversaries, adjusted following bank day, through the new final observation. Added installments use the original last coupon barrier and accrual; annual coupon unchanged. This does not fill a missing original maturity coupon retroactively.",
+    "meaning": "One contractual intervention with its dependent schedule/cash-flow changes, not a claim that tenor and every payment date can vary independently. Rules are explicitly defined synthetic contracts, not newly confirmed issuer terms."
+  },
+  "market": "Same V3 inception-only 3-asset daily-calendar-grid GBM, constant vol/correlation, q=0, same KRW NS curve across each family; each contract monitors KI only through its own maturity.",
+  "mc": {"paths_per_seed": 40000, "replicates": 3, "checkpoints": [10000, 20000, 40000], "path_chunk": 2500, "tblock": 256, "workers": 12, "seed_rule": "first 8 SHA256 hex digits of family:replicate:MCscheduleV4"},
+  "coupling": "One common simulated daily path to the longest maturity per family; union of all observation dates; shorter contracts consume the same path prefix. Paired payoff-difference variance, not independent price-SE addition.",
+  "models": {"arms": ["augmented_price", "augmented_delta", "affine_coupon_delta"], "seeds": [47, 101, 233], "primary": "affine_coupon_delta", "selection": "Inherited V3 validation selection; all nine existing checkpoints frozen, no retraining/seed picking/selection from this experiment."},
+  "diagnostics": ["price MAE/RMSE/R2", "increment MAE/RMSE/bias", "MC-resolved sign agreement", "fraction within 1/5/10 KRW", "paired MC 95% interval", "20k-to-40k nested convergence", "3 MC seeds and 3 training seeds separately", "coverage and input extrapolation"],
+  "tolerance_note": "1/5/10 KRW diagnostics, not business-approved acceptance criteria. No sign is forced for observation-count or tenor changes.",
+  "preservation": "Original engines, labels, families and all model checkpoints unchanged. New code and outputs in this directory; Report_2 receives a separately dated addendum."
+}
