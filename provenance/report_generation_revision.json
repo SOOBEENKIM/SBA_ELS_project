@@ -1,0 +1,23 @@
+{
+  "change": "Correct evaluated-model description and derive report prose/selection/figure from recorded results",
+  "base_commit": "bb18ccd3229831b231c3ba5ff543793e3b59f94f",
+  "protocol_field_changed": "frozen_model (descriptive, not consumed by execution)",
+  "previous_protocol_sha256": "3702035d32a2edd7c5b3a18a548c076696a8340b85fffc60baddf042e5cb3933",
+  "current_protocol_sha256": "9b6ed8e9240b79491d678c45e4895c50324afd5d70572f972b8f8bd01e92d24e",
+  "executable_protocol_parameters_identical": true,
+  "mc_or_training_rerun": false,
+  "historical_manifests_and_checkpoint_training_specs_preserved": true,
+  "scientific_artifact_count": 149,
+  "scientific_artifacts_unchanged": true,
+  "validation": {
+    "report_regression_tests": 5,
+    "status": "pass",
+    "existing_result_tables_identical": [
+      "README.md",
+      "Report_2.md",
+      "docs/RESULTS.md"
+    ],
+    "active_manifest_entries_checked": 104,
+    "mc_or_training_rerun": false
+  }
+}

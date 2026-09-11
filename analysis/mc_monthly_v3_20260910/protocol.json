@@ -102,7 +102,7 @@
     "lr_step_size": 4000,
     "workers": 3
   },
-  "frozen_model": "V2 selected 3-seed affine DeepONet, unchanged. Monthly contracts passed through its historical cumulative coupon approximation with zero monthly slots, explicitly labeled projection; cannot distinguish monthly barriers. No claim of OOS vs full historical original model.",
+  "frozen_model": "Final comparison evaluates the three V3 Stage-1 arms (augmented_price, augmented_delta, affine_coupon_delta), each trained on the new explicit-schedule synthetic MC labels with three training seeds. All nine checkpoints are frozen before test evaluation. The final exported evaluator does not include the earlier V2 model projection. The schedule experiment evaluates the same nine V3 checkpoints without retraining.",
   "evaluation": [
     "baseline and scenario price MAE/RMSE/R2",
     "increment MAE/RMSE/bias by axis and bump",

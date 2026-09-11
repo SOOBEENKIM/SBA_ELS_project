@@ -10,7 +10,7 @@
     "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
     "analysis/mc_monthly_v3_20260910/common.py": "db6b174b657226228c63e5a4b0b5eb839a61d2a11ea1ea69b657d16a990bbd84",
     "analysis/mc_monthly_v3_20260910/models.py": "04e39ff86bf19b6ec8b9b752af5018f91d7d23d0ad5cc6f9a4085306bbdc8606",
-    "analysis/mc_monthly_v3_20260910/protocol.json": "3702035d32a2edd7c5b3a18a548c076696a8340b85fffc60baddf042e5cb3933",
+    "analysis/mc_monthly_v3_20260910/protocol.json": "9b6ed8e9240b79491d678c45e4895c50324afd5d70572f972b8f8bd01e92d24e",
     "analysis/mc_monthly_v3_20260910/results/model_selection.json": "4728e88b6feb0e6aec1c58a899b3daf7e724275fdea9d5d256f5e4f8b493fdc9",
     "analysis/mc_monthly_v3_20260910/results/families.json": "fdd4c992295a406f73d81c0d3d09307df928d7547ce690aca25f8acb7c9d591c",
     "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed101.pt": "936869af10bdd51d87d76c7e10955e488b911192349e434b152b820265440ddc",
