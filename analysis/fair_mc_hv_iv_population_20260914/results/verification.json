@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "products": 35587,
+  "same_products_in_both_arms": true,
+  "iv_prices_unchanged": true,
+  "iv_sextile_statistics_match_saved_iv_plot": true,
+  "common_normalization_passed": true,
+  "all_three_seed_results_aligned": true,
+  "all_preserved_hashes_match": true
+}

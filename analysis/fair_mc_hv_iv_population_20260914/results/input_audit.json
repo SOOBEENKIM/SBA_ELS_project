@@ -1,0 +1,16 @@
+{
+  "products": 35587,
+  "groups": 9087,
+  "additional_exclusions": 0,
+  "hv_range": [
+    0.06624923763915708,
+    0.5591888233389519
+  ],
+  "iv_range": [
+    0.030248,
+    1.180209
+  ],
+  "min_return_count": 180,
+  "max_return_count": 180,
+  "contracts_and_nonvolatility_inputs_unchanged": true
+}

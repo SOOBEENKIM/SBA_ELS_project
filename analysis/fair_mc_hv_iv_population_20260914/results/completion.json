@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "products": 35587,
+  "groups": 9087,
+  "paths_per_seed": 40000,
+  "replicates": 3,
+  "workers": 48,
+  "seconds": 3002.936991453171,
+  "iv_results_and_engine_unchanged": true
+}

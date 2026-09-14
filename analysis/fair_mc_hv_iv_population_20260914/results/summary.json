@@ -1,0 +1,17 @@
+{
+  "products": 35587,
+  "hv_mean_gap_krw": -729.8584915003543,
+  "iv_mean_gap_krw": -665.4093942906147,
+  "hv_median_gap_krw": -755.1201736962631,
+  "iv_median_gap_krw": -738.5995436665182,
+  "hv_mae_krw": 759.232032654574,
+  "iv_mae_krw": 816.6209919162637,
+  "hv_mape_pct": 8.40320634095873,
+  "iv_mape_pct": 9.025401379383796,
+  "mape_change_iv_minus_hv_pp": 0.6221950384250641,
+  "mean_iv_minus_hv_krw": -64.44909720973952,
+  "fraction_products_with_smaller_absolute_gap_using_iv": 0.4220923370893866,
+  "bins_with_lower_iv_mape": 1,
+  "hv_mape_strictly_decreasing": true,
+  "iv_mape_strictly_decreasing": true
+}
