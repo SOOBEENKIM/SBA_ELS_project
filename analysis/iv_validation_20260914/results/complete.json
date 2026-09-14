@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "families": 236,
+  "cases_per_arm": 9907,
+  "paths_per_seed": 40000,
+  "replicates": 3,
+  "paired_jobs": 708,
+  "prediction_rows": 237768,
+  "seconds": 302.475608587265,
+  "existing_artifacts_unchanged": true,
+  "retrained": false
+}

@@ -21,4 +21,4 @@
 
 공시 6개의 발행사 문서는 `analysis/mc_monthly_v3_20260910/evidence/`에 원문 URL·HTML·텍스트와 함께 보관한다. 데이터와 문서의 원래 출처 표시는 유지했다. 별도의 데이터 이용허락을 새로 부여하는 저장소는 아니다.
 
-`iv_daily_atm`은 현재 **역사 변동성/상관을 사용한 MC 설정**의 입력이 아니므로 포함하지 않았다. IV 기반 pricer 실험을 현재 결과와 혼동하지 않는다.
+`iv_daily_atm`은 기본 V3/V4 MC 실험의 입력으로 사용하지 않았다. ATM IV를 적용한 추가 실험의 원본 ZIP과 출처 기록은 `data/raw/iv_daily_atm/`에 있다. 해당 비교는 [IV 추가 검증](../analysis/iv_validation_20260914/README.md)에서 별도로 재현한다.

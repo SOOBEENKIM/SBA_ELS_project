@@ -1,0 +1,12 @@
+{
+  "source": "user attachment iv_daily_atm.zip",
+  "sha256": "6f541081b4dff03cf102b01f473b248ad63999fb1630f06cedc8bdaf6119fd1c",
+  "csv_count": 2404,
+  "fields": [
+    "calc_date",
+    "notion_ric",
+    "source_ric",
+    "iv"
+  ],
+  "iv_maturity": "not specified in delivered files; flat ATM proxy experiment only"
+}

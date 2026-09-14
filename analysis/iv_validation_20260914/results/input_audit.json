@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "csv_files": 2404,
+  "valid_rows": 247586,
+  "invalid_rows": 0,
+  "duplicate_rows": 0,
+  "first_date": "2017-01-03",
+  "last_date": "2026-08-07",
+  "notion_series": 123,
+  "iv_over_300_percent_rows": 737,
+  "universe_rows": 58790,
+  "full_fresh_iv_products": 45536,
+  "requested_families": 262,
+  "included_families": 236,
+  "excluded_families": 26,
+  "included_by_origin": {
+    "synthetic_regular": 128,
+    "synthetic_monthly": 102,
+    "published_monthly": 6
+  },
+  "cases_per_arm": 9907,
+  "runtime_python": "3.11.16",
+  "no_old_mc_labels_used": true,
+  "no_contract_payoff_changes": true
+}

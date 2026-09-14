@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "independently_encoded_prediction_pairs": 144,
+  "max_price_difference_krw": 0.001192092897326802,
+  "max_delta_difference_krw": 0.0011920928955078125,
+  "tolerance_krw": 0.01,
+  "note": "Two-row vs large-batch float32 inference; frozen checkpoint and input alignment check, not a new prediction benchmark."
+}

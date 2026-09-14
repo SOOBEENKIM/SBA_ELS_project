@@ -1,0 +1,80 @@
+{
+  "version": "iv_validation_20260914",
+  "notional": 10000,
+  "paths_per_seed": 40000,
+  "replicates": 3,
+  "checkpoints": [
+    10000,
+    20000,
+    40000
+  ],
+  "workers": 12,
+  "path_chunk": 2500,
+  "tblock": 256,
+  "question": "Same corrected GBM and held-out contract templates; replace historical sigma with delivered flat ATM IV and evaluate frozen Stage-1 price/increment errors.",
+  "market_policy": "PPT-style 180-trading-return HV and correlation; same KRW NS curve/q=0 in HV and IV arms; only sigma changes between arms.",
+  "iv_asof": "Latest calc_date <= issue date, maximum age 7 calendar days, all three assets required. Daily as-of comparison, not intraday point-in-time data certification.",
+  "iv_units": "Annualized decimal volatility used as delivered; 0.20 is 20%. Expiry/tenor, option quote filters, vendor construction are not provided.",
+  "iv_maturity": "Single flat ATM proxy; no smile or term structure inferred, including maturity interventions.",
+  "missing_iv": "Exclude from paired experiment, record reason; never substitute HV into IV arm.",
+  "underlying_mapping": {
+    "^KS200": ".KS200",
+    "^GSPC": ".SPX",
+    "^HSCE": ".HSCE",
+    "^HSI": ".HSI",
+    "^N225": ".N225",
+    "^NDX": ".NDX",
+    "^GDAXI": ".GDAXI",
+    "^STOXX50E": ".STOXX50",
+    "^SX7E": ".SX7E"
+  },
+  "stock_mapping": "Exact ticker=notion_ric only; retain supplied source_ric aliases.",
+  "regular_market_assignment": "Uniform deterministic draw without replacement from eligible source products, seed 2026091401. Contract dates remain the original explicit synthetic relative schedule.",
+  "monthly_market_assignment": "Use original template asset identities and issue date; contracts remain synthetic unless published_monthly.",
+  "comparison_to_old_run": "New market-state evaluation on frozen test contracts. Neither HV nor IV cohort is identical to prior random-sigma test. Old aggregate metrics are not the matched HV baseline.",
+  "contract_interventions": "All V3 coupon/KI/first/last/monthly-barrier bumps plus existing V4 observation/maturity variants, unchanged.",
+  "random_numbers": "Same underlying Gaussian draws for HV/IV and every contract variant within each family/seed. Paired MC standard errors for deltas and IV-HV delta differences.",
+  "frozen_models": {
+    "arms": [
+      "augmented_price",
+      "augmented_delta",
+      "affine_coupon_delta"
+    ],
+    "seeds": [
+      47,
+      101,
+      233
+    ],
+    "primary": "affine_coupon_delta",
+    "retraining": false
+  },
+  "scope": "Contract payoff unchanged; no new dividend/quanto/smile/curve calibration. Synthetic prices are not observed FAIR counterfactuals.",
+  "source_zip_sha256": "6f541081b4dff03cf102b01f473b248ad63999fb1630f06cedc8bdaf6119fd1c",
+  "preserved_inputs": {
+    "module/mc_contract_v2.py": "fc0b5e21ab0547fc2a0fda1a2be087e0fc160d841d1aa85dd2742600a3dd01fd",
+    "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+    "module/features.py": "b6fb731c6ea34b7f44ec7f19d860f29955b8d8198b34476ac6b680722b7cbd63",
+    "module/networks.py": "10ab2ac5bac0f0dfcc4e157b91d4f895c16ca148739cf0f99050624375ba6a17",
+    "analysis/mc_monthly_v3_20260910/common.py": "db6b174b657226228c63e5a4b0b5eb839a61d2a11ea1ea69b657d16a990bbd84",
+    "analysis/mc_monthly_v3_20260910/models.py": "04e39ff86bf19b6ec8b9b752af5018f91d7d23d0ad5cc6f9a4085306bbdc8606",
+    "analysis/mc_monthly_v3_20260910/protocol.json": "9b6ed8e9240b79491d678c45e4895c50324afd5d70572f972b8f8bd01e92d24e",
+    "analysis/mc_monthly_v3_20260910/results/families.json": "fdd4c992295a406f73d81c0d3d09307df928d7547ce690aca25f8acb7c9d591c",
+    "analysis/mc_monthly_v3_20260910/results/model_selection.json": "4728e88b6feb0e6aec1c58a899b3daf7e724275fdea9d5d256f5e4f8b493fdc9",
+    "analysis/mc_monthly_v3_20260910/results/train.npz": "c59dc0b0fb791bb5ee2116dd8eef7e99bb82e6ef8db29a82f7c7d8a0c644c621",
+    "analysis/mc_monthly_v3_20260910/results/validation.npz": "f0d953f120f002dd151f2973a22ad2f474a949b6071abf69b8aa64396bfacc0b",
+    "analysis/mc_monthly_v3_20260910/results/test.npz": "afb314068015bb322afc9dcc7f12a7e1712d72eddddfceb571adc19c01ca72a4",
+    "analysis/mc_monthly_v3_20260910/results/stress.npz": "4872fe1a65da9f707830e6b1172a6734da34c4d89c51e21af23c0ca271b06c59",
+    "analysis/mc_monthly_v3_20260910/results/mc_labels.csv": "2c4e621628620224b0cb0b3d243128c770308d11fd7b816bb6b55531598ad5fd",
+    "analysis/mc_schedule_v4_20260911/schedule_mc.py": "6d8dc8c9eab1eaf7046e66901d1bfa1a5e2d2f5f70efb35638ab6295a0f05380",
+    "analysis/mc_schedule_v4_20260911/results/families.json": "e80c3e5c0f2fb90159613b35e35e53706e08f9ebb9a65bae55208a770ecf063c",
+    "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed101.pt": "936869af10bdd51d87d76c7e10955e488b911192349e434b152b820265440ddc",
+    "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed233.pt": "4b47d8fb363ec95b4ddedfe9f05d8aab171003a68356c07a13a57dbf79b513d0",
+    "analysis/mc_monthly_v3_20260910/models/affine_coupon_delta_seed47.pt": "425c55bf81da30e7c82025aa84f6c95895815d35903e21fa482a63988792fab1",
+    "analysis/mc_monthly_v3_20260910/models/augmented_delta_seed101.pt": "35bae6df6b641ae5886c35a8a26d43d577b34291e6fe11d047cdb4458aa0af70",
+    "analysis/mc_monthly_v3_20260910/models/augmented_delta_seed233.pt": "038be269e542e52c9faf7659166e310179f29b086e18c7ba5e9ef019b15fd1d8",
+    "analysis/mc_monthly_v3_20260910/models/augmented_delta_seed47.pt": "3b2a131289c1f8ad0210085579377eb3c1c87dc45b80057c80eebd6711b9874a",
+    "analysis/mc_monthly_v3_20260910/models/augmented_price_seed101.pt": "db09e5b34336f89d9c255975bc52082ed64aff24a9f6023a12cc59c76239c183",
+    "analysis/mc_monthly_v3_20260910/models/augmented_price_seed233.pt": "2fab20c8d162f1a4bd4e64cdcab5b17bc53703132549bfc0e43ac4bde1a16484",
+    "analysis/mc_monthly_v3_20260910/models/augmented_price_seed47.pt": "67a7e039d54dad2fc9c29555fc0c85d56a41d3c19cd92c43bf8ee7202e1ac37c"
+  }
+}

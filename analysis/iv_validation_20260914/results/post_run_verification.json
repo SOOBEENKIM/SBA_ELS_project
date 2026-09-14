@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "existing_artifacts_unchanged": true,
+  "all_expected_scenarios": true,
+  "three_independent_seeds": true,
+  "paired_gaussian_seeds": true,
+  "coupon_affine_nonnegative": true,
+  "ki_and_monthly_barrier_pathwise_direction": true,
+  "frozen_affine_coupon_direction": true,
+  "base_delta_exactly_zero": true
+}

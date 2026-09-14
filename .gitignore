@@ -40,3 +40,8 @@ __pycache__/
 /analysis/mc_schedule_v4_20260911/results/model_seed_dispersion.csv
 /analysis/mc_schedule_v4_20260911/results/predictions.csv
 /analysis/mc_schedule_v4_20260911/results/scenario_index.csv
+
+# IV validation: regenerate extracted inputs and keep lossless result archive.
+/data/raw/iv_daily_atm/*.csv
+/analysis/iv_validation_20260914/results/families.json
+/analysis/iv_validation_20260914/run.log
