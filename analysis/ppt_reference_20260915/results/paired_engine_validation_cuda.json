@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "device": "cuda",
+  "checks": [
+    {
+      "family": "train-regular-00000",
+      "source_price": 0.940882348525105,
+      "paired_reference_price": 0.940882348525105,
+      "price_difference_krw": 0.0
+    },
+    {
+      "family": "train-monthly-00000",
+      "source_price": 0.9144864689980983,
+      "paired_reference_price": 0.9144864689980983,
+      "price_difference_krw": 0.0
+    },
+    {
+      "monthly": false,
+      "deterministic_reference": 1.0,
+      "deterministic_detailed": 1.18,
+      "expected_detailed": 1.18
+    },
+    {
+      "monthly": true,
+      "deterministic_reference": 1.0,
+      "deterministic_detailed": 1.18,
+      "expected_detailed": 1.18
+    }
+  ],
+  "source_path_exactness": "Population source function matches exactly; paired family paths extend to the maximum of both contractual horizons",
+  "detailed_cashflows": "Existing payoff_v3 called unchanged with source bootstrap DF; deterministic ledger and independent sequential NumPy pathwise ledgers verified"
+}

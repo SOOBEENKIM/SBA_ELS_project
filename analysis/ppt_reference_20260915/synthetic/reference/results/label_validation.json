@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "checks": [
+    "finite inputs/labels",
+    "nonnegative paired standard error",
+    "price difference equals paired delta",
+    "base rows belong to same family"
+  ],
+  "scope": "Paired source-IV synthetic experiment; no new disclosure-validation claim",
+  "input_validation": "f5e1540cb6183e50172c85ae1bf91b737e7365e7be92945603b10d437060ffbb",
+  "engine_validation": "737c5abc16db3e18fc6ad0a67fb9bcea0beca959f2c213b6f533f4cfebc2d7e6"
+}

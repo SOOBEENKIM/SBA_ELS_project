@@ -1,0 +1,2 @@
+# Preserve the frozen CSV's CRLF bytes and BOM for source-manifest verification.
+reference/mc_iv_full.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

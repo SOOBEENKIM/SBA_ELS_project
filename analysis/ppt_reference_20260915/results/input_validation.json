@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "products": 58790,
+  "market_states": 15301,
+  "iv_files": 2404,
+  "iv_rows": 247586,
+  "iv_count": {
+    "0": 7990,
+    "1": 445,
+    "2": 5030,
+    "3": 45325
+  },
+  "max_iv_age": 6,
+  "legacy_mean": -506.9899709256285,
+  "legacy_median": -507.2753785705575,
+  "population_hv_mean": -556.0288172209755,
+  "population_iv_mean": -520.0687335009552,
+  "iv_assignment_matches_archived": true,
+  "source_price_input_ids_match": true
+}

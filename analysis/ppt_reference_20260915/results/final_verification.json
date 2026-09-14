@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "source_copies_verified": 14,
+  "market_caches_verified": 54,
+  "products": 58790,
+  "synthetic_paired_identity": true,
+  "same_model_inputs_across_payoffs": true,
+  "executed_source_hashes_match": true,
+  "payoff_ledger_checks_pass": true,
+  "models": [
+    {
+      "payoff": "reference",
+      "train": 2048,
+      "validation": 256,
+      "test": 256,
+      "stress": 92,
+      "checkpoints": 9
+    },
+    {
+      "payoff": "detailed",
+      "train": 2048,
+      "validation": 256,
+      "test": 256,
+      "stress": 92,
+      "checkpoints": 9
+    }
+  ],
+  "archived_vs_recomputed": [
+    {
+      "new": "hv_ns",
+      "archived": "mc",
+      "mean_difference_krw": 0.027853333229489987,
+      "mae_between_runs_krw": 6.7243871961613655,
+      "p95_absolute_difference_krw": 20.120143390319143
+    },
+    {
+      "new": "iv_boot",
+      "archived": "mc_iv",
+      "mean_difference_krw": 0.04554732419495684,
+      "mae_between_runs_krw": 6.1893303575490055,
+      "p95_absolute_difference_krw": 19.066566784459837
+    }
+  ],
+  "scope": "Numerical reproduction, input/split bookkeeping and paired-label/prediction identities; not all-product legal-terms validation"
+}

@@ -1,0 +1,9 @@
+{
+  "synthetic.py": "e5572c96a2fd2e004a36d8ded691e4458dca98e8d91540f47e8bec56d0547109",
+  "paired_engine.py": "6cff93bbea835b3f2efd26b92bab615a0c9e3ac17994c5dccfcd72d3db8fc714",
+  "reference_engine.py": "94a67f773eaaeb3757e736fb6f2cfc6e2b90f897c81ad62cca8fbb4ae0e5194e",
+  "synthetic_families.json.gz": "72e25ed870893fc4b301a131ff26bcf1d1ff745881b416d88b7ad3d65c093733",
+  "mc_contract_v2.py": "fc0b5e21ab0547fc2a0fda1a2be087e0fc160d841d1aa85dd2742600a3dd01fd",
+  "mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+  "device": "cuda"
+}

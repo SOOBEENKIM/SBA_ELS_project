@@ -1,0 +1,18 @@
+{
+  "changes": [
+    {
+      "payoff": "reference",
+      "field": "frozen_model",
+      "previous": "Final comparison evaluates the three V3 Stage-1 arms (augmented_price, augmented_delta, affine_coupon_delta), each trained on the new explicit-schedule synthetic MC labels with three training seeds. All nine checkpoints are frozen before test evaluation. The final exported evaluator does not include the earlier V2 model projection. The schedule experiment evaluates the same nine V3 checkpoints without retraining.",
+      "current": "Nine new Stage-1 checkpoints are trained on this experiment's reference payoff labels with source ATM IV/HV fallback and piecewise-linear zero rates. Three prespecified learning arms each use three training seeds. They are frozen by validation before terms and schedule test evaluation. The earlier V3 affine-coupon ensemble is also evaluated unchanged as a separate prior-frozen comparator. No Stage 2 or PI loss is used."
+    },
+    {
+      "payoff": "detailed",
+      "field": "frozen_model",
+      "previous": "Final comparison evaluates the three V3 Stage-1 arms (augmented_price, augmented_delta, affine_coupon_delta), each trained on the new explicit-schedule synthetic MC labels with three training seeds. All nine checkpoints are frozen before test evaluation. The final exported evaluator does not include the earlier V2 model projection. The schedule experiment evaluates the same nine V3 checkpoints without retraining.",
+      "current": "Nine new Stage-1 checkpoints are trained on this experiment's detailed payoff labels with source ATM IV/HV fallback and piecewise-linear zero rates. Three prespecified learning arms each use three training seeds. They are frozen by validation before terms and schedule test evaluation. The earlier V3 affine-coupon ensemble is also evaluated unchanged as a separate prior-frozen comparator. No Stage 2 or PI loss is used."
+    }
+  ],
+  "numerical_settings_changed": false,
+  "reason": "Inherited V3 prose described only detailed labels; clarify both current payoffs and the prior-frozen comparator."
+}

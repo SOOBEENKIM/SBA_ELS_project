@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "families": 2652,
+  "scenarios": 88181,
+  "split_counts": {
+    "train": 2048,
+    "validation": 256,
+    "test": 256,
+    "stress": 92
+  },
+  "same_contracts_and_market_across_payoffs": true,
+  "reference_projection": "Synthetic maturity=last payment day/365.25; uniformly spaced observation days; source needs_linear_pmt criterion; no survival coupon or separate monthly stream",
+  "detailed_projection": "Preserve explicit evaluation/payment/monthly schedules and survival coupon; only market/discount updated",
+  "additional_schedule_variants": "Original V4 insertion/tenor definitions, retained as evaluation-only interventions",
+  "prior_template_split_validation": "29205f705702c2edc3609a6b1e5c5fabc4d126da1b4b60b58c110c27af3f52a5"
+}

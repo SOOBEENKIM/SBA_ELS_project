@@ -1,0 +1,10 @@
+results/*jobs/
+results/*jobs_*/
+results/*.tmp
+__pycache__/
+
+# Preliminary CPU pilot records; final CUDA execution records are retained.
+/results/population_run_spec.json
+/results/synthetic_run_spec.json
+/results/engine_validation.json
+/results/paired_engine_validation.json

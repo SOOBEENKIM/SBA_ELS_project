@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "structure": "STEP KI",
+      "monthly": false,
+      "family": "train-regular-00000",
+      "variants": 33,
+      "paths": 2000
+    },
+    {
+      "structure": "LIZARD no-KI",
+      "monthly": true,
+      "family": "train-monthly-00000",
+      "variants": 33,
+      "paths": 2000
+    },
+    {
+      "structure": "STEP no-KI",
+      "monthly": false,
+      "family": "train-regular-00001",
+      "variants": 25,
+      "paths": 2000
+    },
+    {
+      "structure": "STEP KI",
+      "monthly": true,
+      "family": "train-monthly-00001",
+      "variants": 41,
+      "paths": 2000
+    },
+    {
+      "structure": "LIZARD KI",
+      "monthly": false,
+      "family": "train-regular-00002",
+      "variants": 33,
+      "paths": 2000
+    },
+    {
+      "structure": "STEP no-KI",
+      "monthly": true,
+      "family": "train-monthly-00002",
+      "variants": 33,
+      "paths": 2000
+    },
+    {
+      "structure": "LIZARD no-KI",
+      "monthly": false,
+      "family": "train-regular-00003",
+      "variants": 25,
+      "paths": 2000
+    }
+  ],
+  "method": "Sequential NumPy ledger vs vectorized source and detailed payoffs on identical paths; verification-only, not training labels"
+}

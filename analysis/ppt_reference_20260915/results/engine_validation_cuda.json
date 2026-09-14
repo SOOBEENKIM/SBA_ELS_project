@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "device": "cuda",
+  "checks": [
+    {
+      "item": "KR6523318519",
+      "source_price": 1.0001104911178351,
+      "added_statistics_price": 1.0001104911178351,
+      "difference": 0.0
+    },
+    {
+      "item": "KR6503392A36",
+      "source_price": 0.6224724157013523,
+      "added_statistics_price": 0.6224724157013523,
+      "difference": 0.0
+    },
+    {
+      "item": "KR6523318519",
+      "source_price": 1.0001104911178351,
+      "added_statistics_price": 1.0001104911178351,
+      "difference": 0.0
+    }
+  ],
+  "seconds": 0.7129459381103516
+}

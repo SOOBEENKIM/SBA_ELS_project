@@ -1,0 +1,35 @@
+{
+  "version": "ppt_reference_20260915",
+  "source_trace": "5_MC_implied_vol.ipynb cells 23/24 and mc_iv_full.csv; earlier 23151 chart is separate.",
+  "population": 58790,
+  "legacy_chart_population": 23151,
+  "paths_per_seed": 40000,
+  "population_replicates": 1,
+  "seed": "Exact saved per-product mc_seed",
+  "device": "CUDA on two RTX3090 devices; PyTorch 2.9.1+cu126; independent original-function and paired-payoff checks passed",
+  "path_chunk": 20000,
+  "tblock": 512,
+  "hv": "180 pre-issue returns, std(ddof=1)*sqrt(252); minimum 60",
+  "correlation": "180 common pre-issue returns; Pearson clipped off-diagonal to [-.999,.999]; source PSD repair",
+  "iv": "Eight index mappings only; last observation <= issue date; no maximum age; missing IV uses HV per asset; no tenor or smile interpolation",
+  "discount": {
+    "hv": "Nelson-Siegel lambda=1.5 from frozen krw_curve.parquet",
+    "iv": "piecewise-linear zero rates (called bootstrap in source) from frozen krw_curve_fred.parquet",
+    "iv_ns_control": "NS using same IV/FRED inputs"
+  },
+  "drift": "Integrated forwards from the same discount curve; q=0",
+  "daily_grid": "1/365; round(tenor*365)",
+  "payment": "Uniformly spaced redemption dates; discount on observation date; source per-round pmts; regular redemption before Lizard; no-KI-event terminal principal only; monthly linear-payment approximation retained",
+  "source_plot_units": "Exactly (saved FAIR/issue-price ratio - unit-face MC ratio)*10000; not silently re-normalized. Not a verified common-cash-basis comparison when issue price differs from face.",
+  "modifications": [
+    "40000 paths explicitly requested instead of source IV100000",
+    "Re-executed on available RTX3090 CUDA devices; CPU pilot caches are not pooled into final labels"
+  ],
+  "synthetic_extension_status": "Both source approximation and explicit corrected payoff are separately labeled and trained on identical contracts, IV inputs and paired paths",
+  "files": {
+    "population": "585b7dbc08460e70904879260853a2b1f33bdc671a108016cdee2412c64a4623",
+    "prices": "5bf274730e02ee6d9a38b37e4bae46cde0fd75efb7ff7658ca4d8cb67c31dcbe",
+    "iv_zip": "6f541081b4dff03cf102b01f473b248ad63999fb1630f06cedc8bdaf6119fd1c",
+    "jobs": "9e2b87f7f1e8d044f35faba2eabc2975411f2a0191872c5656172f8fca930c79"
+  }
+}

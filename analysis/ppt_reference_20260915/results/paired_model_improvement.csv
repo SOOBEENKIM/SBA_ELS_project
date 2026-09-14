@@ -1,0 +1,13 @@
+payoff,cohort,selected,comparator,mean_difference,ci_low,ci_high
+reference,regular_test,augmented_delta,augmented_price,-1.9520696042705534,-2.4337699725265485,-1.4977886914718845
+reference,regular_test,augmented_delta,affine_coupon_delta,-0.40650351772478055,-0.8471912651632499,-0.008294848521006247
+reference,regular_test,augmented_delta,prior_frozen_affine_coupon_delta,-4.007799641601535,-5.1700629513984415,-2.8808897497100623
+reference,monthly_test,augmented_delta,augmented_price,-3.669140498439939,-4.234523831370911,-3.1060510045807006
+reference,monthly_test,augmented_delta,affine_coupon_delta,1.826861648552966,1.2478323677596892,2.4000808325280927
+reference,monthly_test,augmented_delta,prior_frozen_affine_coupon_delta,-5.8253926133534115,-7.378630759111217,-4.26705357351761
+detailed,regular_test,augmented_delta,augmented_price,-2.0068339782080074,-2.5836316478078727,-1.4369442681064755
+detailed,regular_test,augmented_delta,affine_coupon_delta,-0.05291450091309566,-0.47270935825633476,0.38349176515546674
+detailed,regular_test,augmented_delta,prior_frozen_affine_coupon_delta,-1.5109839099623412,-2.618181735560491,-0.4405275764868556
+detailed,monthly_test,augmented_delta,augmented_price,-2.7088524919787638,-3.064696410981151,-2.3690023081197915
+detailed,monthly_test,augmented_delta,affine_coupon_delta,0.6758537984702456,0.38038805118884306,0.981122410446188
+detailed,monthly_test,augmented_delta,prior_frozen_affine_coupon_delta,1.2045664463862291,0.5281239411489804,1.8507546741678822

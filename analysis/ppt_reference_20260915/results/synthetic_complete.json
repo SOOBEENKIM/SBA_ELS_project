@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "device": "cuda",
+  "families": 2652,
+  "scenario_rows": 264543,
+  "payoff_arms": 3,
+  "seconds": 792.4012217521667,
+  "paths_per_seed": 40000
+}

@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "products": 58790,
+  "device": "cuda",
+  "paths_per_seed": 40000,
+  "replicates": 1,
+  "arms": [
+    "hv_ns",
+    "iv_ns",
+    "iv_boot"
+  ],
+  "seconds": 674.0037879943848
+}

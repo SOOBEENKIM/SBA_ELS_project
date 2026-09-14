@@ -1,0 +1,99 @@
+FINAL OUTPUT plot.py --fresh
+{
+  "iv": {
+    "IV + source discount": {
+      "n": 58790,
+      "mean": -520.1142808251501,
+      "median": -568.2378871607069,
+      "mae": 684.0476243176932,
+      "rmse": 839.9868832247532,
+      "mape": 7.541111410956881
+    }
+  },
+  "hv_iv": {
+    "HV + NS": {
+      "n": 58790,
+      "mean": -556.0566705542051,
+      "median": -568.6383526218508,
+      "mae": 613.6610829582715,
+      "rmse": 725.1980408968302,
+      "mape": 6.784372684179139
+    },
+    "IV + source discount": {
+      "n": 58790,
+      "mean": -520.1142808251501,
+      "median": -568.2378871607069,
+      "mae": 684.0476243176932,
+      "rmse": 839.9868832247532,
+      "mape": 7.541111410956881
+    }
+  },
+  "iv_discount": {
+    "IV + NS": {
+      "n": 58790,
+      "mean": -507.4725858511572,
+      "median": -555.6617388421608,
+      "mae": 671.9110582763421,
+      "rmse": 827.5713518219623,
+      "mape": 7.4099605744365356
+    },
+    "IV + source discount": {
+      "n": 58790,
+      "mean": -520.1142808251501,
+      "median": -568.2378871607069,
+      "mae": 684.0476243176932,
+      "rmse": 839.9868832247532,
+      "mape": 7.541111410956881
+    }
+  }
+}
+FINAL OUTPUT report.py
+REPORT generated; models complete True population complete True
+FINAL OUTPUT verify_results.py
+{
+  "status": "pass",
+  "source_copies_verified": 14,
+  "market_caches_verified": 54,
+  "products": 58790,
+  "synthetic_paired_identity": true,
+  "same_model_inputs_across_payoffs": true,
+  "executed_source_hashes_match": true,
+  "payoff_ledger_checks_pass": true,
+  "models": [
+    {
+      "payoff": "reference",
+      "train": 2048,
+      "validation": 256,
+      "test": 256,
+      "stress": 92,
+      "checkpoints": 9
+    },
+    {
+      "payoff": "detailed",
+      "train": 2048,
+      "validation": 256,
+      "test": 256,
+      "stress": 92,
+      "checkpoints": 9
+    }
+  ],
+  "archived_vs_recomputed": [
+    {
+      "new": "hv_ns",
+      "archived": "mc",
+      "mean_difference_krw": 0.027853333229489987,
+      "mae_between_runs_krw": 6.7243871961613655,
+      "p95_absolute_difference_krw": 20.120143390319143
+    },
+    {
+      "new": "iv_boot",
+      "archived": "mc_iv",
+      "mean_difference_krw": 0.04554732419495684,
+      "mae_between_runs_krw": 6.1893303575490055,
+      "p95_absolute_difference_krw": 19.066566784459837
+    }
+  ],
+  "scope": "Numerical reproduction, input/split bookkeeping and paired-label/prediction identities; not all-product legal-terms validation"
+}
+FINAL OUTPUT summarize_readme.py --update-root
+Summary written; root README updated: True

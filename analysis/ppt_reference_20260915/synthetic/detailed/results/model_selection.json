@@ -1,0 +1,24 @@
+{
+  "status": "all_models_frozen_before_test",
+  "selected_arm": "augmented_delta",
+  "validation_mean_scores": {
+    "augmented_delta": 184.4730140035044,
+    "affine_coupon_delta": 187.44428326335557,
+    "augmented_price": 210.006774535321
+  },
+  "checkpoint_hashes": {
+    "affine_coupon_delta_seed101.pt": "6eac8b8e0b297a3e3cb736aac6c01f3a39cbd577b1e7ffca5810709e1b50edec",
+    "affine_coupon_delta_seed233.pt": "8e6e9e1ca0bb8b5a9af45d192835107245ff4b9c7a7709a7c8a410a27e4a8845",
+    "affine_coupon_delta_seed47.pt": "02682eda2318a4d274fd5456238f326b38ff0de08b4d552903bad2c8c30a46ea",
+    "augmented_delta_seed101.pt": "2afdee660434f6a4f7a8b7fcdf524271e5bf1822c4b482cede5d65f900ae3412",
+    "augmented_delta_seed233.pt": "88a1a525df732ad5ce8fb48148bf2ac8e908fae07775d6fdc123d1c40e7a000b",
+    "augmented_delta_seed47.pt": "dc76400123824378cd6c6c1e5a3882bc6780673e6a4df321190dbe9130fb2d97",
+    "augmented_price_seed101.pt": "6097d0cc2b4df926537470bb5a0efe866d65f5eb31c2f83c519fd062e3fd4bf0",
+    "augmented_price_seed233.pt": "9fcbd6499a2ac700245fe0f94534397235bb67c3b80fcb02c8c430c7e26c37f3",
+    "augmented_price_seed47.pt": "610135f1ee326b00218ab3b151ff5d4450c0afd30756af33a4c4c01c28b0ed83"
+  },
+  "test_data_opened_by_training": false,
+  "selection_criterion": "validation price RMSE + 4 * delta RMSE; fixed before test",
+  "training_runs": 9,
+  "wrapper_sha256": "4e70a60c0e4ddae7b9ee7d1c627a5c419f80a4d8e956c32ef65e0c66546c999b"
+}

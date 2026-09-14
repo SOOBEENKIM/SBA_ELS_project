@@ -1,0 +1,319 @@
+FIT START reference augmented_price 47
+FIT START reference augmented_price 101
+FIT START reference augmented_price 233
+FIT START reference augmented_delta 47
+FIT START reference augmented_delta 101
+FIT START reference augmented_delta 233
+TRAIN augmented_delta 233 step 500 val price/delta RMSE 178.06 25.45 best 279.85
+TRAIN augmented_delta 101 step 500 val price/delta RMSE 150.64 24.91 best 250.27
+TRAIN augmented_price 233 step 500 val price/delta RMSE 186.85 28.03 best 294.93
+TRAIN augmented_price 47 step 500 val price/delta RMSE 178.57 27.54 best 288.73
+TRAIN augmented_price 101 step 500 val price/delta RMSE 159.92 27.02 best 268.02
+TRAIN augmented_delta 47 step 500 val price/delta RMSE 182.68 26.41 best 288.33
+TRAIN augmented_delta 233 step 1000 val price/delta RMSE 159.4 22.43 best 249.13
+TRAIN augmented_delta 101 step 1000 val price/delta RMSE 153.35 22.33 best 232.43
+TRAIN augmented_price 233 step 1000 val price/delta RMSE 162.57 23.65 best 257.18
+TRAIN augmented_price 101 step 1000 val price/delta RMSE 160.34 24.14 best 244.03
+TRAIN augmented_price 47 step 1000 val price/delta RMSE 154.34 24.3 best 251.54
+TRAIN augmented_delta 47 step 1000 val price/delta RMSE 144.71 22.59 best 235.06
+TRAIN augmented_delta 233 step 1500 val price/delta RMSE 135.53 20.74 best 218.51
+TRAIN augmented_delta 101 step 1500 val price/delta RMSE 128.52 20.57 best 210.81
+TRAIN augmented_price 233 step 1500 val price/delta RMSE 139.19 22.24 best 228.15
+TRAIN augmented_price 101 step 1500 val price/delta RMSE 146.31 23.1 best 223.06
+TRAIN augmented_price 47 step 1500 val price/delta RMSE 168.05 22.94 best 248.11
+TRAIN augmented_delta 47 step 1500 val price/delta RMSE 158.47 21.22 best 235.06
+TRAIN augmented_delta 233 step 2000 val price/delta RMSE 133.33 19.6 best 211.74
+TRAIN augmented_delta 101 step 2000 val price/delta RMSE 162.43 19.48 best 210.81
+TRAIN augmented_price 233 step 2000 val price/delta RMSE 130.75 21.71 best 217.58
+TRAIN augmented_price 101 step 2000 val price/delta RMSE 157.25 21.67 best 223.06
+TRAIN augmented_price 47 step 2000 val price/delta RMSE 138.59 22.08 best 226.91
+TRAIN augmented_delta 233 step 2500 val price/delta RMSE 132.61 18.41 best 206.25
+TRAIN augmented_delta 47 step 2000 val price/delta RMSE 142.77 20.44 best 224.54
+TRAIN augmented_delta 101 step 2500 val price/delta RMSE 132.05 18.05 best 200.92
+TRAIN augmented_delta 233 step 3000 val price/delta RMSE 127.27 17.51 best 184.42
+TRAIN augmented_price 233 step 2500 val price/delta RMSE 134.41 21.07 best 217.41
+TRAIN augmented_price 101 step 2500 val price/delta RMSE 140.14 21.09 best 213.22
+TRAIN augmented_price 47 step 2500 val price/delta RMSE 153.61 22.23 best 217.35
+TRAIN augmented_delta 47 step 2500 val price/delta RMSE 136.83 19.98 best 203.53
+TRAIN augmented_delta 233 step 3500 val price/delta RMSE 125.68 16.35 best 184.42
+TRAIN augmented_delta 101 step 3000 val price/delta RMSE 143.79 17.69 best 192.43
+TRAIN augmented_price 233 step 3000 val price/delta RMSE 138.69 19.98 best 203.29
+TRAIN augmented_delta 47 step 3000 val price/delta RMSE 127.4 19.09 best 200.16
+TRAIN augmented_price 101 step 3000 val price/delta RMSE 156.05 20.95 best 208.95
+TRAIN augmented_price 47 step 3000 val price/delta RMSE 141.42 21.58 best 217.35
+TRAIN augmented_delta 233 step 4000 val price/delta RMSE 123.02 15.98 best 180.7
+TRAIN augmented_delta 101 step 3500 val price/delta RMSE 118.52 16.25 best 183.53
+TRAIN augmented_price 233 step 3500 val price/delta RMSE 123.53 19.27 best 200.63
+TRAIN augmented_delta 47 step 3500 val price/delta RMSE 122.9 17.57 best 193.19
+TRAIN augmented_price 101 step 3500 val price/delta RMSE 126.34 19.67 best 205.03
+TRAIN augmented_price 47 step 3500 val price/delta RMSE 130.42 21.11 best 213.78
+TRAIN augmented_delta 233 step 4500 val price/delta RMSE 120.5 15.03 best 180.61
+TRAIN augmented_delta 101 step 4000 val price/delta RMSE 138.02 15.75 best 183.53
+TRAIN augmented_price 233 step 4000 val price/delta RMSE 136.49 19.11 best 200.63
+TRAIN augmented_delta 47 step 4000 val price/delta RMSE 107.18 16.34 best 168.75
+TRAIN augmented_price 101 step 4000 val price/delta RMSE 137.61 19.12 best 205.03
+TRAIN augmented_price 47 step 4000 val price/delta RMSE 119.58 20.79 best 199.09
+TRAIN augmented_delta 233 step 5000 val price/delta RMSE 128.62 15.04 best 178.17
+TRAIN augmented_delta 101 step 4500 val price/delta RMSE 121.29 15.13 best 181.54
+TRAIN augmented_price 233 step 4500 val price/delta RMSE 139.36 18.29 best 200.63
+TRAIN augmented_delta 233 step 5500 val price/delta RMSE 125.66 14.5 best 178.17
+TRAIN augmented_delta 47 step 4500 val price/delta RMSE 101.82 14.97 best 161.71
+TRAIN augmented_price 101 step 4500 val price/delta RMSE 130.39 18.63 best 202.07
+TRAIN augmented_price 47 step 4500 val price/delta RMSE 110.9 20.14 best 191.44
+TRAIN augmented_delta 101 step 5000 val price/delta RMSE 127.04 15.06 best 181.54
+TRAIN augmented_delta 233 step 6000 val price/delta RMSE 138.88 14.69 best 178.17
+TRAIN augmented_price 233 step 5000 val price/delta RMSE 142.31 18.04 best 200.63
+TRAIN COMPLETE augmented_price 233 best step 3500 seconds 30.0
+FIT START reference affine_coupon_delta 47
+TRAIN augmented_delta 47 step 5000 val price/delta RMSE 106.04 14.65 best 161.71
+TRAIN augmented_price 101 step 5000 val price/delta RMSE 139.62 18.18 best 202.07
+TRAIN augmented_price 47 step 5000 val price/delta RMSE 120.46 19.97 best 191.44
+TRAIN COMPLETE augmented_delta 233 best step 4900 seconds 31.7
+FIT START reference affine_coupon_delta 101
+TRAIN augmented_delta 101 step 5500 val price/delta RMSE 128.06 14.5 best 172.13
+TRAIN augmented_delta 47 step 5500 val price/delta RMSE 107.43 14.4 best 161.71
+TRAIN augmented_price 101 step 5500 val price/delta RMSE 131.93 17.89 best 201.15
+TRAIN augmented_price 47 step 5500 val price/delta RMSE 112.06 19.68 best 190.79
+TRAIN affine_coupon_delta 47 step 500 val price/delta RMSE 165.81 24.69 best 264.57
+TRAIN augmented_delta 101 step 6000 val price/delta RMSE 125.05 13.82 best 171.81
+TRAIN affine_coupon_delta 101 step 500 val price/delta RMSE 165.95 24.9 best 265.54
+TRAIN augmented_delta 47 step 6000 val price/delta RMSE 113.11 14.35 best 157.85
+TRAIN augmented_price 101 step 6000 val price/delta RMSE 134.54 17.82 best 198.27
+TRAIN augmented_price 47 step 6000 val price/delta RMSE 123.66 18.99 best 190.79
+TRAIN augmented_delta 101 step 6500 val price/delta RMSE 120.51 14.11 best 171.81
+TRAIN affine_coupon_delta 47 step 1000 val price/delta RMSE 147.09 21.53 best 230.26
+TRAIN augmented_delta 47 step 6500 val price/delta RMSE 105.74 13.83 best 157.85
+TRAIN affine_coupon_delta 101 step 1000 val price/delta RMSE 157.15 21.64 best 230.0
+TRAIN augmented_price 101 step 6500 val price/delta RMSE 135.26 17.45 best 198.27
+TRAIN augmented_price 47 step 6500 val price/delta RMSE 127.84 18.78 best 188.3
+TRAIN augmented_delta 101 step 7000 val price/delta RMSE 129.27 13.73 best 170.72
+TRAIN augmented_delta 47 step 7000 val price/delta RMSE 105.92 13.9 best 151.34
+TRAIN affine_coupon_delta 47 step 1500 val price/delta RMSE 145.46 20.15 best 226.06
+TRAIN affine_coupon_delta 101 step 1500 val price/delta RMSE 124.58 20.6 best 206.98
+TRAIN augmented_price 101 step 7000 val price/delta RMSE 141.5 17.38 best 189.07
+TRAIN augmented_price 47 step 7000 val price/delta RMSE 115.2 18.63 best 179.82
+TRAIN augmented_delta 101 step 7500 val price/delta RMSE 115.1 13.52 best 169.19
+TRAIN augmented_delta 47 step 7500 val price/delta RMSE 92.0 13.23 best 144.91
+TRAIN augmented_price 101 step 7500 val price/delta RMSE 125.05 17.26 best 189.07
+TRAIN augmented_price 47 step 7500 val price/delta RMSE 104.83 18.23 best 177.74
+TRAIN affine_coupon_delta 101 step 2000 val price/delta RMSE 122.8 19.6 best 201.2
+TRAIN affine_coupon_delta 47 step 2000 val price/delta RMSE 138.13 19.2 best 211.32
+TRAIN augmented_delta 101 step 8000 val price/delta RMSE 124.97 13.27 best 165.55
+TRAIN augmented_delta 47 step 8000 val price/delta RMSE 95.18 13.06 best 144.91
+TRAIN augmented_price 101 step 8000 val price/delta RMSE 131.77 16.94 best 189.07
+TRAIN augmented_price 47 step 8000 val price/delta RMSE 113.13 17.99 best 177.74
+TRAIN affine_coupon_delta 101 step 2500 val price/delta RMSE 112.84 18.41 best 186.48
+TRAIN augmented_delta 101 step 8500 val price/delta RMSE 126.4 13.16 best 165.55
+TRAIN COMPLETE augmented_price 101 best step 6700 seconds 50.0
+FIT START reference affine_coupon_delta 233
+TRAIN affine_coupon_delta 47 step 2500 val price/delta RMSE 125.62 18.1 best 192.85
+TRAIN augmented_delta 47 step 8500 val price/delta RMSE 93.68 12.8 best 142.46
+TRAIN augmented_price 47 step 8500 val price/delta RMSE 110.78 17.83 best 177.74
+TRAIN augmented_delta 101 step 9000 val price/delta RMSE 122.22 13.06 best 165.55
+TRAIN affine_coupon_delta 101 step 3000 val price/delta RMSE 131.07 17.9 best 174.96
+TRAIN augmented_delta 47 step 9000 val price/delta RMSE 92.14 12.64 best 141.8
+TRAIN COMPLETE augmented_delta 101 best step 7700 seconds 53.8
+FIT START detailed augmented_price 47
+TRAIN affine_coupon_delta 47 step 3000 val price/delta RMSE 125.16 16.87 best 192.66
+TRAIN affine_coupon_delta 233 step 500 val price/delta RMSE 185.81 25.34 best 287.17
+TRAIN augmented_price 47 step 9000 val price/delta RMSE 107.81 17.55 best 177.74
+TRAIN COMPLETE augmented_price 47 best step 7500 seconds 54.9
+FIT START detailed augmented_price 101
+TRAIN augmented_delta 47 step 9500 val price/delta RMSE 93.26 12.57 best 141.8
+TRAIN affine_coupon_delta 101 step 3500 val price/delta RMSE 109.06 16.9 best 174.96
+TRAIN augmented_price 47 step 500 val price/delta RMSE 190.75 28.44 best 304.51
+TRAIN augmented_price 101 step 500 val price/delta RMSE 164.69 28.45 best 278.48
+TRAIN affine_coupon_delta 47 step 3500 val price/delta RMSE 119.92 17.16 best 174.85
+TRAIN affine_coupon_delta 233 step 1000 val price/delta RMSE 186.09 21.58 best 252.44
+TRAIN augmented_delta 47 step 10000 val price/delta RMSE 91.79 12.58 best 138.45
+TRAIN augmented_price 47 step 1000 val price/delta RMSE 154.74 24.38 best 252.28
+TRAIN affine_coupon_delta 101 step 4000 val price/delta RMSE 118.74 16.18 best 171.5
+TRAIN augmented_price 101 step 1000 val price/delta RMSE 165.53 24.16 best 253.85
+TRAIN augmented_delta 47 step 10500 val price/delta RMSE 94.44 12.55 best 135.05
+TRAIN augmented_price 47 step 1500 val price/delta RMSE 164.0 23.4 best 252.28
+TRAIN affine_coupon_delta 47 step 4000 val price/delta RMSE 107.7 15.68 best 170.4
+TRAIN affine_coupon_delta 233 step 1500 val price/delta RMSE 158.12 20.93 best 227.18
+TRAIN affine_coupon_delta 101 step 4500 val price/delta RMSE 118.97 15.47 best 170.81
+TRAIN augmented_price 101 step 1500 val price/delta RMSE 161.62 22.92 best 232.56
+TRAIN augmented_delta 47 step 11000 val price/delta RMSE 96.13 12.59 best 135.05
+TRAIN augmented_price 47 step 2000 val price/delta RMSE 145.91 22.45 best 235.7
+TRAIN affine_coupon_delta 47 step 4500 val price/delta RMSE 122.79 14.83 best 170.4
+TRAIN affine_coupon_delta 233 step 2000 val price/delta RMSE 146.2 20.09 best 223.5
+TRAIN augmented_price 101 step 2000 val price/delta RMSE 148.56 22.18 best 225.8
+TRAIN affine_coupon_delta 101 step 5000 val price/delta RMSE 116.36 14.95 best 170.81
+TRAIN augmented_delta 47 step 11500 val price/delta RMSE 94.76 12.47 best 135.05
+TRAIN augmented_price 47 step 2500 val price/delta RMSE 156.85 21.69 best 216.61
+TRAIN COMPLETE augmented_delta 47 best step 10100 seconds 68.9
+FIT START detailed augmented_price 233
+TRAIN augmented_price 101 step 2500 val price/delta RMSE 134.27 21.13 best 209.49
+TRAIN augmented_price 47 step 3000 val price/delta RMSE 139.08 21.71 best 215.74
+TRAIN affine_coupon_delta 47 step 5000 val price/delta RMSE 121.54 14.65 best 169.88
+TRAIN affine_coupon_delta 233 step 2500 val price/delta RMSE 127.86 18.3 best 198.56
+TRAIN affine_coupon_delta 101 step 5500 val price/delta RMSE 111.25 14.86 best 167.4
+TRAIN augmented_price 233 step 500 val price/delta RMSE 184.27 29.45 best 302.07
+TRAIN augmented_price 101 step 3000 val price/delta RMSE 142.23 21.38 best 205.43
+TRAIN augmented_price 47 step 3500 val price/delta RMSE 138.01 20.92 best 215.74
+TRAIN augmented_price 233 step 1000 val price/delta RMSE 149.93 24.21 best 246.75
+TRAIN affine_coupon_delta 101 step 6000 val price/delta RMSE 119.34 14.53 best 167.4
+TRAIN affine_coupon_delta 47 step 5500 val price/delta RMSE 121.59 14.39 best 169.88
+TRAIN affine_coupon_delta 233 step 3000 val price/delta RMSE 128.54 16.88 best 193.71
+TRAIN augmented_price 101 step 3500 val price/delta RMSE 129.28 20.07 best 205.43
+TRAIN augmented_price 47 step 4000 val price/delta RMSE 127.29 21.03 best 208.56
+TRAIN augmented_price 233 step 1500 val price/delta RMSE 150.23 22.58 best 240.57
+TRAIN affine_coupon_delta 101 step 6500 val price/delta RMSE 129.1 14.02 best 165.5
+TRAIN augmented_price 101 step 4000 val price/delta RMSE 140.75 19.94 best 205.43
+TRAIN augmented_price 47 step 4500 val price/delta RMSE 133.11 20.23 best 208.56
+TRAIN affine_coupon_delta 47 step 6000 val price/delta RMSE 112.09 14.24 best 169.04
+TRAIN affine_coupon_delta 233 step 3500 val price/delta RMSE 142.11 16.36 best 185.39
+TRAIN augmented_price 233 step 2000 val price/delta RMSE 146.38 21.58 best 226.78
+TRAIN COMPLETE augmented_price 101 best step 2900 seconds 26.6
+FIT START detailed augmented_delta 47
+TRAIN affine_coupon_delta 101 step 7000 val price/delta RMSE 122.37 13.75 best 165.5
+TRAIN augmented_price 47 step 5000 val price/delta RMSE 137.28 20.01 best 208.56
+TRAIN augmented_price 233 step 2500 val price/delta RMSE 140.11 20.86 best 216.03
+TRAIN affine_coupon_delta 47 step 6500 val price/delta RMSE 125.59 13.62 best 162.14
+TRAIN affine_coupon_delta 233 step 4000 val price/delta RMSE 131.59 16.17 best 171.98
+TRAIN COMPLETE augmented_price 47 best step 3800 seconds 30.5
+FIT START detailed augmented_delta 101
+TRAIN augmented_delta 47 step 500 val price/delta RMSE 183.35 25.93 best 287.07
+TRAIN affine_coupon_delta 101 step 7500 val price/delta RMSE 116.4 13.75 best 165.5
+TRAIN augmented_price 233 step 3000 val price/delta RMSE 150.76 20.46 best 216.03
+TRAIN augmented_delta 101 step 500 val price/delta RMSE 153.78 26.06 best 258.03
+TRAIN augmented_delta 47 step 1000 val price/delta RMSE 154.51 22.6 best 244.91
+TRAIN affine_coupon_delta 47 step 7000 val price/delta RMSE 113.02 13.36 best 160.6
+TRAIN affine_coupon_delta 233 step 4500 val price/delta RMSE 125.36 14.79 best 171.98
+TRAIN affine_coupon_delta 101 step 8000 val price/delta RMSE 116.95 13.68 best 164.26
+TRAIN augmented_delta 101 step 1000 val price/delta RMSE 157.53 22.03 best 244.61
+TRAIN augmented_price 233 step 3500 val price/delta RMSE 140.84 19.99 best 216.03
+TRAIN augmented_delta 47 step 1500 val price/delta RMSE 156.68 21.41 best 242.31
+TRAIN COMPLETE augmented_price 233 best step 2200 seconds 21.9
+FIT START detailed augmented_delta 233
+TRAIN augmented_delta 101 step 1500 val price/delta RMSE 147.17 21.45 best 218.39
+TRAIN affine_coupon_delta 47 step 7500 val price/delta RMSE 110.53 13.29 best 160.6
+TRAIN affine_coupon_delta 101 step 8500 val price/delta RMSE 124.5 13.26 best 164.26
+TRAIN affine_coupon_delta 233 step 5000 val price/delta RMSE 127.41 14.56 best 171.98
+TRAIN augmented_delta 47 step 2000 val price/delta RMSE 152.51 20.17 best 233.19
+TRAIN augmented_delta 233 step 500 val price/delta RMSE 179.48 28.19 best 292.22
+TRAIN augmented_delta 101 step 2000 val price/delta RMSE 152.56 20.48 best 210.79
+TRAIN COMPLETE affine_coupon_delta 233 best step 3800 seconds 45.2
+FIT START detailed affine_coupon_delta 47
+TRAIN affine_coupon_delta 101 step 9000 val price/delta RMSE 125.81 13.12 best 164.26
+TRAIN augmented_delta 47 step 2500 val price/delta RMSE 145.32 19.41 best 208.25
+TRAIN augmented_delta 101 step 2500 val price/delta RMSE 132.38 18.38 best 199.4
+TRAIN affine_coupon_delta 47 step 8000 val price/delta RMSE 108.29 12.91 best 159.71
+TRAIN augmented_delta 233 step 1000 val price/delta RMSE 147.41 22.43 best 237.12
+TRAIN COMPLETE affine_coupon_delta 101 best step 7900 seconds 67.2
+FIT START detailed affine_coupon_delta 101
+TRAIN augmented_delta 101 step 3000 val price/delta RMSE 143.03 18.33 best 193.39
+TRAIN augmented_delta 47 step 3000 val price/delta RMSE 132.13 19.07 best 206.72
+TRAIN affine_coupon_delta 47 step 500 val price/delta RMSE 172.38 26.18 best 277.1
+TRAIN augmented_delta 233 step 1500 val price/delta RMSE 145.0 20.61 best 227.44
+TRAIN affine_coupon_delta 47 step 8500 val price/delta RMSE 114.19 12.79 best 159.71
+TRAIN augmented_delta 101 step 3500 val price/delta RMSE 126.03 17.71 best 193.39
+TRAIN augmented_delta 47 step 3500 val price/delta RMSE 138.51 17.75 best 202.9
+TRAIN affine_coupon_delta 101 step 500 val price/delta RMSE 183.92 26.22 best 288.8
+TRAIN augmented_delta 233 step 2000 val price/delta RMSE 153.82 19.91 best 223.45
+TRAIN augmented_delta 101 step 4000 val price/delta RMSE 139.36 16.67 best 191.19
+TRAIN affine_coupon_delta 47 step 1000 val price/delta RMSE 156.56 22.3 best 244.02
+TRAIN augmented_delta 47 step 4000 val price/delta RMSE 118.68 16.83 best 185.99
+TRAIN affine_coupon_delta 47 step 9000 val price/delta RMSE 115.86 12.51 best 159.71
+TRAIN augmented_delta 233 step 2500 val price/delta RMSE 148.94 19.36 best 222.64
+TRAIN affine_coupon_delta 101 step 1000 val price/delta RMSE 168.22 22.32 best 242.44
+TRAIN augmented_delta 101 step 4500 val price/delta RMSE 125.56 16.06 best 186.19
+TRAIN augmented_delta 47 step 4500 val price/delta RMSE 123.93 16.19 best 185.99
+TRAIN affine_coupon_delta 47 step 1500 val price/delta RMSE 162.91 21.05 best 229.52
+TRAIN COMPLETE affine_coupon_delta 47 best step 7900 seconds 78.7
+FIT START detailed affine_coupon_delta 233
+TRAIN augmented_delta 101 step 5000 val price/delta RMSE 138.0 16.02 best 186.19
+TRAIN augmented_delta 233 step 3000 val price/delta RMSE 140.73 17.81 best 209.13
+TRAIN affine_coupon_delta 101 step 1500 val price/delta RMSE 134.28 20.99 best 218.23
+TRAIN augmented_delta 47 step 5000 val price/delta RMSE 119.8 15.88 best 183.32
+TRAIN augmented_delta 101 step 5500 val price/delta RMSE 137.03 15.75 best 186.19
+TRAIN COMPLETE augmented_delta 101 best step 4100 seconds 27.4
+TRAIN augmented_delta 233 step 3500 val price/delta RMSE 149.92 16.97 best 196.07
+TRAIN affine_coupon_delta 47 step 2000 val price/delta RMSE 147.29 19.97 best 222.69
+TRAIN affine_coupon_delta 101 step 2000 val price/delta RMSE 146.34 20.35 best 218.23
+TRAIN affine_coupon_delta 233 step 500 val price/delta RMSE 181.33 25.83 best 284.66
+TRAIN augmented_delta 47 step 5500 val price/delta RMSE 120.04 15.77 best 183.11
+TRAIN augmented_delta 233 step 4000 val price/delta RMSE 143.54 16.31 best 196.07
+TRAIN affine_coupon_delta 101 step 2500 val price/delta RMSE 119.9 19.39 best 197.47
+TRAIN augmented_delta 47 step 6000 val price/delta RMSE 120.95 15.47 best 171.15
+TRAIN affine_coupon_delta 47 step 2500 val price/delta RMSE 138.1 19.45 best 210.56
+TRAIN affine_coupon_delta 233 step 1000 val price/delta RMSE 186.21 21.98 best 261.72
+TRAIN augmented_delta 233 step 4500 val price/delta RMSE 140.89 15.77 best 196.07
+TRAIN COMPLETE augmented_delta 233 best step 3300 seconds 28.7
+TRAIN augmented_delta 47 step 6500 val price/delta RMSE 125.32 15.11 best 171.15
+TRAIN affine_coupon_delta 101 step 3000 val price/delta RMSE 144.44 19.03 best 197.47
+TRAIN affine_coupon_delta 47 step 3000 val price/delta RMSE 142.79 18.45 best 199.25
+TRAIN affine_coupon_delta 233 step 1500 val price/delta RMSE 142.47 20.86 best 225.89
+TRAIN augmented_delta 47 step 7000 val price/delta RMSE 131.29 15.45 best 171.15
+TRAIN affine_coupon_delta 101 step 3500 val price/delta RMSE 161.25 18.15 best 197.47
+TRAIN COMPLETE augmented_delta 47 best step 5700 seconds 42.0
+TRAIN affine_coupon_delta 47 step 3500 val price/delta RMSE 132.89 17.91 best 196.15
+TRAIN affine_coupon_delta 233 step 2000 val price/delta RMSE 139.12 19.54 best 217.28
+TRAIN affine_coupon_delta 101 step 4000 val price/delta RMSE 124.46 16.98 best 192.38
+TRAIN affine_coupon_delta 47 step 4000 val price/delta RMSE 116.71 16.89 best 184.29
+TRAIN affine_coupon_delta 233 step 2500 val price/delta RMSE 130.54 18.45 best 204.36
+TRAIN affine_coupon_delta 101 step 4500 val price/delta RMSE 138.49 16.21 best 192.38
+TRAIN affine_coupon_delta 47 step 4500 val price/delta RMSE 128.35 15.61 best 184.29
+TRAIN affine_coupon_delta 233 step 3000 val price/delta RMSE 139.5 17.2 best 203.0
+TRAIN affine_coupon_delta 101 step 5000 val price/delta RMSE 141.3 15.98 best 192.38
+TRAIN affine_coupon_delta 47 step 5000 val price/delta RMSE 123.52 15.5 best 184.29
+TRAIN affine_coupon_delta 233 step 3500 val price/delta RMSE 141.74 16.97 best 187.57
+TRAIN affine_coupon_delta 101 step 5500 val price/delta RMSE 135.09 15.7 best 192.38
+TRAIN COMPLETE affine_coupon_delta 101 best step 4000 seconds 39.8
+TRAIN affine_coupon_delta 47 step 5500 val price/delta RMSE 128.79 15.02 best 182.39
+TRAIN affine_coupon_delta 233 step 4000 val price/delta RMSE 143.49 16.12 best 187.57
+TRAIN affine_coupon_delta 47 step 6000 val price/delta RMSE 137.41 15.27 best 182.39
+TRAIN affine_coupon_delta 233 step 4500 val price/delta RMSE 133.65 15.31 best 187.57
+TRAIN COMPLETE affine_coupon_delta 233 best step 3100 seconds 36.8
+TRAIN affine_coupon_delta 47 step 6500 val price/delta RMSE 129.23 14.9 best 182.39
+TRAIN COMPLETE affine_coupon_delta 47 best step 5300 seconds 55.2
+reference {
+  "status": "all_models_frozen_before_test",
+  "selected_arm": "augmented_delta",
+  "validation_mean_scores": {
+    "augmented_delta": 159.58685739028508,
+    "affine_coupon_delta": 165.31476089768955,
+    "augmented_price": 189.14694523715323
+  },
+  "checkpoint_hashes": {
+    "affine_coupon_delta_seed101.pt": "a8e1d20c3308d7d4f93a31f1a39b6557892cee9eb62027c3e81b7f72907192ec",
+    "affine_coupon_delta_seed233.pt": "84498b39460b4a34679184828a0e21516b9986515d6e9a18949edd6b38eb3dc6",
+    "affine_coupon_delta_seed47.pt": "b5f9d3e90a9cd94d73fd35b9e0e2298d3d1e0f2900fac7e2f6892a1e8b760281",
+    "augmented_delta_seed101.pt": "56b7a5f068853a9786846f53128dd294b6acc9f02842ad024e29ec1a6816e6d8",
+    "augmented_delta_seed233.pt": "31fafdd32519d4da0968eb19f515526335308e6f69e0e505dab07ca5b0327371",
+    "augmented_delta_seed47.pt": "114ce33c8bbddf4d35b05dec4760c2edec5964f4659b62e1ad7f942aee26608a",
+    "augmented_price_seed101.pt": "08c06eff89ff957bc92c182cb44cb4a6002fce25c88723ad736f51585a3fd961",
+    "augmented_price_seed233.pt": "32408914f3e7dc475e2a40bff277b53327cd9d5727eae46ff0d2938bf054e04c",
+    "augmented_price_seed47.pt": "67cc0d9a0fbb2ddf31afaa467c92ef8c7203f82d684c60fd97e443c558b835ad"
+  },
+  "test_data_opened_by_training": false,
+  "selection_criterion": "validation price RMSE + 4 * delta RMSE; fixed before test",
+  "training_runs": 9,
+  "wrapper_sha256": "4e70a60c0e4ddae7b9ee7d1c627a5c419f80a4d8e956c32ef65e0c66546c999b"
+}
+detailed {
+  "status": "all_models_frozen_before_test",
+  "selected_arm": "augmented_delta",
+  "validation_mean_scores": {
+    "augmented_delta": 184.4730140035044,
+    "affine_coupon_delta": 187.44428326335557,
+    "augmented_price": 210.006774535321
+  },
+  "checkpoint_hashes": {
+    "affine_coupon_delta_seed101.pt": "6eac8b8e0b297a3e3cb736aac6c01f3a39cbd577b1e7ffca5810709e1b50edec",
+    "affine_coupon_delta_seed233.pt": "8e6e9e1ca0bb8b5a9af45d192835107245ff4b9c7a7709a7c8a410a27e4a8845",
+    "affine_coupon_delta_seed47.pt": "02682eda2318a4d274fd5456238f326b38ff0de08b4d552903bad2c8c30a46ea",
+    "augmented_delta_seed101.pt": "2afdee660434f6a4f7a8b7fcdf524271e5bf1822c4b482cede5d65f900ae3412",
+    "augmented_delta_seed233.pt": "88a1a525df732ad5ce8fb48148bf2ac8e908fae07775d6fdc123d1c40e7a000b",
+    "augmented_delta_seed47.pt": "dc76400123824378cd6c6c1e5a3882bc6780673e6a4df321190dbe9130fb2d97",
+    "augmented_price_seed101.pt": "6097d0cc2b4df926537470bb5a0efe866d65f5eb31c2f83c519fd062e3fd4bf0",
+    "augmented_price_seed233.pt": "9fcbd6499a2ac700245fe0f94534397235bb67c3b80fcb02c8c430c7e26c37f3",
+    "augmented_price_seed47.pt": "610135f1ee326b00218ab3b151ff5d4450c0afd30756af33a4c4c01c28b0ed83"
+  },
+  "test_data_opened_by_training": false,
+  "selection_criterion": "validation price RMSE + 4 * delta RMSE; fixed before test",
+  "training_runs": 9,
+  "wrapper_sha256": "4e70a60c0e4ddae7b9ee7d1c627a5c419f80a4d8e956c32ef65e0c66546c999b"
+}
