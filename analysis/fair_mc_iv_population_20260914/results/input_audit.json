@@ -1,0 +1,69 @@
+{
+  "included": 35587,
+  "excluded": 23203,
+  "groups": 9087,
+  "excluded_reason_counts": {
+    "iv_before_history": 10900,
+    "missing_explicit_survival_coupon": 4780,
+    "payment_lag_not_identifiable_from_maturity": 3355,
+    "iv_missing_series": 2318,
+    "extra_formula_or_level_PMT_1_FRML": 733,
+    "unsupported_ki_window": 578,
+    "unsupported_PRCP_GRTE_RT": 168,
+    "extra_formula_or_level_PMT_EXTRA": 99,
+    "averaging_not_supported": 84,
+    "extra_formula_or_level_STRK_2": 61,
+    "monthly_evaluation_outside_life": 43,
+    "iv_stale": 36,
+    "second_maturity_payment_without_ki": 21,
+    "invalid_evaluation_dates": 13,
+    "missing_schedule_values": 8,
+    "unsupported_redemption_structure": 3,
+    "nonterminal_second_payment": 3
+  },
+  "structure_counts": [
+    {
+      "structure": "LIZARD KI",
+      "monthly": false,
+      "n": 1401
+    },
+    {
+      "structure": "LIZARD no-KI",
+      "monthly": false,
+      "n": 7831
+    },
+    {
+      "structure": "LIZARD no-KI",
+      "monthly": true,
+      "n": 110
+    },
+    {
+      "structure": "STEP KI",
+      "monthly": false,
+      "n": 10001
+    },
+    {
+      "structure": "STEP KI",
+      "monthly": true,
+      "n": 1
+    },
+    {
+      "structure": "STEP no-KI",
+      "monthly": false,
+      "n": 12663
+    },
+    {
+      "structure": "STEP no-KI",
+      "monthly": true,
+      "n": 3580
+    }
+  ],
+  "lag_counts": {
+    "1": 232,
+    "2": 24355,
+    "3": 10971,
+    "4": 29
+  },
+  "published_included": 6,
+  "seconds": 229.4982213973999
+}

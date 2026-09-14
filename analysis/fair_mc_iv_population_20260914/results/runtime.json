@@ -1,0 +1,13 @@
+{
+  "python": "3.11.16",
+  "torch": "2.9.1+cpu",
+  "numpy": "2.3.0",
+  "pandas": "2.3.0",
+  "matplotlib": "3.9.2",
+  "device": "cpu",
+  "current_workers": 48,
+  "initial_workers": 32,
+  "torch_threads_per_worker": 1,
+  "container_image": "pi-deeponet-reproduction:py311",
+  "network": "disabled"
+}

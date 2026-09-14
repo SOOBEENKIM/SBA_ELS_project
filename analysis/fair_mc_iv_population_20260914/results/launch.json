@@ -1,0 +1,1 @@
+{"workers": 48, "pilot": false, "started_unix": 1789367576.534754, "seed_policy": "sha256(group_id:replicate:FAIRIV20260914) first 8 hex digits; replicates 0,1,2"}

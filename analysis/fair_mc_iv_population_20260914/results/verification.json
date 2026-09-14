@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "universe": 58790,
+  "full_iv": 45536,
+  "included": 35587,
+  "no_iv": 13254,
+  "contract_exclusions_after_iv": 9949,
+  "max_normalization_identity_error": 2.0676793610618915e-12,
+  "six_price_bins_account_for_every_product": true,
+  "legacy_iv_prices_consistent_with_independent_MC_noise": [
+    {
+      "item": "KR6523325910",
+      "price_difference_krw": -0.35520470272058446,
+      "combined_standard_errors": -0.08541900059494238
+    },
+    {
+      "item": "KR6KS0002XR1",
+      "price_difference_krw": 5.119284856316881,
+      "combined_standard_errors": 0.770782358906339
+    },
+    {
+      "item": "KR6KS0003LQ6",
+      "price_difference_krw": 11.996793474098013,
+      "combined_standard_errors": 2.30792355050841
+    },
+    {
+      "item": "KR6MD0003TN4",
+      "price_difference_krw": -0.6945462455059896,
+      "combined_standard_errors": -0.25055303078967855
+    },
+    {
+      "item": "KR6SH0004FV2",
+      "price_difference_krw": 1.7275109331458225,
+      "combined_standard_errors": 0.32016884622555175
+    },
+    {
+      "item": "KR6SH0006Y24",
+      "price_difference_krw": -3.440774451722973,
+      "combined_standard_errors": -0.9981768277297851
+    }
+  ],
+  "preserved_inputs_unchanged": true
+}

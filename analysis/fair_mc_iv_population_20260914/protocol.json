@@ -1,0 +1,37 @@
+{
+  "target": "Original-product published FAIR vs IV-based MC; no DeepONet and no contract interventions",
+  "paths_per_seed": 40000,
+  "replicates": 3,
+  "checkpoints": [
+    10000,
+    20000,
+    40000
+  ],
+  "workers": 16,
+  "universe": 58790,
+  "included": 35587,
+  "excluded": 23203,
+  "market_groups": 9087,
+  "iv_policy": "Same IV branch mapping: all three ATM IV as of issue date, age <=7 calendar days; no HV fallback",
+  "market_policy": "Existing branch GBM: 180-return historical correlation, KRW NS curve, q=0, flat ATM IV, daily calendar grid",
+  "cashflows": "Raw evaluation dates, strikes, PMT_1; explicit terminal PMT_2 for KI survival; raw monthly Digital_Call cashflows; FROM_ISU Lizard clauses",
+  "settlement_assumption": "For unsourced products infer a unique 1..5 KR bank-day lag from last evaluation to MAT_DT, then apply it to all payments; no claim that all payment clauses were individually checked",
+  "monthly_assumption": "Same-day earned monthly coupon is retained on redemption, as in current V3; memory coupons are not inferred",
+  "face_assumption": "KRW 10,000 face for raw issue-price denominations 9,000..10,000; six individually sourced faces verified; remaining faces not independently reconciled",
+  "normalization": "fair=FAIR_VALUE/issue_price; mc_iv=MC_price_per_10000_face/issue_price. Both are on the same issue-price basis",
+  "group_reuse": "Same issue, ordered assets, IV/correlation/curve share market paths; each contract retains its own dates/horizon/payoff",
+  "limitations": "FAIR disclosure valuation date may precede issue date used for market inputs; price gap is not proof of a pricing bug or a causal effect",
+  "preserved_sha256": {
+    "module/mc_contract_v2.py": "fc0b5e21ab0547fc2a0fda1a2be087e0fc160d841d1aa85dd2742600a3dd01fd",
+    "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+    "module/features.py": "b6fb731c6ea34b7f44ec7f19d860f29955b8d8198b34476ac6b680722b7cbd63",
+    "analysis/mc_schedule_v4_20260911/schedule_mc.py": "6d8dc8c9eab1eaf7046e66901d1bfa1a5e2d2f5f70efb35638ab6295a0f05380",
+    "analysis/mc_monthly_v3_20260910/evidence/kr_bank_calendar.json": "f3f61527a6bb7fd2083d9e217b5e49a195a183ea8ead47b30af65aff9d544177",
+    "data/raw/iv_daily_atm/iv_daily_atm.zip": "6f541081b4dff03cf102b01f473b248ad63999fb1630f06cedc8bdaf6119fd1c",
+    "data/cache/krw_curve.parquet": "87c436c35747245174014214595058da373c40c9ccc66eb4248e60bca58adbeb",
+    "data/cache/raw/LAKE_V2_DART_AUTO_CALL.csv": "f1f3cc16f078b67a3681773d6267ad12b970a2ecf5a0bf78a86e02ef1215f9c5",
+    "data/cache/raw/LAKE_V2_DART_SCHD_INFO.csv": "030c2732553131b8d52676cf615c4edf28db62608f5254c3c82d6ba04bb30b56",
+    "data/cache/raw/LAKE_V2_DART_UDLY_INFO.csv": "276230db5e2d36e41b0196126d57273912ef4be37130f27ab2184f1a5875cbdc"
+  },
+  "groups_sha256": "48ed47835ecbbb7f82200f26bb9c793ce1f300b3774997d3059d8fee3c162cb3"
+}

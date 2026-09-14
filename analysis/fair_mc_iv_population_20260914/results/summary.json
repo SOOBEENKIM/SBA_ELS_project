@@ -1,0 +1,12 @@
+{
+  "products": 35587,
+  "mean_gap_krw": -665.4093942906147,
+  "median_gap_krw": -738.5995436665182,
+  "mae_krw": 816.6209919162637,
+  "rmse_krw": 952.5163659816835,
+  "mape_pct": 9.025401379383796,
+  "low_fair_bin_mape": 15.650986964526462,
+  "high_fair_bin_mape": 4.149029998465428,
+  "mape_strictly_decreasing_across_six_bins": true,
+  "mc_above_fair_fraction": 0.9028015848483997
+}
