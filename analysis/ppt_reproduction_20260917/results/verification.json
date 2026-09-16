@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "source_files_verified": 153,
+  "models": 20,
+  "fold_checkpoints": 80,
+  "OOS_rows_per_run": 23486,
+  "unique_items_shared_across_runs": true,
+  "labels_match_cache": true,
+  "checkpoint_forward_verified": true,
+  "max_prediction_difference": 1.529083251128327e-07,
+  "MC_paths_in_reprice_audit": 40000,
+  "exact_raw_to_MC_reproduction": false,
+  "reason": "Missing latest scratch runner and dividend construction source; fresh MC differs from cached values.",
+  "latest_synthetic_increment_retrained": false,
+  "note": "Previous synthetic experiments preserved on parent branch; not rerun with latest B labels in this PPT reproduction."
+}

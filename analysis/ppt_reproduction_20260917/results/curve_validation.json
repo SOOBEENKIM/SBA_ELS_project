@@ -1,0 +1,6 @@
+{
+  "n": 200,
+  "cache_max_abs_difference": 4.2674197509029455e-16,
+  "par_reprice_max_bp": 4.0245584642661925e-12,
+  "selection": "200 evenly spaced indices of valid full-population rows, not original notebook17 missing sample IDs"
+}

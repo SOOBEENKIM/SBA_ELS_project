@@ -1,0 +1,29 @@
+# Physics-Informed DeepONet for ELS pricing — tested on Python 3.11 (conda env `abacus`)
+# Install:  pip install -r requirements.txt
+# NOTE on PyTorch: the pinned build was 2.9.1+cu128 (CUDA 12.8). For a CPU-only or
+# different-CUDA machine, install torch from https://pytorch.org/get-started/ first,
+# then run this file. CPU build also works (models fall back to CPU automatically).
+
+# --- Core scientific stack ---
+numpy==2.3.0
+pandas==2.3.0
+scipy==1.16.0
+scikit-learn==1.7.1
+pyarrow==20.0.0          # parquet I/O
+PyYAML==6.0.2            # config.yaml
+
+# --- Deep learning (DeepONet / PI-DeepONet) ---
+torch==2.9.1
+
+# --- Gradient-boosting benchmarks & margin model ---
+lightgbm==4.6.0
+xgboost==3.2.0
+catboost==1.2.10
+
+# --- Plotting ---
+matplotlib==3.9.2
+
+# --- Notebook execution (0_data / 1_run / 2_evaluate / 3_validate) ---
+ipykernel==6.29.5
+nbconvert==7.17.1
+jupyter-core==5.8.1

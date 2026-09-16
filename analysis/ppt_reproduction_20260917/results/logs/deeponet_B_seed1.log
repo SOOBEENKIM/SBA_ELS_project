@@ -1,0 +1,32 @@
+deeponet_B_seed1 fold 0 {'n': 5879, 'R2': 0.9652945399284363, 'MAE': np.float32(34.930405), 'RMSE': np.float32(45.56623), 'MAPE': np.float32(0.3571062)} seconds 6.2
+deeponet_B_seed1 fold 1 {'n': 5879, 'R2': 0.8536378741264343, 'MAE': np.float32(124.94499), 'RMSE': np.float32(150.14708), 'MAPE': np.float32(1.314369)} seconds 5.9
+deeponet_B_seed1 fold 2 {'n': 5879, 'R2': 0.9610418081283569, 'MAE': np.float32(26.412342), 'RMSE': np.float32(38.92489), 'MAPE': np.float32(0.2679587)} seconds 6.1
+deeponet_B_seed1 fold 3 {'n': 5849, 'R2': 0.9481437802314758, 'MAE': np.float32(50.597603), 'RMSE': np.float32(90.80296), 'MAPE': np.float32(0.5343968)} seconds 6.0
+Traceback (most recent call last):
+  File "/workspace/analysis/ppt_reproduction_20260917/train_stage1.py", line 37, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/analysis/ppt_reproduction_20260917/train_stage1.py", line 35, in main
+    dump(OUT/(prefix+'_execution.json'),dict(model=a.model,variant=a.variant,seed=a.seed,device=a.device,metrics=score(q),seconds=time.monotonic()-t,fold_seconds=times,train_rows=[len(f[0]) for f in folds],val_rows=[len(f[1]) for f in folds],test_rows=[len(f[2]) for f in folds],python=platform.python_version(),torch=torch.__version__,numpy=np.__version__,pandas=pd.__version__,original_anchor_unmodified=True,runner='reconstructed from notebook 18 + module.data.walk_forward',deep_time_weights='Original train_curve does not apply time weights despite config flag; unchanged.',config=cfg))
+  File "/workspace/analysis/ppt_reproduction_20260917/common.py", line 34, in dump
+    def dump(path,obj):path.write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/local/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.11/json/encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "/usr/local/lib/python3.11/json/encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+REUSE deeponet_B_seed1 {'n': 23486, 'R2': 0.9340526677544658, 'MAE': 59.23235385335945, 'RMSE': 92.71264747782186, 'MAPE': 0.6185650439232717}

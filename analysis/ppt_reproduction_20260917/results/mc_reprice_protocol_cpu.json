@@ -1,0 +1,14 @@
+{
+  "samples": 12,
+  "paths": 40000,
+  "seed": "source mc_seed",
+  "device": "cpu",
+  "source_payoff": "notebook5 _setup/mc_daily_t extracted unchanged; B adds log dividend drop to drift",
+  "bootstrap": "notebook17 equations, cached IRS strictly preissue and previous complete month CD",
+  "dividend_window": "ASSUMED last 360 calendar days anchored to last pre-issue ex-date; source scratch unavailable; compare cached q and event count",
+  "limitations": [
+    "Not exact 200-product subset from notebook16/17: IDs unavailable.",
+    "No claim of full raw-to-B replication unless q, events, curve and price checks agree.",
+    "Original terminal survival principal-only and monthly approximation intentionally retained."
+  ]
+}

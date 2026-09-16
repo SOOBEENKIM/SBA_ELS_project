@@ -1,0 +1,116 @@
+{
+  "model": "xgb",
+  "variant": "A",
+  "seed": 1,
+  "device": "cpu",
+  "metrics": {
+    "n": 23486,
+    "R2": 0.9019886255264282,
+    "MAE": 58.63954162597656,
+    "RMSE": 88.86961364746094,
+    "MAPE": 0.599429726600647
+  },
+  "seconds": 25.165277049993165,
+  "fold_seconds": [
+    17.002759260998573,
+    2.395996789011406,
+    2.6907694459951017,
+    2.8610899330087705
+  ],
+  "train_rows": [
+    31041,
+    36215,
+    41388,
+    46562
+  ],
+  "val_rows": [
+    4233,
+    4938,
+    5644,
+    6349
+  ],
+  "test_rows": [
+    5879,
+    5879,
+    5879,
+    5849
+  ],
+  "python": "3.11.15",
+  "torch": "2.9.1+cu126",
+  "numpy": "2.3.0",
+  "pandas": "2.3.0",
+  "original_anchor_unmodified": true,
+  "runner": "reconstructed from notebook 18 + module.data.walk_forward",
+  "deep_time_weights": "Original train_curve does not apply time weights despite config flag; unchanged.",
+  "config": {
+    "seed": 1,
+    "device": "auto",
+    "data": {
+      "source": "data/els3_dataset.parquet",
+      "walk_forward": [
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "smax": 3.0,
+      "time_decay": true,
+      "val_frac": 0.12,
+      "val_seed": 0
+    },
+    "train": {
+      "nit": 3000,
+      "batch": 512,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "es_every": 100,
+      "es_patience": 6,
+      "es_rounds": 50
+    },
+    "networks": {
+      "P": 192,
+      "mlp_width": 128
+    },
+    "physics": {
+      "alpha": 0.02,
+      "batch": 48
+    },
+    "tabular": {
+      "xgb": {
+        "n_estimators": 700,
+        "learning_rate": 0.03,
+        "max_depth": 7,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "lgbm": {
+        "n_estimators": 700,
+        "learning_rate": 0.03,
+        "num_leaves": 63,
+        "min_child_samples": 40,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "cat": {
+        "iterations": 700,
+        "learning_rate": 0.03,
+        "depth": 7
+      },
+      "gbm": {
+        "max_iter": 500,
+        "learning_rate": 0.05,
+        "l2_regularization": 1.0
+      },
+      "ridge": {
+        "alpha": 1.0
+      }
+    },
+    "margin": {
+      "model": "xgb",
+      "feature_set": "driver",
+      "half_life": "auto",
+      "loss": "reg:pseudohubererror"
+    }
+  }
+}

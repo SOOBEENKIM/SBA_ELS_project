@@ -1,0 +1,44 @@
+# ============================================================================
+# 쓰리스타 ELS 프라이싱 — 단일 설정 파일 (모든 모델 하이퍼파라미터)
+# 피처 목록(데이터 스키마)은 module/data.py 에서 관리, 여기는 학습 파라미터만.
+# ============================================================================
+seed: 0
+device: auto                      # auto|cuda|cpu  (auto: cuda 있으면 cuda)
+
+data:
+  source: data/els3_dataset.parquet         # 0_data(build_source)가 raw+cache 로부터 생성 → 1_MC_recompute가 mc 갱신
+  walk_forward: [0.6, 0.7, 0.8, 0.9, 1.0]   # 확장윈도우 폴드 경계 (test=미래 구간)
+  smax: 3.0                                 # 정규화 자산가 상한 (S/SMAX)
+  time_decay: true                          # 시간감쇠 표본가중 0.5^(dt/365.25)
+  val_frac: 0.12                            # nested walk-forward: 각 폴드 train에서 랜덤샘플 validation (미래참조 허용, 폴드당 1개→총 4개). early stopping용
+  val_seed: 0                               # validation 랜덤 샘플 시드
+
+train:                            # 연산자망(DeepONet/PI-DeepONet) 공통
+  nit: 3000
+  batch: 512
+  lr: 0.001
+  weight_decay: 1.0e-5
+  es_every: 100                             # early stopping: val 손실 점검 주기(iter)
+  es_patience: 6                            # early stopping: 개선 없을 때 인내 횟수
+  es_rounds: 50                             # 부스팅(xgb/lgbm/cat) early_stopping_rounds
+
+networks:
+  P: 192                          # trunk/branch 잠재차원
+  mlp_width: 128
+
+physics:                          # PI-DeepONet stage-1 앵커 (module/pi_train.py). stage-2 는 물리 대상 아님
+  alpha: 0.02                     # 물리항 총 가중. 항별 스케일은 첫 스텝에서 data loss 대비 자동 산출
+  batch: 48                       # collocation 배치. PDE 2차도함수가 3x3 autograd 라 스텝비용 지배
+
+tabular:                          # stage-1 XGB 앵커 + stage-2 XGB 잔차(deeponet 블록 D.DON)
+  xgb:  {n_estimators: 700, learning_rate: 0.03, max_depth: 7, subsample: 0.8, colsample_bytree: 0.8}
+  lgbm: {n_estimators: 700, learning_rate: 0.03, num_leaves: 63, min_child_samples: 40, subsample: 0.8, colsample_bytree: 0.8}
+  cat:  {iterations: 700, learning_rate: 0.03, depth: 7}
+  gbm:  {max_iter: 500, learning_rate: 0.05, l2_regularization: 1.0}
+  ridge: {alpha: 1.0}
+
+margin:
+  model: xgb                      # 하이브리드 stage-2 잔차모델 종류
+  feature_set: driver             # base|regime|driver  (driver=base+인과드라이버[m_issuer·발행사EWMA·IV−HV·σiv]; regime은 OOS 외삽 실패)
+  half_life: auto                 # 시간감쇠 반감기(일) | 'auto'=fold별 시간기반 inner-val 선택(비정상성 대응, test 미사용)
+  loss: reg:pseudohubererror      # stage-2 강건손실(이분산 대응). null 이면 기본 제곱손실

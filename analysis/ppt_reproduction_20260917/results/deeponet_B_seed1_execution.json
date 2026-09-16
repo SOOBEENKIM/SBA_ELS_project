@@ -1,0 +1,110 @@
+{
+  "model": "deeponet",
+  "variant": "B",
+  "seed": 1,
+  "device": "cuda",
+  "metrics": {
+    "n": 23486,
+    "R2": 0.9340526677544658,
+    "MAE": 59.23235385335945,
+    "RMSE": 92.71264747782186,
+    "MAPE": 0.6185650439232717
+  },
+  "train_rows": [
+    31041,
+    36215,
+    41388,
+    46562
+  ],
+  "val_rows": [
+    4233,
+    4938,
+    5644,
+    6349
+  ],
+  "test_rows": [
+    5879,
+    5879,
+    5879,
+    5849
+  ],
+  "original_anchor_unmodified": true,
+  "config": {
+    "seed": 1,
+    "device": "auto",
+    "data": {
+      "source": "data/els3_dataset.parquet",
+      "walk_forward": [
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "smax": 3.0,
+      "time_decay": true,
+      "val_frac": 0.12,
+      "val_seed": 0
+    },
+    "train": {
+      "nit": 3000,
+      "batch": 512,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "es_every": 100,
+      "es_patience": 6,
+      "es_rounds": 50
+    },
+    "networks": {
+      "P": 192,
+      "mlp_width": 128
+    },
+    "physics": {
+      "alpha": 0.02,
+      "batch": 48
+    },
+    "tabular": {
+      "xgb": {
+        "n_estimators": 700,
+        "learning_rate": 0.03,
+        "max_depth": 7,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "lgbm": {
+        "n_estimators": 700,
+        "learning_rate": 0.03,
+        "num_leaves": 63,
+        "min_child_samples": 40,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "cat": {
+        "iterations": 700,
+        "learning_rate": 0.03,
+        "depth": 7
+      },
+      "gbm": {
+        "max_iter": 500,
+        "learning_rate": 0.05,
+        "l2_regularization": 1.0
+      },
+      "ridge": {
+        "alpha": 1.0
+      }
+    },
+    "margin": {
+      "model": "xgb",
+      "feature_set": "driver",
+      "half_life": "auto",
+      "loss": "reg:pseudohubererror"
+    }
+  },
+  "metadata_recovered_from_completed_predictions": true,
+  "python": "3.11.15",
+  "torch": "2.9.1+cu126",
+  "numpy": "2.3.0",
+  "pandas": "2.3.0",
+  "runner": "reconstructed from notebook 18 + module.data.walk_forward",
+  "deep_time_weights": "Original train_curve unweighted; unchanged."
+}
