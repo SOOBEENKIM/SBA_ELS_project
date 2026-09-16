@@ -1,0 +1,24 @@
+{
+  "python": "3.11.15",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.36",
+  "libraries": {
+    "torch": "2.9.1+cu126",
+    "numpy": "2.3.0",
+    "pandas": "2.3.0",
+    "scipy": "1.16.0",
+    "scikit-learn": "1.7.1",
+    "xgboost": "3.2.0",
+    "pyarrow": "20.0.0",
+    "matplotlib": "3.9.2",
+    "joblib": "1.5.3",
+    "PyYAML": "6.0.2"
+  },
+  "cuda": "12.6",
+  "gpus": [
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090",
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "docker_image": "pi-deeponet-els:pi-cuda40000"
+}

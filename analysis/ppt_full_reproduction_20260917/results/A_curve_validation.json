@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "source_dtype": "float64",
+  "computed_dtype": "float64",
+  "max_double_vs_stored_difference": 3.593770891985315e-09,
+  "model_float32_inputs_identical": true
+}

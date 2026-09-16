@@ -1,0 +1,17 @@
+{
+  "total": 58790,
+  "valid": 58760,
+  "excluded": 30,
+  "stale": 30,
+  "failed": 18,
+  "cached_inclusion_agrees": true,
+  "seconds": 93.41880040700198,
+  "original_dividend_script_available": false,
+  "dividend_rule": "last preissue ex-date minus 330 calendar days; repeat annual calendar anniversaries strictly after issue through N=round(tenor*365); no future dividends",
+  "cached_values_used_for_pricing_inputs": false,
+  "input_hashes": {
+    "rebuilt_universe.parquet": "9f28b60fa6c93c0f5616ff508beeffabfacd5dd4cd66ec7d7ac05ee9ef909479",
+    "fresh_market_inputs.parquet": "b3f229389db90028a257dc0c92870f9b982dc242b9f05fe65975eabc11ce501c",
+    "dividend_events.json.gz": "072dae8565efc9651a03f307dd2bd15a5d3044c322056085a9942b18d6cfe526"
+  }
+}

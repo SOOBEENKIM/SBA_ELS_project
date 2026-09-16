@@ -1,0 +1,23 @@
+{
+  "paths": 40000,
+  "seed": "original per-product mc_seed",
+  "path_chunk": 20000,
+  "time_block": 512,
+  "device": "cuda",
+  "engine_source_sha256": "4923fa45ba8f42d6bcc69872ca4a9e02f3f3bb62c391a35234930490d0e627b1",
+  "inputs": {
+    "results/rebuilt_universe.parquet": "9f28b60fa6c93c0f5616ff508beeffabfacd5dd4cd66ec7d7ac05ee9ef909479",
+    "results/fresh_market_inputs.parquet": "b3f229389db90028a257dc0c92870f9b982dc242b9f05fe65975eabc11ce501c",
+    "results/dividend_events.json.gz": "072dae8565efc9651a03f307dd2bd15a5d3044c322056085a9942b18d6cfe526",
+    "engine.py": "5709ac9071caf565c47a9054b0eff54f97f3615d312790a6ec388f66d6dc3a1c",
+    "market_rules.py": "b55b1e42b014b9bc2dee036ea10e2e05a31d3a0c8d7128c6bb55dba5b19df08d",
+    "run_mc.py": "e7313e78a941d1cbb294e2343d5ba558a6689b8e78bcd7fac876541cd0ec896c"
+  },
+  "python": "3.11.15",
+  "torch": "2.9.1+cu126",
+  "numpy": "2.3.0",
+  "pandas": "2.3.0",
+  "payoff": "original notebook5 retained, including principal-only no-KI-survival and monthly linear coupon approximation",
+  "dividend_window": "330 calendar days ending at latest known preissue ex-date; declared reconstruction assumption; annual calendar anniversaries",
+  "cache_MC_used_as_labels": false
+}

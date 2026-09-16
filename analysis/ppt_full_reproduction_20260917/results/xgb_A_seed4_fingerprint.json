@@ -1,0 +1,18 @@
+{
+  "model": "xgb",
+  "variant": "A",
+  "seed": 4,
+  "device": "cpu",
+  "sha256": {
+    "ppt_full_reproduction_20260917/results/rebuilt_universe.parquet": "9f28b60fa6c93c0f5616ff508beeffabfacd5dd4cd66ec7d7ac05ee9ef909479",
+    "ppt_full_reproduction_20260917/results/fresh_mc_variants.parquet": "85fe6c562df8336c86ff8e45ec0fedf1ba25be8f8dd2b4b855e18200d33f80fd",
+    "ppt_reproduction_20260917/reference/config.yaml": "cf3085dc0a1c43e36adc208739c48a3687ca74a3229bb4dbc21d363dc44fb29b",
+    "ppt_reproduction_20260917/reference/module/train.py": "37c7847f96348d658e5c873ef78498eb2e49b177c682f30283f0d59ece75988e",
+    "ppt_reproduction_20260917/reference/module/networks.py": "6a6b0a31a721b73ac678a2f8c698a12a85460aeed793766c8e0c5c62d80f0042",
+    "ppt_reproduction_20260917/reference/module/data.py": "347ba627ca563400cb9d9b898265f4bc5c9671b01a09639a13576e88598fddff",
+    "ppt_reproduction_20260917/reference/model/benchmark.py": "c83d6ae8fa05a49beac1fad6b8dbae0bdf3c814ca2123e390d985eba31e49e12",
+    "ppt_reproduction_20260917/reference/model/deeponet.py": "ee94fc33d26c41ca72f67d4a456a179e64872be6fca138a4a46c963699b42b43",
+    "ppt_full_reproduction_20260917/common.py": "b377e091b7d1190193b63cd73b748600fef6714cac2e4e135f106431235f93dc",
+    "ppt_full_reproduction_20260917/train_stage1.py": "b75a25c944b0646acbf5b4d6934416e72699f8c4bde99440acc0f19bdb529b7e"
+  }
+}

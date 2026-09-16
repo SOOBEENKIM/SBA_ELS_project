@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "raw_DART_rebuilt": true,
+  "contracts_identical_to_source": true,
+  "all_valid_products_repriced": true,
+  "products": 58760,
+  "paths_per_product_per_variant": 40000,
+  "variants": 2,
+  "old_MC_used_as_training_target": false,
+  "Stage1_models": 20,
+  "fold_checkpoints": 80,
+  "OOS_rows_per_execution": 23486,
+  "reference_files_unchanged": 153,
+  "max_checkpoint_reload_error": 1.7513275141212148e-07,
+  "MC_pricing_payoff_matches_notebook5": true,
+  "original_latest_scratch_available": false,
+  "dividend_rule": "Reconstructed from notebook description and input cache; original selection code unavailable. Event dates not individually verifiable against original.",
+  "price_increment_experiment_included": false
+}

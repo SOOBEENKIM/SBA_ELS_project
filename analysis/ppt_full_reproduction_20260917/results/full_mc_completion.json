@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "population": 58790,
+  "priced": 58760,
+  "excluded": 30,
+  "total_paths_per_variant": 2350400000,
+  "total_paths_all_variants": 4700800000,
+  "target": "independently recomputed MC prices",
+  "cache_reused": false,
+  "output_sha256": "85fe6c562df8336c86ff8e45ec0fedf1ba25be8f8dd2b4b855e18200d33f80fd"
+}

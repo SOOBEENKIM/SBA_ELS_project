@@ -1,0 +1,10 @@
+{
+  "source_eligible": 58405,
+  "sample": 200,
+  "method": "integer floor of linspace(0,58404,200), source row ordering",
+  "original_item_ids_available": false,
+  "PPT_bin_labels_match": true,
+  "PPT_curve_example_dates_match": true,
+  "notebook_year_counts_match": true,
+  "identity_not_independently_proven": true
+}

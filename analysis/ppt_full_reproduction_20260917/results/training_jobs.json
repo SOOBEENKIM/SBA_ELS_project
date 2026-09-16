@@ -1,0 +1,122 @@
+[
+  {
+    "model": "deeponet",
+    "variant": "A",
+    "seed": 0,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "B",
+    "seed": 0,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "A",
+    "seed": 1,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "B",
+    "seed": 1,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "A",
+    "seed": 2,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "B",
+    "seed": 2,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "A",
+    "seed": 3,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "B",
+    "seed": 3,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "A",
+    "seed": 4,
+    "returncode": 0
+  },
+  {
+    "model": "deeponet",
+    "variant": "B",
+    "seed": 4,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "A",
+    "seed": 0,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "B",
+    "seed": 0,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "A",
+    "seed": 1,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "B",
+    "seed": 1,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "A",
+    "seed": 2,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "B",
+    "seed": 2,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "A",
+    "seed": 3,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "B",
+    "seed": 3,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "A",
+    "seed": 4,
+    "returncode": 0
+  },
+  {
+    "model": "xgb",
+    "variant": "B",
+    "seed": 4,
+    "returncode": 0
+  }
+]

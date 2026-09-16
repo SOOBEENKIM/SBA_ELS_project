@@ -1,0 +1,10 @@
+{
+  "population": 58790,
+  "included": 58760,
+  "excluded": 30,
+  "stale": 30,
+  "failed": 18,
+  "ids_order_match": true,
+  "aggregation": "Fresh full-population 40000-path MC run; no source MC label reuse",
+  "fair_units": "Source fair=FAIR_VALUE/ISU_PRC_DETAIL, MC is unit-face. Preserve exact notebook convention; multiplying by 10000 is not common cash normalization for discounted issue prices."
+}
