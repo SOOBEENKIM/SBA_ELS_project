@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "source_files_unchanged": 153,
+  "matched_priced_products": 44103,
+  "paths_per_product_per_variant": 40000,
+  "market_variants": 2,
+  "payoff_arms": 3,
+  "stage1_configurations": 40,
+  "fold_checkpoints": 160,
+  "OOS_rows_per_configuration": 19659,
+  "probe_families": 97,
+  "probe_cases": 2689,
+  "probe_paths_per_seed": 40000,
+  "probe_MC_seeds": 3,
+  "probe_training_leakage": false,
+  "features": "Original 51 contract fields retained for a controlled comparison; payment/monthly schedules not yet encoded in model inputs",
+  "max_checkpoint_reload_error": 1.7653656003702167e-07
+}

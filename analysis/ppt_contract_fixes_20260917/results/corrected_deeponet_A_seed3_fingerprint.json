@@ -1,0 +1,21 @@
+{
+  "model": "deeponet",
+  "variant": "A",
+  "seed": 3,
+  "device": "cuda",
+  "payoff": "corrected",
+  "features": "Original 51 contract features held fixed; no schedule/monthly feature augmentation",
+  "sha256": {
+    "ppt_full_reproduction_20260917/results/rebuilt_universe.parquet": "9f28b60fa6c93c0f5616ff508beeffabfacd5dd4cd66ec7d7ac05ee9ef909479",
+    "ppt_full_reproduction_20260917/results/fresh_market_inputs.parquet": "b3f229389db90028a257dc0c92870f9b982dc242b9f05fe65975eabc11ce501c",
+    "ppt_contract_fixes_20260917/results/paired_prices.parquet": "8412ed7903adb864382892ad1709c2df10de664785ee826178a90ad0ef8d5f13",
+    "ppt_reproduction_20260917/reference/config.yaml": "cf3085dc0a1c43e36adc208739c48a3687ca74a3229bb4dbc21d363dc44fb29b",
+    "ppt_reproduction_20260917/reference/module/train.py": "37c7847f96348d658e5c873ef78498eb2e49b177c682f30283f0d59ece75988e",
+    "ppt_reproduction_20260917/reference/module/networks.py": "6a6b0a31a721b73ac678a2f8c698a12a85460aeed793766c8e0c5c62d80f0042",
+    "ppt_reproduction_20260917/reference/module/data.py": "347ba627ca563400cb9d9b898265f4bc5c9671b01a09639a13576e88598fddff",
+    "ppt_reproduction_20260917/reference/model/benchmark.py": "c83d6ae8fa05a49beac1fad6b8dbae0bdf3c814ca2123e390d985eba31e49e12",
+    "ppt_reproduction_20260917/reference/model/deeponet.py": "ee94fc33d26c41ca72f67d4a456a179e64872be6fca138a4a46c963699b42b43",
+    "ppt_contract_fixes_20260917/common.py": "27e34c170ea643430ccee849847448998972f0efe8ea87a7b5995dcb263403db",
+    "ppt_contract_fixes_20260917/train_stage1.py": "5f7a7b7c97a0f04324e72e15d47422b2256b3bd0bafc9f1591dabfe5e16cde74"
+  }
+}

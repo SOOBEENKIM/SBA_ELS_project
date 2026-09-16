@@ -1,0 +1,85 @@
+{
+  "total": 58790,
+  "contract_supported": 44117,
+  "market_and_contract_supported": 44103,
+  "excluded_contract_reasons": {
+    "missing_explicit_survival_coupon": 6455,
+    "payment_lag_not_identifiable_from_maturity": 4441,
+    "unsupported_ki_window": 1033,
+    "extra_formula_or_level_PMT_1_FRML": 1017,
+    "averaging_not_supported": 682,
+    "nonpositive_annual_coupon": 425,
+    "unsupported_PRCP_GRTE_RT": 184,
+    "extra_formula_or_level_STRK_2": 150,
+    "extra_formula_or_level_PMT_EXTRA": 123,
+    "monthly_evaluation_outside_life": 82,
+    "second_maturity_payment_without_ki": 24,
+    "invalid_evaluation_dates": 21,
+    "missing_schedule_values": 21,
+    "unsupported_redemption_structure": 11,
+    "nonterminal_second_payment": 3,
+    "unsupported_redemption_payoff": 1
+  },
+  "structure_counts": [
+    {
+      "structure": "LIZARD KI",
+      "monthly": false,
+      "n": 1616
+    },
+    {
+      "structure": "LIZARD no-KI",
+      "monthly": false,
+      "n": 8627
+    },
+    {
+      "structure": "LIZARD no-KI",
+      "monthly": true,
+      "n": 120
+    },
+    {
+      "structure": "STEP KI",
+      "monthly": false,
+      "n": 14097
+    },
+    {
+      "structure": "STEP KI",
+      "monthly": true,
+      "n": 2
+    },
+    {
+      "structure": "STEP no-KI",
+      "monthly": false,
+      "n": 15223
+    },
+    {
+      "structure": "STEP no-KI",
+      "monthly": true,
+      "n": 4432
+    }
+  ],
+  "payment_sources": {
+    "same_bank_lag_inferred_from_last_evaluation_to_raw_maturity": 44111,
+    "individual_disclosure": 6
+  },
+  "lag_counts": {
+    "2": 27880,
+    "3": 15957,
+    "1": 237,
+    "4": 40,
+    "5": 3
+  },
+  "positive_survival_coupon": 15714,
+  "payment_assumption": "Except six individually checked disclosures: infer unique 1..5 Korean bank-day lag from final EXER_DT to MAT_DT; use that same lag on other redemption and coupon payments. Same-day earned monthly coupon is retained. These are explicit assumptions, not individually verified terms.",
+  "monitoring": "Daily calendar-time grid, same as baseline; no new claim of exchange-specific daily close calendars, continuous barrier monitoring or quanto calibration.",
+  "source_hashes": {
+    "data/cache/raw/LAKE_V2_DART_AUTO_CALL.csv.gz": "a8b05ee3656b5f0b2d36e97151741545fcb9a1725d5cb1c15cf37a3301847fd6",
+    "data/cache/raw/LAKE_V2_DART_SCHD_INFO.csv.gz": "2362d5874c3b7f3e312b6c009bd71c147d84e0bcf61d30df371501fc40434596",
+    "analysis/ppt_full_reproduction_20260917/results/rebuilt_universe.parquet": "9f28b60fa6c93c0f5616ff508beeffabfacd5dd4cd66ec7d7ac05ee9ef909479",
+    "analysis/ppt_full_reproduction_20260917/results/fresh_market_inputs.parquet": "b3f229389db90028a257dc0c92870f9b982dc242b9f05fe65975eabc11ce501c",
+    "analysis/ppt_full_reproduction_20260917/results/dividend_events.json.gz": "072dae8565efc9651a03f307dd2bd15a5d3044c322056085a9942b18d6cfe526",
+    "analysis/ppt_contract_fixes_20260917/contracts.py": "8598cf769555025caba4f5557c7d46a346ef1e49c0a59843243c173e5a015b6a",
+    "module/mc_contract_v2.py": "fc0b5e21ab0547fc2a0fda1a2be087e0fc160d841d1aa85dd2742600a3dd01fd",
+    "module/mc_contract_v3.py": "42f1714ee78429635bf8146c8601d368541fbaa217ccc420e89bd146fd6f5994",
+    "analysis/mc_monthly_v3_20260910/evidence/kr_bank_calendar.json": "f3f61527a6bb7fd2083d9e217b5e49a195a183ea8ead47b30af65aff9d544177"
+  }
+}

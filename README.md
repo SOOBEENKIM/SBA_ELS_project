@@ -1,5 +1,21 @@
 # SBA ELS Project
 
+<!-- CONTRACT_FIXES_LATEST -->
+
+## 현재 branch: 계약 지급 규칙 보완
+
+시장 B에서 지급 규칙 수정에 따른 평균 MC 변화는 +71.58원이다. 같은 공통 액면 표본의 공정가 대비 MAE는 643.70원에서 697.95원으로 바뀌었다. 수정된 MC를 공통 정답으로 평가하면 DeepONet의 MAE는 기존 지급 라벨 학습 101.37원, 수정 라벨 학습 68.86원이며, 새 모델 R²는 0.901719이다.
+
+- 보존한 기준: `codex/ppt-pricer-reproduction-20260917` (`fae6ecd`).
+- 새 branch: `codex/ppt-pricer-contract-fixes-20260917`.
+- 같은 44,103개 상품을 4만 경로로 재가격하고, 수정 전후 동일 표본의 Stage 1을 각 5시드로 재학습했다. 별도로 OOS 계약의 네 조건별 증분을 4만 경로×3시드로 검증했다.
+- [이번 실행 보고서](analysis/ppt_contract_fixes_20260917/REPORT.md) · [실행 방법](analysis/ppt_contract_fixes_20260917/README.md) · [그림 모음](analysis/ppt_contract_fixes_20260917/figures.html).
+- 지급일 일부는 명시한 추정 규칙을 사용한다. 전체 약관 검증이나 모든 증분의 안정적인 예측을 완료했다는 의미는 아니다.
+
+아래에는 기존 main과 이전 branch의 별도 실험 기록을 보존한다.
+
+<!-- /CONTRACT_FIXES_LATEST -->
+
 3기초자산 ELS의 **MC 이론가를 직접 계산하고, 계약조건 변화에 따른 가격 증분을 Stage 1 DeepONet이 얼마나 재현하는지 평가**한 연구 저장소입니다.
 
 원문 계약·시장 데이터 → 계약 현금흐름 정의 → 합성 기준·변경 계약 → MC 가격·증분 → DeepONet 학습·검증 → 관측 횟수·만기 추가 평가까지 포함합니다. 2026-09-11까지 실행한 최종 유효 버전을 `main`의 기준으로 보관합니다. 이후 실험은 별도 브랜치에서 진행합니다.

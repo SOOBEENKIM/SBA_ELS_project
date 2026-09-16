@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "checks": [
+    "KI not hit: explicit maturity survival coupon",
+    "KI hit and maturity strike missed: loss, no survival coupon",
+    "Maturity strike met: coupon despite past KI",
+    "First redemption: principal plus first coupon",
+    "No KI clause: terminal loss",
+    "Lizard no-touch event",
+    "Regular redemption takes precedence over Lizard",
+    "Monthly coupon on redemption day; earned payment after redemption preserved",
+    "Future monthly coupons stop at redemption",
+    "Explicit same-day exclusion is honored",
+    "Distinct principal/coupon payment-date discounting",
+    "Six individually reconciled monthly contracts validate unchanged",
+    "4000-path independent sequential ledger for ordinary/Lizard/monthly",
+    "Exact original-engine MC price parity on unchanged path horizon",
+    "Discrete-dividend parity and exact seeded repeatability"
+  ],
+  "source_price_parity": [
+    {
+      "structure": "STEP KI",
+      "monthly": false,
+      "legacy_difference": 0.0
+    },
+    {
+      "structure": "LIZARD KI",
+      "monthly": false,
+      "legacy_difference": 0.0
+    },
+    {
+      "structure": "STEP KI",
+      "monthly": true,
+      "legacy_difference": 0.0
+    }
+  ],
+  "pathwise_tolerance": 1e-12
+}

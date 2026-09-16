@@ -1,0 +1,26 @@
+{
+  "paths": 40000,
+  "seed": "same original mc_seed per product",
+  "arms": [
+    "legacy",
+    "survival_only",
+    "corrected"
+  ],
+  "market_variants": {
+    "A": "HV120, historical correlation, NS, no dividend",
+    "B": "EWMA120 lambda .99, same correlation, CD/IRS bootstrap, same discrete dividend rule"
+  },
+  "comparison": "Three payoff arms on identical random paths for each market variant. New path horizon=max(original horizon, actual last evaluation); previous cached prices are a separate check.",
+  "target": "MC per unit face; Stage 2 not used",
+  "hashes": {
+    "analysis/ppt_contract_fixes_20260917/results/contracts.json.gz": "0cdd49e3cca3f05ca4033ef1e70d839003e1e793f71184befd9b5e5d4dc38c85",
+    "analysis/ppt_contract_fixes_20260917/results/input_audit.json": "c75c62362b3ff2da2e95ddb29a2df144192b500e2373ce300d54727d410e7613",
+    "analysis/ppt_full_reproduction_20260917/results/rebuilt_universe.parquet": "9f28b60fa6c93c0f5616ff508beeffabfacd5dd4cd66ec7d7ac05ee9ef909479",
+    "analysis/ppt_full_reproduction_20260917/results/fresh_market_inputs.parquet": "b3f229389db90028a257dc0c92870f9b982dc242b9f05fe65975eabc11ce501c",
+    "analysis/ppt_full_reproduction_20260917/results/dividend_events.json.gz": "072dae8565efc9651a03f307dd2bd15a5d3044c322056085a9942b18d6cfe526",
+    "analysis/ppt_contract_fixes_20260917/engine.py": "fcaa5564fa234a3397d979008425e569994a24d50329ef5e5837dad4f728cd00",
+    "analysis/ppt_contract_fixes_20260917/contracts.py": "8598cf769555025caba4f5557c7d46a346ef1e49c0a59843243c173e5a015b6a",
+    "analysis/ppt_contract_fixes_20260917/run_mc.py": "3347774311a9f362c07d52fe88ab9a55c0984cc583b20c9b81c4c86ff0fe071a",
+    "analysis/ppt_full_reproduction_20260917/market_rules.py": "b55b1e42b014b9bc2dee036ea10e2e05a31d3a0c8d7128c6bb55dba5b19df08d"
+  }
+}

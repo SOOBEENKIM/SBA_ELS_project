@@ -1,0 +1,7 @@
+{
+  "ppt_contract_fixes_20260917/probe_mc.py": "9c61e1d04579970d88ca2074647f4b9bd8e6b8df709709934ac4f2aea8fb572f",
+  "ppt_contract_fixes_20260917/engine.py": "fcaa5564fa234a3397d979008425e569994a24d50329ef5e5837dad4f728cd00",
+  "ppt_contract_fixes_20260917/results/probe_design.json": "3bb3018f2ae4e2d7471cf1051a057364635a0b433c6aedee98fc09656b6b1598",
+  "ppt_contract_fixes_20260917/results/protocol.json": "1d0cb93da62d93196df296b622260299b2e18e21cab0bf9dfd09e8602d32381b",
+  "ppt_full_reproduction_20260917/results/fresh_market_inputs.parquet": "b3f229389db90028a257dc0c92870f9b982dc242b9f05fe65975eabc11ce501c"
+}
